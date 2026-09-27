@@ -41,14 +41,15 @@ export default function Hero() {
             </div>
 
             <h1 className="text-4xl font-extrabold leading-[1.15] tracking-tight text-navy-900 sm:text-5xl xl:text-[3.5rem]">
-              Turn Your Rental Business Into a{" "}
-              <span className="text-orange-500">Profit Machine</span>
+              The Rental Industry Is Splitting in Two. Here&apos;s How You End Up on
+              the <span className="text-orange-500">Right Side</span>.
             </h1>
 
             <p className="mt-6 text-lg leading-relaxed text-gray-500 sm:text-xl">
-              Rental Growth Systems helps rental companies acquire more customers,
-              build smarter digital systems, and create more revenue from every
-              customer relationship.
+              The rental companies that win over the next few years won&apos;t just
+              have better equipment. They&apos;ll have better systems for getting
+              found, responding faster, operating smarter, and creating more value
+              from every customer.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:gap-4">
