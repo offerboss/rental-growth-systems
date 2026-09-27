@@ -31,7 +31,7 @@ const TRUST_POINTS = [
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-white" id="hero">
-      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8 lg:py-28">
+      <div className="mx-auto max-w-7xl px-4 pt-8 pb-14 sm:px-6 sm:pt-12 sm:pb-20 lg:px-8 lg:pt-14 lg:pb-24">
         <div className="grid items-center gap-12 lg:grid-cols-[1fr_1.15fr] lg:gap-12">
           {/* Left column — copy */}
           <div className="max-w-xl">
