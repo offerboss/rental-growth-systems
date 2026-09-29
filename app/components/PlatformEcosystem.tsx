@@ -3,14 +3,13 @@ import { EXTERNAL_LINK_PROPS, PLATFORM_URLS } from "../lib/links";
 import ptfLogo from "../../public/images/PTF Logo.png";
 import rdfLogo from "../../public/images/Rolloff Dumpster Finder Logo.png";
 import erfLogo from "../../public/images/event-rental-finder-logo-square.png";
+import crfLogo from "../../public/images/crf-logo.png";
 
 const LIVE_STYLE = "bg-emerald-100 text-emerald-700";
-const SOON_STYLE = "bg-gray-100 text-navy-600";
 
 // The logo files carry different amounts of built-in padding, so each gets a
 // scale that evens out how large the visible artwork looks inside the fixed-height slot.
 // The Rolloff file has an opaque near-white background, so it also gets a slight brightness lift.
-// Construction Rental Finder has no URL yet, so its CTA renders unlinked; add an href when a notify-me page exists.
 const PLATFORMS = [
   {
     name: "Portable Toilet Finder",
@@ -41,13 +40,12 @@ const PLATFORMS = [
   },
   {
     name: "Construction Rental Finder",
-    href: undefined,
-    status: "COMING SOON" as const,
-    description: "A new platform for the construction rental industry.",
-    cta: "Get Notified",
-    color: SOON_STYLE,
-    // No dedicated logo file yet — keeps the icon + name treatment.
-    logo: null,
+    href: PLATFORM_URLS.constructionRentalFinder,
+    status: "LIVE" as const,
+    description: "A dedicated directory for construction rental companies.",
+    cta: "Visit Site",
+    color: LIVE_STYLE,
+    logo: { src: crfLogo, scale: "scale-[1.2]" },
   },
 ];
 

@@ -534,9 +534,10 @@ const INDUSTRIES: Industry[] = [
     ],
     relatedPlatform: {
       name: "Construction Rental Finder",
-      status: "coming-soon",
+      status: "live",
+      url: PLATFORM_URLS.constructionRentalFinder,
       description:
-        "Rental Growth Systems is building Construction Rental Finder, a directory for the equipment and construction rental industry. It isn't live yet, but equipment rental companies working with us now will be positioned to join it early once it launches.",
+        "Construction Rental Finder is an equipment and construction rental directory operated by Rental Growth Systems. Listed companies show up in front of customers who are actively comparing construction rental options in their area — a complement to the acquisition systems above, not a replacement for them.",
     },
     relatedResources: ["rental-company-speed-to-lead"],
     ctaHeadline: "Build the Systems Behind Your Next Stage of Growth",

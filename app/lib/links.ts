@@ -4,6 +4,7 @@ export const PLATFORM_URLS = {
   portableToiletFinder: "https://portabletoiletfinder.com/",
   rolloffDumpsterFinder: "https://www.rolloffdumpsterfinder.com/",
   eventRentalFinder: "https://www.eventrentalfinder.com/",
+  constructionRentalFinder: "https://www.constructionrentalfinder.com",
 } as const;
 
 // Attributes for links that leave the RGS site.

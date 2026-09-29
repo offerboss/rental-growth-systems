@@ -14,8 +14,7 @@ const PLATFORM_LINKS = [
   { label: "Portable Toilet Finder", href: PLATFORM_URLS.portableToiletFinder },
   { label: "Rolloff Dumpster Finder", href: PLATFORM_URLS.rolloffDumpsterFinder },
   { label: "Event Rental Finder", href: PLATFORM_URLS.eventRentalFinder },
-  // No URL yet — renders unlinked.
-  { label: "Construction Rental Finder" },
+  { label: "Construction Rental Finder", href: PLATFORM_URLS.constructionRentalFinder },
 ];
 
 export default function Footer() {
