@@ -487,6 +487,580 @@ const RESOURCE_INPUTS: ResourceInput[] = [
       },
     ],
   },
+  {
+    slug: "what-crm-should-a-rental-company-use",
+    title:
+      "What CRM Should a Rental Company Use? A Practical Guide to Leads, Quotes, Follow-Up, and Repeat Business",
+    // Intentionally omits the "| Rental Growth Systems" suffix — the layout's
+    // title template already appends it, so including it here would duplicate
+    // the brand name in the rendered <title>.
+    metaTitle: "Best CRM for Rental Companies",
+    metaDescription:
+      "Learn what rental companies should look for in a CRM, including lead capture, quote tracking, automated follow-up, customer pipelines, reviews, and reactivation.",
+    excerpt:
+      "What a CRM actually needs to do for a rental company — lead capture, pipeline visibility, follow-up automation, and reactivation — not which brand to buy.",
+    category: "Digital Infrastructure",
+    publishedDate: "2026-10-01",
+    author: "Rental Growth Systems Team",
+    relatedResources: ["rental-company-speed-to-lead"],
+    intro: [
+      {
+        type: "paragraph",
+        text: "A rental company doesn't need the most feature-heavy CRM on the market. It needs a system that reliably captures every inquiry, shows where every opportunity stands, triggers the right follow-up automatically, and keeps past customers easy to reach again when it's time for another rental.",
+      },
+      {
+        type: "paragraph",
+        text: "Which specific CRM is the best fit depends on how a company already works — its channels, team size, and existing tools. But the capabilities a rental company actually needs from that system are fairly consistent across dumpster, portable toilet, restroom trailer, event, and equipment rental businesses, and that's what this guide walks through.",
+      },
+      {
+        type: "paragraph",
+        text: "Most rental companies don't actually lack a system. They usually have several — a phone, a shared inbox, a notebook by the register — none of which talk to each other.",
+      },
+    ],
+    sections: [
+      {
+        heading: "What Does a Rental Company Actually Need From a CRM?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Before comparing specific products, it helps to separate what a CRM is actually responsible for from everything else a rental business runs on. At minimum, a CRM built for a rental company needs to handle the following.",
+          },
+          { type: "subheading", text: "Lead capture from every channel" },
+          {
+            type: "paragraph",
+            text: "Rental inquiries come in by phone call, website form, text message, and sometimes a directory listing — often for the same business in the same week. A CRM needs to catch all of them in one place, not just the ones that happen to come through a contact form.",
+          },
+          { type: "subheading", text: "Ownership and assignment" },
+          {
+            type: "paragraph",
+            text: "Once a lead comes in, someone specific needs to own it. Without clear assignment, a dumpster quote request or an event rental inquiry can sit in a shared inbox while everyone assumes someone else is handling it.",
+          },
+          { type: "subheading", text: "Quote status and pipeline visibility" },
+          {
+            type: "paragraph",
+            text: "A CRM should make it obvious, at a glance, where every opportunity stands — new, quoted, following up, won, or lost — so a manager doesn't have to ask the team for a status update on every open quote. If the only person who knows where a quote stands is the person who sent it, that's not really a pipeline — it's a guess.",
+          },
+          { type: "subheading", text: "Follow-up that actually happens" },
+          {
+            type: "paragraph",
+            text: "Most rental companies lose business not because a customer said no, but because nobody followed up a second or third time. A CRM should prompt that follow-up automatically instead of relying on someone remembering to do it. Everyone means to circle back. Not everyone does.",
+          },
+          { type: "subheading", text: "Customer history" },
+          {
+            type: "paragraph",
+            text: "A contractor who rented a dumpster in March and an event planner who booked a tent last summer are both repeat-business candidates — but only if their rental history is easy to find instead of buried in old email threads.",
+          },
+        ],
+      },
+      {
+        heading: "CRM vs. Rental Management Software: What's the Difference?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "These two categories get confused constantly, and the confusion leads some rental companies to buy the wrong tool, or to assume one system should do everything.",
+          },
+          { type: "subheading", text: "What a CRM manages" },
+          {
+            type: "paragraph",
+            text: "A CRM is built around leads, sales conversations, follow-up, and customer relationships — the pipeline between first contact and a booked job, and everything that happens with that customer afterward.",
+          },
+          { type: "subheading", text: "What rental management software manages" },
+          {
+            type: "paragraph",
+            text: "Rental management software is typically built around the operational side of the business: inventory and unit availability, scheduling and dispatch, contracts, and in some cases invoicing and route planning for pickups and swaps.",
+          },
+          {
+            type: "paragraph",
+            text: "Some rental companies need both — a CRM managing the sales and relationship side, and rental management software handling logistics. One system replacing the other usually means something important falls through the cracks, whether that's a lead that never gets a quote or a truck that gets double-booked.",
+          },
+        ],
+      },
+      {
+        heading: "The 7 CRM Capabilities That Matter Most for Rental Companies",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Feature lists are easy to find and hard to compare. These seven capabilities are the ones that actually show up in day-to-day rental operations.",
+          },
+          { type: "subheading", text: "1. Centralized lead capture" },
+          {
+            type: "paragraph",
+            text: "Every call, text, form submission, and directory lead should land in the same system, tagged with where it came from. A portable toilet company running both a construction-focused ad campaign and a directory listing needs to know which channel actually produces bookings, not just leads.",
+          },
+          { type: "subheading", text: "2. A clear sales pipeline" },
+          {
+            type: "paragraph",
+            text: "Stages like new, quoted, following up, won, and lost should be visible for every open opportunity. For an equipment rental company juggling a dozen active quotes across different job sites, pipeline visibility is the difference between knowing exactly what needs attention and hoping nothing got missed.",
+          },
+          { type: "subheading", text: "3. Quote follow-up automation" },
+          {
+            type: "paragraph",
+            text: "A quote that goes out and never gets followed up on is a lost job more often than a rejected one. Automated reminders — to the team, and sometimes to the customer — keep a restroom trailer quote for a wedding from going cold just because the first week got busy.",
+          },
+          { type: "subheading", text: "4. Missed-call and after-hours response" },
+          {
+            type: "paragraph",
+            text: `Dumpster and portable toilet companies in particular get inquiries outside business hours, often from someone comparing two or three companies at once. A CRM that logs missed calls and triggers a text-back keeps that lead from defaulting to whoever answered first. See our guide on ${link("speed-to-lead for rental companies", "/resources/rental-company-speed-to-lead")} for more on why response time matters so much in these categories.`,
+          },
+          { type: "subheading", text: "5. SMS and email communication" },
+          {
+            type: "paragraph",
+            text: "Text messages get read faster than emails, and phone calls get missed more easily than either. A CRM that sends and tracks both from inside the same record means a follow-up sequence doesn't depend on someone switching between four different apps.",
+          },
+          { type: "subheading", text: "6. Review and referral workflows" },
+          {
+            type: "paragraph",
+            text: "An event rental customer who just had a great experience is a good candidate for a review, and a contractor who's used a dumpster company twice is a good candidate for a referral ask — but only if the CRM makes it easy to trigger that request at the right moment instead of depending on someone to remember.",
+          },
+          { type: "subheading", text: "7. Reactivation of past customers" },
+          {
+            type: "paragraph",
+            text: "A property manager who rented equipment eight months ago, or a homeowner who used a dumpster company for a cleanout last year, are both warm leads for the next project — if their contact information and rental history are still easy to find and act on.",
+          },
+        ],
+      },
+      {
+        heading: "What Should Happen After a New Rental Inquiry Comes In?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The exact steps vary by company, but a reliable rental inquiry workflow generally follows the same shape, regardless of whether the inquiry is for a dumpster, a portable toilet, a restroom trailer, event equipment, or construction machinery.",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "The inquiry enters the CRM — from a call, text, form, or directory lead — and is logged automatically rather than depending on someone to enter it by hand.",
+              "It's assigned to a specific team member, so there's no ambiguity about who's responsible for the next step.",
+              "An immediate acknowledgment goes out, even if it's just a text confirming the request was received, while the full response is being prepared.",
+              "A team member follows up by call or text with pricing and availability, moving the lead into a quoted stage.",
+              "If there's no response, the CRM prompts a reminder — a second follow-up rather than letting the quote sit untouched.",
+              "The opportunity gets marked won or lost, so the pipeline reflects reality instead of a growing list of stale quotes.",
+              "After the rental or event, a review request goes out while the experience is still fresh.",
+              "The customer's record stays in the system for future reactivation — the next cleanout, the next event, the next job site.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "For a dumpster rental company, that might mean a weekend inquiry gets an automatic text confirmation Saturday morning, a callback Monday with pricing, and a reminder Wednesday if the customer hasn't responded. For an event rental company, it might mean a quote for a wedding gets a confirmation call, a follow-up two weeks later if the date hasn't been booked, and a review request the Monday after the event. The channel and timing change; the structure doesn't.",
+          },
+        ],
+      },
+      {
+        heading: "Should Rental Companies Use AI With Their CRM?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "AI tools built into or alongside a CRM are increasingly common, and used well, they can close some of the gaps described above without requiring a bigger team.",
+          },
+          { type: "subheading", text: "Where AI tends to help" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Answering common questions and capturing lead details after hours or when the team is already on a call",
+              "Sending the first acknowledgment the moment an inquiry comes in",
+              "Qualifying basic details — rental type, location, timing — before a person gets involved",
+              "Routing a lead to the right person or queue automatically",
+              "Supporting follow-up sequences so a lead doesn't go cold just because no one got to it that day",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "What AI isn't well-suited to replace is the judgment calls — negotiating a custom quote, handling an unusual site-access question, or managing a frustrated customer. The rental companies getting the most out of AI tend to use it to handle the repetitive, time-sensitive parts of the workflow and hand off to a person for anything that needs one, rather than trying to remove people from the process.",
+          },
+        ],
+      },
+      {
+        heading: "Common CRM Mistakes Rental Companies Make",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Even companies that already have a CRM don't always get much value from it — sometimes it's just a more expensive way to store phone numbers. The same handful of mistakes come up across rental categories.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Treating the CRM like an address book — storing contact information without tracking where each opportunity actually stands.",
+              "Never defining pipeline stages, so there's no consistent way to tell a new lead apart from one that's already been quoted.",
+              "Collecting leads without automated follow-up, which turns the CRM into a list of inquiries nobody circles back to.",
+              "Running too many disconnected tools, so a lead captured on the website doesn't show up in the same place as a lead that called in.",
+              "Letting old customer data sit unused instead of mining it for repeat business and reactivation.",
+              "Not tracking lead source, which makes it impossible to tell whether a directory listing, a paid ad, or word of mouth is actually producing bookings.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How to Choose a CRM for Your Rental Business",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Rather than starting with a list of CRM products, it's more useful to start with a short list of questions and let those questions narrow the options.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Does it capture inquiries from every channel that matters — calls, forms, texts, and directory leads?",
+              "Can the team see the status of every open opportunity without asking around?",
+              "Can follow-up be automated without sounding like a form letter?",
+              "Can texts, emails, and calls be tracked from inside the same record?",
+              "Does it support review requests and reactivation outreach, not just the initial sale?",
+              "Can it work alongside the rental management or scheduling software the business already uses?",
+              "Is it simple enough that the team will actually use it day to day?",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "A CRM that scores well on these questions tends to matter more than one with the longest feature list. The goal isn't the most powerful system — it's the one that gets used consistently. A CRM only works if somebody actually uses it, and the fanciest platform in the industry won't help a pipeline that still lives in a notebook by the phone.",
+          },
+        ],
+      },
+      {
+        heading: "The Bottom Line",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The right CRM for a rental company isn't defined by brand name or feature count. It's whatever system reliably captures every inquiry, keeps the pipeline visible, automates the follow-up that would otherwise get missed, and makes it easy to bring past customers back for the next job.",
+          },
+          {
+            type: "paragraph",
+            text: `A CRM is one piece of that picture. The quoting flow, the follow-up sequence, the review requests, and the way all of it connects together matter just as much as the tool itself — which is the focus of Rental Growth Systems' ${link("digital infrastructure systems", "/solutions/digital-infrastructure")}, built around how dumpster, portable toilet, restroom trailer, event, and ${link("equipment rental companies", "/industries")} actually operate.`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is the best CRM for a rental company?",
+        answer:
+          "There's no single best CRM for every rental company — the right choice depends on team size, channels, and existing tools. What matters more than the brand is whether it captures every inquiry, makes pipeline status visible, automates follow-up, and supports repeat business and reactivation.",
+      },
+      {
+        question: "Does a rental business need both a CRM and rental management software?",
+        answer:
+          "Many do. A CRM manages leads, quotes, and customer relationships; rental management software manages inventory, scheduling, and logistics. Smaller companies sometimes get by with one system loosely covering both, but as volume grows, most rental businesses end up using both together.",
+      },
+      {
+        question: "Can a CRM automate quote follow-up?",
+        answer:
+          "Yes. Most CRMs built for sales workflows can send automatic reminders when a quote hasn't been responded to, and some can send the first follow-up message automatically the moment a quote goes out, rather than waiting for a person to remember.",
+      },
+      {
+        question: "Can a CRM help rental companies get more repeat business?",
+        answer:
+          "It can, primarily by making past customer history easy to find and by supporting timed outreach — a reminder before a recurring servicing contract lapses, a check-in after a seasonal cleanout, or a review and referral request right after a job finishes.",
+      },
+      {
+        question: "Should small rental companies use a CRM?",
+        answer:
+          "Generally yes, even a simple one. The risk of losing track of leads and follow-up is often higher for a small team juggling multiple roles, not lower, since there's no one else to catch a dropped lead.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-grow-a-rental-business-without-spending-more-on-ads",
+    title: "How to Grow a Rental Business Without Spending More on Ads",
+    metaTitle: "How to Grow a Rental Business Without Spending More on Ads",
+    metaDescription:
+      "Learn how rental companies can grow by improving lead response, quote follow-up, reviews, reactivation, referrals, and customer lifetime value before increasing ad spend.",
+    excerpt:
+      "More ad spend isn't always the answer — here's how rental companies create growth from the leads and customers they already have.",
+    category: "Customer Value",
+    publishedDate: "2026-10-01",
+    author: "Rental Growth Systems Team",
+    relatedResources: [
+      "rental-company-speed-to-lead",
+      "what-crm-should-a-rental-company-use",
+    ],
+    intro: [
+      {
+        type: "paragraph",
+        text: "A rental company doesn't always need more traffic to grow. Before increasing ad spend, it's often worth looking at how well the business converts the inquiries it already gets — because a leak in lead response, follow-up, or retention costs just as much revenue as a weak marketing campaign, and it's usually cheaper to fix.",
+      },
+      {
+        type: "paragraph",
+        text: "Growth can come from converting more of the leads already coming in, reducing missed opportunities, following up more consistently, generating repeat business from past customers, and creating more reviews and referrals — all before a single additional dollar goes toward ads.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why More Ad Spend Is Not Always the First Growth Lever",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Traffic is only one part of a growth system. A dumpster rental company that doubles its ad budget but still takes two days to respond to a quote request will likely see its cost per booked job rise, not fall — because the new leads run into the same bottlenecks the old ones did. It's tempting to treat every growth problem as a traffic problem. It rarely is.",
+          },
+          { type: "subheading", text: "More leads don't fix weak response or follow-up" },
+          {
+            type: "paragraph",
+            text: "If a portable toilet company already lets half of its inbound quote requests go unanswered past the first day, spending more to generate additional requests just produces more unanswered requests. The leak gets bigger, not smaller.",
+          },
+          { type: "subheading", text: "Buying more traffic can amplify existing leaks" },
+          {
+            type: "paragraph",
+            text: "This is the part that's easy to miss: a system that converts a fifth of its leads will convert roughly a fifth of whatever new leads ad spend brings in, too. If that conversion rate is being held down by missed calls or slow quotes, more traffic mostly means more missed calls and slow quotes. Buying more traffic while leads are already falling through the cracks is an expensive way to stay busy.",
+          },
+          { type: "subheading", text: "Fixing conversion and customer value makes future ad spend more productive" },
+          {
+            type: "paragraph",
+            text: "None of this means advertising doesn't work — it means the return on that spend improves once the operational side is solid. An event rental company that fixes its follow-up process before increasing ad spend gets more out of every new lead that spend produces.",
+          },
+        ],
+      },
+      {
+        heading: "Start With the Leads You Already Generate",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Most rental companies already have more usable leads than they realize — they're just scattered across channels that don't talk to each other. A lead that goes to voicemail doesn't feel like a missed opportunity. It just feels like Tuesday.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Website inquiries submitted through a contact or quote form",
+              "Phone calls, including the ones that go to voicemail",
+              "Text messages, for companies that list a mobile number",
+              "Quote requests that were started but never finished",
+              "Missed calls that never got a callback",
+              "After-hours inquiries that came in outside business hours",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Getting visibility into all of these — in one place, instead of split across a phone log, an inbox, and a notepad — is usually the first step, because it's hard to fix a conversion problem that's hard to see in the first place.",
+          },
+        ],
+      },
+      {
+        heading: "Improve Speed-to-Lead",
+        blocks: [
+          {
+            type: "paragraph",
+            text: `How fast a rental company responds to a new inquiry is one of the highest-leverage places to start, because it doesn't require a single additional lead — just a faster response to the ones already arriving. Our full guide on ${link("speed-to-lead for rental companies", "/resources/rental-company-speed-to-lead")} covers this in depth; the short version is below.`,
+          },
+          { type: "subheading", text: "Immediate acknowledgment" },
+          {
+            type: "paragraph",
+            text: "A text or email confirming a request was received — sent automatically, the moment it comes in — keeps a customer from immediately calling the next company on their list.",
+          },
+          { type: "subheading", text: "Fast call or text follow-up" },
+          {
+            type: "paragraph",
+            text: "For categories like dumpster and portable toilet rental, where customers often compare several companies at once, the business that follows up first with a clear answer has a real edge.",
+          },
+          { type: "subheading", text: "Clear ownership" },
+          {
+            type: "paragraph",
+            text: "Every inquiry needs a specific person responsible for it. A lead with no clear owner is a lead it's easy to assume someone else is handling.",
+          },
+          { type: "subheading", text: "After-hours and missed-call coverage" },
+          {
+            type: "paragraph",
+            text: "A missed call doesn't have to mean a lost lead if it triggers an automatic text-back, even if a full response has to wait until business hours.",
+          },
+        ],
+      },
+      {
+        heading: "Follow Up on Quotes More Consistently",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A quote isn't the end of the sales process — it's usually the middle of it. Rental companies lose a meaningful share of quoted jobs not because the customer said no, but because nobody followed up a second time.",
+          },
+          { type: "subheading", text: "Build in reminders" },
+          {
+            type: "paragraph",
+            text: "A restroom trailer quote for a wedding, an equipment rental quote for a job that hasn't started yet, or a dumpster quote for a cleanout that's still a few weeks out all need a scheduled follow-up, not a hope that the customer calls back.",
+          },
+          { type: "subheading", text: "Use SMS and email together" },
+          {
+            type: "paragraph",
+            text: "Texts get read faster; email works better for anything with detail, like a formal quote. Using both, tracked in the same place, covers more ground than relying on one.",
+          },
+          { type: "subheading", text: "Track pipeline stages and outcomes" },
+          {
+            type: "paragraph",
+            text: "Marking every quote as won or lost, instead of letting it sit in limbo, makes it possible to see where follow-up is actually breaking down instead of guessing.",
+          },
+        ],
+      },
+      {
+        heading: "Turn Past Customers Into New Revenue",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Past customers are usually the least expensive source of new revenue a rental company has, because the relationship — and often the trust — already exists. They're also usually sitting untouched in a database somewhere, waiting for nobody to call.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "A contractor who rented a dumpster for one job is a strong candidate for the next one, especially with a reminder timed to typical project cycles.",
+              "A property manager who rented equipment for one turnover is likely to need it again for the next one.",
+              "An event planner who booked tents or a restroom trailer for one wedding season is a repeat booking candidate for the next.",
+              "A homeowner who used a portable toilet or dumpster company for a renovation last year may be planning another project.",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "The key is using that history without it feeling like spam — a well-timed, relevant check-in reads very differently than a generic blast with no context.",
+          },
+        ],
+      },
+      {
+        heading: "Generate More Reviews From Completed Rentals",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Reviews influence both how a rental company ranks locally and how much a new customer trusts it enough to call. The companies that generate the most reviews usually aren't doing anything complicated — they're just asking consistently.",
+          },
+          { type: "subheading", text: "When and who to ask" },
+          {
+            type: "paragraph",
+            text: "The best time to ask is right after the rental or event wraps, while the experience is still fresh — not weeks later in a batch email. By then, most customers have forgotten which company even showed up. Ask every customer who had a good experience, not just the ones who happen to mention it.",
+          },
+          { type: "subheading", text: "Keep it simple" },
+          {
+            type: "paragraph",
+            text: "A short text or email with a direct link, sent at a consistent point in the process, outperforms an elaborate review campaign that depends on someone remembering to run it.",
+          },
+          { type: "subheading", text: "Avoid manipulative tactics" },
+          {
+            type: "paragraph",
+            text: "Gating reviews — only asking customers who indicate they're happy first — or offering incentives for positive reviews violates most platforms' policies and tends to produce reviews that don't hold up to scrutiny. Asking everyone, consistently, is both the more durable and the more honest approach.",
+          },
+        ],
+      },
+      {
+        heading: "Create a Referral System",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Referrals tend to produce some of the highest-quality leads a rental company gets, because they come with an implicit endorsement — but most companies leave them to chance instead of building a system around them.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Customer referrals — a simple ask after a good experience, not a one-time campaign",
+              "Contractor relationships — repeat trade accounts who can refer other contractors on the same job sites",
+              "Event and vendor relationships — planners, venues, and caterers who work with the same customers repeatedly",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "A referral system doesn't need to be complicated: a consistent ask, at a consistent point in the relationship, with a simple way to track which relationships are actually producing new business. It won't guarantee a specific volume of referrals, but it will produce more than leaving it unasked.",
+          },
+        ],
+      },
+      {
+        heading: "Increase Customer Lifetime Value",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Customer lifetime value is simply the total revenue a rental company can expect from a customer across every rental or job, not just the first one. For a rental business, that often means the difference between a single dumpster rental and the same contractor renting from the same company repeatedly over a couple of years.",
+          },
+          {
+            type: "paragraph",
+            text: "Repeat rentals, referrals, reactivation, and a smoother customer experience all push that number up. None of them require a new customer — they require getting more out of relationships that already exist, which is usually more efficient than acquiring a new customer from scratch.",
+          },
+        ],
+      },
+      {
+        heading: "Make Your Existing Traffic Convert Better",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Some of the highest-leverage fixes have nothing to do with lead volume at all — they're about what happens when a visitor lands on the website.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              'A clear call to action — request a quote, call now — instead of a vague "contact us"',
+              "A short quote form instead of one that asks for more detail than a first-time visitor is willing to give",
+              "Click-to-call on mobile, since a large share of rental searches happen on a phone",
+              "Clearly listed service areas, so a visitor doesn't have to guess whether the company covers their city",
+              "Trust signals — reviews, photos of actual equipment, and a real phone number — visible without scrolling far",
+              "A fast response once that visitor does reach out",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "None of these require new traffic. They just make the traffic already arriving more likely to convert.",
+          },
+        ],
+      },
+      {
+        heading: "When Does It Make Sense to Spend More on Ads?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This isn't an argument against advertising — it's an argument for sequencing. Paid traffic tends to perform best once the operational side is solid enough to make the most of it. Increasing ad spend tends to make more sense when:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Lead handling is reliable — nothing is slipping through an unmonitored inbox or voicemail",
+              "Follow-up is consistent, with quotes getting a second and third touch instead of going cold",
+              "Conversion is being tracked, so it's possible to tell whether more leads are turning into more bookings",
+              "The team can respond quickly, even during busy periods",
+              "There's capacity to handle more jobs, not just more inquiries",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: `For a ${link("customer acquisition", "/solutions/customer-acquisition")} push to pay off, the ${link("digital infrastructure", "/solutions/digital-infrastructure")} underneath it — the response time, the follow-up, the pipeline — needs to be ready to handle what that spend produces.`,
+          },
+        ],
+      },
+      {
+        heading: "The Bottom Line",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The fastest path to growth isn't always buying more traffic. Rental companies can often create more revenue by improving how they convert, follow up with, retain, and reactivate the customers they already have.",
+          },
+          {
+            type: "paragraph",
+            text: `Customer acquisition still matters — at some point, most rental companies do need more demand, not just better conversion of what they have. But acquisition, operations, and customer value work together. That's the idea behind how Rental Growth Systems approaches growth for ${link("rental companies", "/industries")} across dumpster, portable toilet, restroom trailer, event, and equipment rental: not just more traffic, but the acquisition, infrastructure, and ${link("customer value systems", "/solutions/customer-value")} that make that traffic worth generating in the first place.`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How can a rental business grow without spending more on ads?",
+        answer:
+          "By improving how it handles the leads and customers it already has — faster response to new inquiries, more consistent quote follow-up, review and referral requests after completed rentals, and reactivation outreach to past customers. These improvements often cost less than additional ad spend and compound over time.",
+      },
+      {
+        question: "Should rental companies focus on new leads or repeat customers?",
+        answer:
+          "Both matter, but repeat customers are usually the more efficient place to start, since the relationship and trust already exist. A healthy growth approach uses new leads to keep expanding the customer base while using repeat business and reactivation to get more value from customers already acquired.",
+      },
+      {
+        question: "How can a rental company reactivate old customers?",
+        answer:
+          "By keeping customer history easy to find and reaching out at relevant moments — a reminder before a recurring servicing contract lapses, a check-in timed to a typical project or event cycle, or outreach ahead of a seasonal demand window like spring cleanup or wedding season.",
+      },
+      {
+        question: "Can better follow-up increase rental bookings?",
+        answer:
+          "Often, yes. A meaningful share of quoted jobs are lost not because the customer said no, but because no one followed up a second time. Structured reminders and a consistent follow-up sequence recover some of that business without requiring any new leads.",
+      },
+      {
+        question: "When should a rental company increase its advertising budget?",
+        answer:
+          "Once lead handling, follow-up, and conversion tracking are reliable enough that new leads won't just run into the same gaps old ones did. Increasing ad spend before fixing those gaps usually just produces more missed opportunities at a higher cost.",
+      },
+    ],
+  },
 ];
 
 function blockText(block: ContentBlock): string {
