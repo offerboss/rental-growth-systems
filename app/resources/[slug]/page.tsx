@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 
 import FinalCTA from "../../components/FinalCTA";
@@ -41,6 +42,14 @@ export async function generateMetadata(
 
   const title = resource.metaTitle ?? resource.title;
   const canonical = `/resources/${resource.slug}`;
+  const ogImage = resource.heroImage
+    ? {
+        url: resource.heroImage.src,
+        width: resource.heroImage.width,
+        height: resource.heroImage.height,
+        alt: resource.heroImage.alt,
+      }
+    : DEFAULT_OG_IMAGE;
 
   return {
     title,
@@ -54,13 +63,13 @@ export async function generateMetadata(
       publishedTime: resource.publishedDate,
       modifiedTime: resource.updatedDate ?? resource.publishedDate,
       authors: [resource.author],
-      images: [DEFAULT_OG_IMAGE],
+      images: [ogImage],
     },
     twitter: {
       card: "summary_large_image",
       title: `${title} | ${SITE_NAME}`,
       description: resource.metaDescription,
-      images: [DEFAULT_OG_IMAGE.url],
+      images: [ogImage.url],
     },
   };
 }
@@ -100,7 +109,7 @@ export default async function ResourceArticlePage(
               datePublished: resource.publishedDate,
               dateModified: resource.updatedDate,
               authorName: resource.author,
-              image: DEFAULT_OG_IMAGE.url,
+              image: resource.heroImage?.src ?? DEFAULT_OG_IMAGE.url,
             }),
             // Only added when the FAQ is actually rendered below, and built
             // from the exact same items — schema must match visible content.
@@ -148,6 +157,19 @@ export default async function ResourceArticlePage(
             <div className="mt-8 border-l-2 border-orange-200 pl-5">
               <ContentBlocks blocks={resource.intro} />
             </div>
+
+            {resource.heroImage && (
+              <div className="relative mt-10 aspect-[16/9] w-full overflow-hidden rounded-2xl border border-gray-200 bg-gray-100">
+                <Image
+                  src={resource.heroImage.src}
+                  alt={resource.heroImage.alt}
+                  fill
+                  priority
+                  sizes="(min-width: 1024px) 740px, 100vw"
+                  className="object-cover"
+                />
+              </div>
+            )}
 
             <div className="mt-10 space-y-10">
               {resource.sections.map((section) => (

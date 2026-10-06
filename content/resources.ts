@@ -37,6 +37,15 @@ export type ResourceFaqItem = {
   answer: string;
 };
 
+export type ResourceHeroImage = {
+  /** Public-relative path, e.g. "/images/dumpster-rental-leads.png". */
+  src: string;
+  alt: string;
+  /** Actual pixel dimensions — used for OG/Twitter image tags. Display is a fixed 16:9 box regardless. */
+  width: number;
+  height: number;
+};
+
 export type ResourceInput = {
   slug: string;
   /** Page H1 / display title. */
@@ -52,6 +61,13 @@ export type ResourceInput = {
   /** ISO date (YYYY-MM-DD); only shown when different from publishedDate. */
   updatedDate?: string;
   author: string;
+  /**
+   * Article header image — shown near the top of the article and used as the
+   * card thumbnail, OG/Twitter image, and Article JSON-LD image. Optional so
+   * a new article can ship without one; falls back to the site default OG
+   * image (see DEFAULT_OG_IMAGE) wherever an image is required.
+   */
+  heroImage?: ResourceHeroImage;
   /** Surfaces the resource in the hub's Featured section. */
   featured?: boolean;
   /** Slugs of other resources to cross-link. */
@@ -81,6 +97,12 @@ const RESOURCE_INPUTS: ResourceInput[] = [
     category: "Customer Acquisition",
     publishedDate: "2026-09-22",
     author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/dumpster-rental-leads.png",
+      alt: "Roll-off dumpster rental lead generation workflow from local search to CRM",
+      width: 1672,
+      height: 941,
+    },
     featured: true,
     relatedResources: [
       "rental-company-speed-to-lead",
@@ -204,6 +226,12 @@ const RESOURCE_INPUTS: ResourceInput[] = [
     category: "Customer Acquisition",
     publishedDate: "2026-09-22",
     author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/portable-toilet-rental-leads.png",
+      alt: "Portable toilet rental lead generation workflow from local search to CRM",
+      width: 1672,
+      height: 941,
+    },
     relatedResources: [
       "rental-company-speed-to-lead",
       "how-to-get-more-dumpster-rental-leads",
@@ -337,6 +365,12 @@ const RESOURCE_INPUTS: ResourceInput[] = [
     category: "Digital Infrastructure",
     publishedDate: "2026-09-22",
     author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/rental-speed-to-lead.png",
+      alt: "Rental company speed-to-lead workflow from inquiry to call, text, and quote",
+      width: 1672,
+      height: 941,
+    },
     featured: true,
     relatedResources: [
       "how-to-get-more-dumpster-rental-leads",
@@ -502,6 +536,12 @@ const RESOURCE_INPUTS: ResourceInput[] = [
     category: "Digital Infrastructure",
     publishedDate: "2026-10-01",
     author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/rental-company-crm.png",
+      alt: "Rental company CRM dashboard managing leads, quotes, and bookings across rental categories",
+      width: 1672,
+      height: 941,
+    },
     relatedResources: ["rental-company-speed-to-lead"],
     intro: [
       {
@@ -771,6 +811,12 @@ const RESOURCE_INPUTS: ResourceInput[] = [
     category: "Customer Value",
     publishedDate: "2026-10-01",
     author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/grow-rental-business-without-more-ads.png",
+      alt: "Rental business growth system using follow-up, reviews, repeat business, referrals, and reactivation",
+      width: 1672,
+      height: 941,
+    },
     relatedResources: [
       "rental-company-speed-to-lead",
       "what-crm-should-a-rental-company-use",
