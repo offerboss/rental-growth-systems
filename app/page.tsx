@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ThreeSystems from "./components/ThreeSystems";
 import PlatformEcosystem from "./components/PlatformEcosystem";
+import PricingSection from "./components/PricingSection";
 import CustomerJourney from "./components/CustomerJourney";
 import RentalSpecialization from "./components/RentalSpecialization";
 import FinalCTA from "./components/FinalCTA";
@@ -15,6 +16,7 @@ export default function Home() {
         <Hero />
         <ThreeSystems />
         <PlatformEcosystem />
+        <PricingSection />
         <CustomerJourney />
         <RentalSpecialization />
         <FinalCTA />

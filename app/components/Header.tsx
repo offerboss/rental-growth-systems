@@ -12,6 +12,7 @@ const NAV_LINKS = [
   { label: "How It Works", href: "/#how-it-works" },
   { label: "What We Build", href: "/#what-we-build" },
   { label: "Directories", href: "/#directories" },
+  { label: "Pricing", href: "/#pricing" },
   { label: "About", href: "/#about" },
   { label: "Industries", href: "/industries" },
   { label: "Resources", href: "/resources" },
@@ -37,7 +38,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="Main navigation">
+        <nav className="hidden items-center gap-1 xl:flex" aria-label="Main navigation">
           {NAV_LINKS.map((link) => (
             <Link
               key={link.href}
@@ -50,7 +51,7 @@ export default function Header() {
         </nav>
 
         {/* Desktop CTA */}
-        <div className="hidden lg:block">
+        <div className="hidden xl:block">
           <a
             href={BOOKING_URL}
             className="inline-flex items-center rounded-lg bg-orange-500 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-orange-600 hover:shadow-md active:scale-[0.98]"
@@ -62,7 +63,7 @@ export default function Header() {
         {/* Mobile menu button */}
         <button
           type="button"
-          className="inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-100 lg:hidden"
+          className="inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-100 xl:hidden"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-expanded={mobileOpen}
           aria-label="Toggle navigation menu"
@@ -81,7 +82,7 @@ export default function Header() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="border-t border-gray-200 bg-white lg:hidden">
+        <div className="border-t border-gray-200 bg-white xl:hidden">
           <nav className="flex flex-col px-4 py-3 space-y-1" aria-label="Mobile navigation">
             {NAV_LINKS.map((link) => (
               <Link
