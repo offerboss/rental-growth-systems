@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { BOOKING_URL, EXTERNAL_LINK_PROPS, PLATFORM_URLS } from "../lib/links";
 import rgsLogo from "../../public/images/rental_growth_systems_logo_transparent.png";
 
@@ -99,10 +100,18 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 border-t border-gray-200 pt-6">
+        <div className="mt-12 flex flex-col items-center gap-3 border-t border-gray-200 pt-6 sm:flex-row sm:justify-between">
           <p className="text-center text-xs text-gray-400">
             &copy; {currentYear} Rental Growth Systems. All rights reserved.
           </p>
+          <div className="flex items-center gap-4 text-xs text-gray-400">
+            <Link href="/privacy-policy" className="transition-colors hover:text-navy-900">
+              Privacy Policy
+            </Link>
+            <Link href="/terms-of-service" className="transition-colors hover:text-navy-900">
+              Terms of Service
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

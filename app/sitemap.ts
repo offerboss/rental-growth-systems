@@ -13,6 +13,9 @@ const STATIC_ROUTES: Array<{
   { path: "/solutions", changeFrequency: "monthly", priority: 0.9 },
   { path: "/industries", changeFrequency: "monthly", priority: 0.8 },
   { path: "/resources", changeFrequency: "weekly", priority: 0.7 },
+  { path: "/provider-network", changeFrequency: "monthly", priority: 0.7 },
+  { path: "/privacy-policy", changeFrequency: "yearly", priority: 0.3 },
+  { path: "/terms-of-service", changeFrequency: "yearly", priority: 0.3 },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
