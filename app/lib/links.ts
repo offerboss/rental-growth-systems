@@ -1,4 +1,4 @@
-export const BOOKING_URL = "https://rentalgrowthsystems.com/booking-home";
+export const BOOKING_URL = "https://booking.rentalgrowthsystems.com/booking-home";
 
 export const PLATFORM_URLS = {
   portableToiletFinder: "https://portabletoiletfinder.com/",

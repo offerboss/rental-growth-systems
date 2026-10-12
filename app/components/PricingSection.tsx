@@ -1,4 +1,4 @@
-import { PRICING_URLS } from "../lib/links";
+import { BOOKING_URL, PRICING_URLS } from "../lib/links";
 
 type PricingPlan = {
   name: string;
@@ -158,6 +158,23 @@ export default function PricingSection() {
               </a>
             </article>
           ))}
+        </div>
+
+        {/* Secondary booking path for visitors who want to talk before purchasing */}
+        <div className="mx-auto mt-12 max-w-xl text-center">
+          <h3 className="text-xl font-bold text-navy-900">Not Sure Which Partner Level Fits?</h3>
+          <p className="mt-2 text-base leading-relaxed text-gray-500">
+            Book a quick fit call and we&apos;ll help you figure out which option makes the most
+            sense for your rental business.
+          </p>
+          <div className="mt-5">
+            <a
+              href={BOOKING_URL}
+              className="inline-flex items-center justify-center rounded-lg bg-orange-500 px-6 py-3 text-base font-semibold text-white shadow-sm transition-all hover:bg-orange-600 hover:shadow-md active:scale-[0.98]"
+            >
+              Book a Quick Fit Call
+            </a>
+          </div>
         </div>
       </div>
     </section>
