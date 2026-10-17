@@ -1920,6 +1920,736 @@ const RESOURCE_INPUTS: ResourceInput[] = [
       },
     ],
   },
+  {
+    slug: "seo-for-portable-toilet-rental-companies",
+    title: "SEO for Portable Toilet Rental Companies: How to Rank in Google Maps and Local Search",
+    metaTitle: "SEO for Portable Toilet Rental Companies",
+    metaDescription:
+      "Learn how portable toilet rental companies can improve Google Maps and local search visibility using better service-area pages, reviews, content, links, and conversion systems.",
+    excerpt:
+      "What actually helps a portable toilet rental company show up in Google Maps and local search — and why no single tactic does it alone.",
+    category: "Customer Acquisition",
+    publishedDate: "2026-10-17",
+    author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/portable-toilet-rental-seo.png",
+      alt: "Portable toilet rental local SEO workflow from Google search and Maps to website and quote request",
+      width: 1672,
+      height: 941,
+    },
+    relatedResources: [
+      "how-to-get-more-portable-toilet-rental-leads",
+      "rental-company-speed-to-lead",
+    ],
+    relatedIndustry: "portable-toilet-rental",
+    intro: [
+      {
+        type: "paragraph",
+        text: "A portable toilet rental company improves its Google Maps and local search visibility by strengthening a handful of things at once: an accurate, active Google Business Profile, genuinely useful service-area pages, clear reviews, a website with real topical depth around both event and construction use cases, and a path to quote that doesn't lose the visitor once they arrive.",
+      },
+      {
+        type: "paragraph",
+        text: `None of these work especially well in isolation. A five-star Google profile attached to a thin, generic website won't hold a ranking, and a well-built website with no reviews and an abandoned Business Profile won't show up in the map pack at all. Companies that rank consistently for searches like "portable toilet rental near me" or "porta potty rental [city]" usually have most of these pieces working together.`,
+      },
+    ],
+    sections: [
+      {
+        heading: "How Local Search Works for Portable Toilet Rental Companies",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Portable toilet customers find companies through three overlapping surfaces that reward roughly the same signals.",
+          },
+          { type: "subheading", text: "Google Maps and the Local Pack" },
+          {
+            type: "paragraph",
+            text: "The map pack — local listings shown above organic results for a \"near me\" or city-plus-service search — is usually the first thing a customer sees, driven heavily by profile completeness, relevance, proximity, and reviews.",
+          },
+          { type: "subheading", text: "Organic search results" },
+          {
+            type: "paragraph",
+            text: "Below the map pack, a portable toilet company's website competes on the usual fundamentals — content, structure, and authority — for searches like comparing a standard unit to a restroom trailer or figuring out how many units an event needs.",
+          },
+          { type: "subheading", text: "AI-generated and conversational recommendations" },
+          {
+            type: "paragraph",
+            text: "A newer surface is showing up alongside the first two: AI-generated summaries and conversational tools that pull from the same underlying information — business details, reviews, and published content — to answer a question directly. More on that later.",
+          },
+          {
+            type: "paragraph",
+            text: "The goal isn't \"ranking\" in the abstract — it's showing up for specific, high-intent searches: portable toilet rental near me, porta potty rental [city], construction portable toilets [city], event portable toilet rental [city], restroom trailer rental [city], portable toilets for construction sites.",
+          },
+        ],
+      },
+      {
+        heading: "Optimize Your Google Business Profile",
+        blocks: [
+          { type: "subheading", text: "Categories and business description" },
+          {
+            type: "paragraph",
+            text: "Choose the primary category that actually matches the business — a portable toilet rental or sanitation category — and add secondary categories only where genuinely accurate, such as a restroom trailer offering. The description should plainly describe what's offered and where, not every city and keyword the business wants to rank for, and stuffing keywords into the business name itself tends to do more harm than good.",
+          },
+          { type: "subheading", text: "Service areas, hours, and phone number" },
+          {
+            type: "paragraph",
+            text: "Service areas should reflect where the company actually delivers, hours should be current, and the phone number should be the one that's actually answered — a disconnected line or an old number undermines everything else on this list.",
+          },
+          { type: "subheading", text: "Photos and services" },
+          {
+            type: "paragraph",
+            text: "Real photos of the units, trailers, and trucks outperform stock imagery, and listing services clearly — standard units, ADA-accessible units, hand-wash stations, restroom trailers, long-term rentals — helps customers and Google understand exactly what's offered.",
+          },
+          { type: "subheading", text: "Reviews and ongoing activity" },
+          {
+            type: "paragraph",
+            text: "A profile that collects reviews steadily and gets the occasional update — a new photo, a seasonal post — reads as active. One filled out once at launch and never touched again reads as exactly that, even if the business behind it is thriving.",
+          },
+        ],
+      },
+      {
+        heading: "Build Useful City and Service-Area Pages",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A dedicated page for each city or service area a company genuinely serves helps both customers and search engines understand exactly where that business operates — but only if the page says something real.",
+          },
+          { type: "subheading", text: "What makes a city page useful" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Specific service-area detail — the actual neighborhoods, counties, or landmarks covered, not just the city name",
+              "The portable toilet options available there, including ADA-accessible units",
+              "A clear distinction between construction and event needs, since those customers search differently",
+              "Restroom trailer availability where relevant, including weddings and larger events",
+              "Delivery considerations specific to that market — site access, permits, placement logistics",
+              "A few honest, locally relevant FAQs and a quote CTA",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Changing the city name forty times does not magically turn one page into forty useful local pages. A handful of genuinely detailed pages for the markets that matter tends to outperform a long list of pages that only differ by one word.",
+          },
+        ],
+      },
+      {
+        heading: "Create Content Around Real Customer Needs",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Alongside city pages, content built around questions customers actually ask gives them a real answer and gives a site more to genuinely be found for.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "How many porta potties an event of a given size needs",
+              "How many units a construction site needs based on crew size",
+              "ADA accessibility requirements and what an ADA-compliant unit includes",
+              "Hand-wash stations — when they're expected and how to add one to an order",
+              "Restroom trailers versus standard units, and when each one fits",
+              "Construction sanitation requirements and typical jobsite expectations",
+              "Wedding and event restroom planning, including placement and timing",
+              "Long-term rentals for extended construction projects",
+              "Emergency and event overflow sanitation",
+              "General local regulations or site-plan requirements, where relevant",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "This works two ways: a customer deciding between two units or four for a backyard wedding gets a real answer, and the site builds the topical depth that search engines — and AI tools summarizing a category — associate with a business that actually knows it.",
+          },
+        ],
+      },
+      {
+        heading: "Use Internal Links to Build Topic Clusters",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "None of the pages above do much good sitting in isolation. City pages, service pages, and resource content should all point to each other.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "City pages should link to relevant service pages — standard units, ADA units, restroom trailers",
+              "Service pages should link out to resource articles that go deeper on a specific question",
+              `Resource articles — like this one — should link to the industry and solution pages they're relevant to, the same way this guide links to our ${link("portable toilet rental industry page", "/industries/portable-toilet-rental")}`,
+              "Related articles should link to each other where it's genuinely useful",
+              "No page should be orphaned — reachable only by typing the exact URL",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "A simple way to check this: pick five pages at random and see how many clicks it takes to reach each one from the homepage. If the answer is \"I'm not sure that's linked from anywhere,\" that's worth fixing first.",
+          },
+        ],
+      },
+      {
+        heading: "Reviews Help With Trust and Local Visibility",
+        blocks: [
+          { type: "subheading", text: "Ask consistently, and at the right time" },
+          {
+            type: "paragraph",
+            text: "The companies that accumulate reviews steadily ask every customer, right around pickup or event wrap-up — not just the ones who seem happiest, and not in an occasional batch email sent weeks later.",
+          },
+          { type: "subheading", text: "Make it easy" },
+          {
+            type: "paragraph",
+            text: "A direct link sent by text right after service outperforms a vague request to \"leave us a review sometime\" mentioned on-site.",
+          },
+          { type: "subheading", text: "Respond to reviews, and mind the customer mix" },
+          {
+            type: "paragraph",
+            text: "Replying to reviews, including the occasional negative one, signals an active business. A healthy spread of reviews across construction clients, event planners, and residential customers reads as more credible than reviews clustered around one use case alone.",
+          },
+          { type: "subheading", text: "Avoid gating or fake reviews" },
+          {
+            type: "paragraph",
+            text: "Filtering out unhappy customers before asking for a review, or generating reviews that aren't from real customers, violates most platforms' policies and produces a profile that doesn't hold up under scrutiny. Reviews earned the straightforward way hold up better — in rankings, and in actual customer trust. They're also often the deciding factor for a customer comparing two similar-looking companies in the map pack.",
+          },
+        ],
+      },
+      {
+        heading: "Keep Local Business Information Consistent",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A citation is simply the business's name, address, phone number, and service details appearing on another site — a directory, a chamber listing, an industry platform — and consistency matters more than quantity. The practical version isn't submitting to hundreds of directories; it's making sure the handful that actually matter show the same name, phone number, website, and service details everywhere. Inconsistent information is a more common problem than too few citations.",
+          },
+        ],
+      },
+      {
+        heading: "Earn Relevant Backlinks and Mentions",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Links from other sites still factor in, but a handful of relevant local and industry links tend to matter more than a large number of unrelated ones.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Contractor partnerships — general contractors and site managers who regularly need portable sanitation",
+              "Event venues and planners who refer restroom trailers or standard units for weddings and gatherings",
+              "Construction associations, local trade groups, and chambers of commerce",
+              "Local sponsorships — a youth sports league, a community event — that come with a website mention",
+              "Relevant, category-specific directories",
+              "Content genuinely useful enough that other sites choose to reference it",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: `Rental Growth Systems operates ${link("Portable Toilet Finder", PLATFORM_URLS.portableToiletFinder)}, a directory built specifically for this category — listings there put a company in front of customers actively comparing options, and directories like it can support discovery and referral visibility. They're one piece of a broader link picture, not a replacement for the rest of it, and no single listing guarantees a ranking change on its own.`,
+          },
+        ],
+      },
+      {
+        heading: "Make the Website Easy to Convert From",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Ranking is helpful. Ranking with the wrong phone number is less impressive. Traffic only matters if the person who finds the site can actually take the next step.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Click-to-call visible on every page, not buried in a footer",
+              "A quote form that takes a minute, not five",
+              "Clear service-area information so a visitor isn't guessing whether the company covers their address",
+              "Clarity on unit types — standard, ADA-accessible, hand-wash stations, restroom trailers — phrased for someone who's never rented one before",
+              "A mobile-friendly layout, since a large share of \"near me\" searches happen on a phone, often from a job site",
+              "Trust signals — reviews, real photos, a real phone number — visible without scrolling far",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Traffic that doesn't convert is a wasted opportunity, not a wasted search ranking — the ranking did its job. What happens on the page, and after, is a separate system.",
+          },
+        ],
+      },
+      {
+        heading: "How AI Search Changes Portable Toilet SEO",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "SEO gets a lot less mysterious when it's treated like a system instead of a ritual, and that's especially true for the AI-generated and conversational search experiences showing up alongside traditional results.",
+          },
+          {
+            type: "paragraph",
+            text: "These tools tend to draw on the same signals described throughout this guide: clear, consistent business information, genuinely useful content that answers specific questions, and enough topical coverage to signal this is actually a portable sanitation company, not a general contractor who mentions porta potties once.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Clear entity signals — a consistent business name, services, and location across the site and major profiles",
+              "Structured, specific content — pages that answer one question well, like how many units a 150-person wedding needs, instead of one vague services page",
+              "Consistent business information everywhere it appears",
+              "Topical coverage across unit types, use cases, and service areas",
+              "References and mentions from other credible local and industry sources",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "None of this guarantees a specific placement in any AI tool's answers — no SEO guide can honestly promise that. What it does is put a business in the kind of shape these systems tend to draw from: accurate, specific, and genuinely useful.",
+          },
+        ],
+      },
+      {
+        heading: "What Should a Portable Toilet Company Work on First?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Doing all of this at once isn't realistic for most owner-operated companies. A practical order:",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Fix the Google Business Profile — categories, hours, phone, service area, photos",
+              "Strengthen the core service pages — standard units, ADA units, restroom trailers, hand-wash stations",
+              "Build out the city and service-area pages that cover real markets",
+              "Add useful customer-question content — event sizing, construction requirements, ADA and hand-wash details",
+              "Improve review volume and consistency",
+              "Strengthen internal linking between all of the above",
+              "Improve citations and build a handful of genuinely relevant links",
+              `Improve conversion and ${link("lead follow-up", "/resources/rental-company-speed-to-lead")} once the traffic starts arriving`,
+              "Expand content over time as capacity allows",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "The first few steps tend to move the needle fastest, since they're usually the most incomplete. The later ones compound over a longer timeline.",
+          },
+        ],
+      },
+      {
+        heading: "The Bottom Line",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Portable toilet SEO works best as a system, not a one-time website tweak. A strong Google Business Profile, genuinely useful city and service-area pages, consistent reviews, sensible internal linking, relevant citations and links, and a website that actually converts all reinforce each other — pull one piece out and the rest has to work harder to compensate.",
+          },
+          {
+            type: "paragraph",
+            text: `This is the same idea behind Rental Growth Systems' ${link("Customer Acquisition Systems", "/solutions/customer-acquisition")}: visibility and conversion working together, not treated as separate problems. For a closer look at the acquisition side specifically for this category, see our guide on ${link("getting more portable toilet rental leads", "/resources/how-to-get-more-portable-toilet-rental-leads")}.`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How can a portable toilet rental company rank higher in Google Maps?",
+        answer:
+          "By keeping the Google Business Profile accurate and complete, collecting reviews consistently, keeping business information consistent across the web, and having a website with real, relevant content for the unit types and areas served. Proximity to the searcher also plays a role and isn't something a business can control directly.",
+      },
+      {
+        question: "Should a porta potty company create a page for every city it serves?",
+        answer:
+          "Only if there's something genuinely useful and specific to say about that city — service details, local considerations, relevant FAQs. A thin page with just the city name swapped in usually does more harm than good; a handful of strong, detailed pages tends to outperform a large number of thin ones.",
+      },
+      {
+        question: "Do Google reviews help portable toilet rental SEO?",
+        answer:
+          "Yes, reviews are one of the factors that influence local search visibility, particularly in the map pack. They also directly affect whether a customer comparing several companies chooses to call, which makes them valuable for conversion as well as rankings.",
+      },
+      {
+        question: "How long does SEO take for a portable toilet company?",
+        answer:
+          "It varies, but local SEO improvements typically take a few months to show up meaningfully in rankings, while a complete and active Google Business Profile can influence visibility faster. That's why most companies work on several of these at once rather than waiting on one to finish before starting another.",
+      },
+      {
+        question: "Can SEO help a portable toilet rental business get more leads without paid ads?",
+        answer:
+          "It can reduce reliance on paid ads over time, since organic and map-pack visibility don't carry a cost per click once established. It typically takes longer to build than a paid campaign, which is why many companies run both together — ads for near-term leads, SEO for visibility that compounds.",
+      },
+    ],
+  },
+  {
+    slug: "how-to-track-customer-history-in-a-rental-business",
+    title: "How to Track Customer History in a Rental Business (and Actually Use It to Grow)",
+    metaTitle: "How to Track Customer History in a Rental Business",
+    metaDescription:
+      "Learn what customer history rental companies should track and how to use lead, quote, rental, review, referral, and follow-up data to drive repeat business and reactivation.",
+    excerpt:
+      "A practical way to track customer history — and the follow-up, reactivation, and repeat-business system that actually puts it to use.",
+    category: "Customer Value",
+    publishedDate: "2026-10-17",
+    author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/rental-customer-history.png",
+      alt: "Rental customer history timeline from inquiry and quote through completed rental, review, repeat business, and referral",
+      width: 1672,
+      height: 941,
+    },
+    relatedResources: [
+      "what-crm-should-a-rental-company-use",
+      "how-to-grow-a-rental-business-without-spending-more-on-ads",
+      "rental-company-speed-to-lead",
+    ],
+    intro: [
+      {
+        type: "paragraph",
+        text: "A rental company tracks customer history by keeping one central record for each customer — lead source, communication history, quote history, rental history, customer type, locations served, review and referral activity, and follow-up status — instead of letting it live across inboxes, phones, spreadsheets, and memory.",
+      },
+      {
+        type: "paragraph",
+        text: "Storing that information is only half the job. The value shows up when it's actually used: to follow up at the right moment, recognize a repeat customer, reactivate one who's gone quiet, and turn a completed rental into a review or a referral.",
+      },
+    ],
+    sections: [
+      {
+        heading: "What Does \"Customer History\" Mean in a Rental Business?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Customer history is the complete relationship between a customer and the rental company — not just the rentals that closed. A full record covers:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "The original inquiry",
+              "Every quote sent",
+              "Calls, texts, and emails",
+              "The booking itself",
+              "Delivery or service details",
+              "The completed rental",
+              "Any review left",
+              "Repeat rentals",
+              "Referrals given or received",
+              "Reactivation attempts",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Most rental companies have pieces of this somewhere. Few have all of it in one place where anyone on the team can actually find it.",
+          },
+        ],
+      },
+      {
+        heading: "Why Rental Companies Need a Central Customer Record",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "When customer information is spread across inboxes, phones, spreadsheets, a booking system, paper notes, and memory, a few predictable problems show up: missed context on a repeat call, inconsistent follow-up, duplicate work, rough handoffs between staff, no easy way to spot a company's best customers, and reactivation opportunities that simply never surface.",
+          },
+          {
+            type: "paragraph",
+            text: "If the only person who knows a customer's history is the person who happened to answer the phone, that's not really a customer database — it's one employee's memory with a job title attached.",
+          },
+          {
+            type: "paragraph",
+            text: "A spreadsheet can absolutely become a CRM. It usually happens by accident, one added column at a time, until someone finally asks why quote follow-up depends on a tab nobody else knows exists.",
+          },
+        ],
+      },
+      {
+        heading: "The Customer Information Every Rental Company Should Track",
+        blocks: [
+          { type: "subheading", text: "Contact information" },
+          { type: "list", style: "unordered", items: ["Name", "Company", "Phone", "Email"] },
+          { type: "subheading", text: "Lead source" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Google", "Paid ads", "Directory", "Referral", "Repeat customer", "Organic search", "Social", "Partner"],
+          },
+          { type: "subheading", text: "Customer type" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Homeowner", "Contractor", "Event planner", "Venue", "Property manager", "Commercial account", "Municipality"],
+          },
+          { type: "subheading", text: "Quote history" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Quote date", "Products or services quoted", "Value", "Won or lost", "Reason lost, if known"],
+          },
+          { type: "subheading", text: "Rental history" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Rental category", "Unit or equipment type", "Dates", "Location", "Rental duration", "Repeat frequency"],
+          },
+          { type: "subheading", text: "Communication history" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Calls", "Texts", "Email", "Internal notes", "Follow-up status"],
+          },
+          { type: "subheading", text: "Review status" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Review requested", "Review completed", "Platform"],
+          },
+          { type: "subheading", text: "Referral history" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Who referred the customer", "Whether the customer has referred others"],
+          },
+          { type: "subheading", text: "Reactivation status" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Last contact", "Last rental", "Next follow-up date", "Campaign history"],
+          },
+        ],
+      },
+      {
+        heading: "Track the Original Lead Source",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Knowing whether a customer came from paid ads, organic search, a directory listing, a referral, a repeat booking, a Google Business Profile view, or a specific campaign makes it possible to see which sources actually produce good customers, not just inquiries.",
+          },
+          {
+            type: "paragraph",
+            text: "Attribution doesn't need to be perfect to be useful. A simple, consistently applied source field beats detailed tracking that's too complicated for anyone to actually fill in — even imperfect source data beats guessing after the fact.",
+          },
+        ],
+      },
+      {
+        heading: "Track Quotes — Including the Ones You Lose",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A quote history should record what was requested, the quote amount, the outcome, the timing, and the reason lost if it's known. Won quotes are only half the picture.",
+          },
+          {
+            type: "paragraph",
+            text: "Lost quotes, tracked consistently, tend to reveal patterns worth noticing: pricing objections showing up repeatedly, capacity issues on certain dates, service-area gaps, follow-up that's arriving too slowly, or a product that's requested more than it's available.",
+          },
+        ],
+      },
+      {
+        heading: "Track What Customers Actually Rent",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Product and category history should be specific — a 20-yard dumpster, construction portable toilets, a restroom trailer, a tent and table package, a skid steer, a storage container — not just \"rented from us before.\"",
+          },
+          {
+            type: "paragraph",
+            text: "That specificity is what makes the history useful later: it's what lets a follow-up message recommend the right thing, flags a customer as a candidate for reactivation in their actual category, supports a relevant cross-sell, and makes a seasonal reminder feel timed instead of random.",
+          },
+        ],
+      },
+      {
+        heading: "Track Customer Type and Use Case",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A contractor, an event planner, a venue, a municipality, a homeowner, and a commercial account all have different rental patterns, different timelines, and different reasons to come back.",
+          },
+          {
+            type: "paragraph",
+            text: "Tagging customer type turns a flat list of names into something that can actually be segmented — follow-up and reactivation messaging can speak to a contractor's recurring project needs very differently than a homeowner's one-time cleanout.",
+          },
+        ],
+      },
+      {
+        heading: "Track Communication History",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Calls, texts, emails, internal notes, missed calls, promised callbacks, and quote follow-up should all live against the customer record, not scattered across whoever happened to take the call.",
+          },
+          {
+            type: "paragraph",
+            text: "The test is simple: can the next employee who picks up this customer understand the relationship without asking the customer to explain it from scratch? If not, the communication history isn't doing its job yet.",
+          },
+        ],
+      },
+      {
+        heading: "Track Reviews and Referrals",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Whether a review was requested, whether it was completed, and which platform it landed on are all worth recording — the same goes for whether this customer was referred by someone else, and whether they've referred anyone in return.",
+          },
+          {
+            type: "paragraph",
+            text: `This is a direct input into ${link("Customer Value Systems", "/solutions/customer-value")}: a business that can see who hasn't been asked for a review yet, or who's referred customers in the past, can act on that instead of hoping it happens on its own. (To be clear, this means asking consistently and tracking the outcome — not filtering out unhappy customers before asking, which most platforms treat as a policy violation.)`,
+          },
+        ],
+      },
+      {
+        heading: "How to Use Customer History for Follow-Up",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A central record turns follow-up from a guessing game into a list of specific, obvious actions:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "A quote went out and got no response",
+              "A rental was completed yesterday",
+              "A customer said \"call me next month\"",
+              "A contractor rents every few weeks, right on schedule",
+              "An event planner books seasonally, and that season is approaching",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "CRM tasks and simple automations can turn each of these into a reminder or a scheduled message instead of something a busy owner has to remember on their own.",
+          },
+        ],
+      },
+      {
+        heading: "How to Reactivate Past Rental Customers",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Reactivation works best as a segmented list, not a blanket blast. Useful ways to segment past customers include time since their last rental, rental category, customer type, seasonality, location, and rental frequency.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "A contractor who rented dumpsters regularly last year but hasn't booked recently",
+              "A venue that's booked restroom trailers for past events",
+              "An event planner whose busy season is approaching",
+              "An equipment renter with a history of recurring projects",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "A reactivation message that references what someone actually rented and when reads as relevant. The same message sent to every past customer regardless of fit reads as spam, even when the company behind it genuinely isn't trying to be.",
+          },
+        ],
+      },
+      {
+        heading: "How Customer History Creates More Repeat Business",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Historical context lets staff recognize a repeat customer on the first ring, understand what they needed before, make a recommendation that's actually relevant, and avoid starting the conversation from zero. Follow-up also lands at the right moment instead of too early or long after the window has closed.",
+          },
+        ],
+      },
+      {
+        heading: "How Customer History Helps Generate More Reviews and Referrals",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A completed-rental status is a natural trigger point — for a review request, a referral request, a thank-you message, or a future check-in. Treating it as an operational step tied to a record, rather than something an owner remembers to do when things are slow, is what makes it actually happen consistently.",
+          },
+        ],
+      },
+      {
+        heading: "How Customer History Improves Lead Source Decisions",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "With history tracked consistently, a rental company can compare lead sources on more than raw volume — win rate, repeat business, and referral activity by source all become visible. A source that produces fewer leads but more repeat customers may be worth more than one that produces the opposite, without needing a detailed attribution model to see it.",
+          },
+        ],
+      },
+      {
+        heading: "CRM vs. Rental Management Software for Customer History",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "These two systems solve different problems, and the distinction matters for where customer history actually lives.",
+          },
+          { type: "subheading", text: "CRM" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Relationships", "Sales pipeline", "Communication", "Follow-up", "Reactivation"],
+          },
+          { type: "subheading", text: "Rental management software" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Inventory", "Dispatch", "Scheduling", "Contracts", "Equipment availability", "Operational fulfillment"],
+          },
+          {
+            type: "paragraph",
+            text: `Some companies run both and connect them so customer and job data stay in sync; others consolidate more into one system. For a closer look at choosing the right one, see our guide on ${link("what CRM a rental company should use", "/resources/what-crm-should-a-rental-company-use")}.`,
+          },
+        ],
+      },
+      {
+        heading: "What Should a Rental Company Work on First?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Building all of this at once isn't realistic. A practical order:",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Choose one central customer record",
+              "Standardize the required fields",
+              "Track lead source",
+              "Track quote status",
+              "Track rental history",
+              "Track communication",
+              "Add review and referral fields",
+              "Add reactivation dates and tags",
+              "Build simple follow-up workflows",
+              "Review and clean the data regularly",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The Bottom Line",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The goal isn't to collect more customer data for its own sake. It's to build a clear enough history that the business can respond better, follow up more consistently, recognize repeat opportunities, reactivate past customers, and get more value out of each relationship.",
+          },
+          {
+            type: "paragraph",
+            text: `That's the connection between ${link("Digital Infrastructure", "/solutions/digital-infrastructure")} and ${link("Customer Value Systems", "/solutions/customer-value")}: one builds the record, the other puts it to work. Collecting customer data and never using it is basically digital hoarding — the system only pays off once it's actually driving follow-up, reactivation, and repeat business across ${link("the rental categories", "/industries")} a company serves.`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What customer information should a rental company track?",
+        answer:
+          "Contact details, lead source, customer type, quote history, rental history, communication history, review status, referral history, and reactivation status. Together these cover the full relationship, not just completed rentals.",
+      },
+      {
+        question: "How should a rental company track repeat customers?",
+        answer:
+          "By keeping rental history tied to a single customer record — category, dates, location, and frequency — so a repeat customer is recognizable the moment they call or submit a new inquiry, rather than treated as new each time.",
+      },
+      {
+        question: "Should rental companies use a CRM to track customer history?",
+        answer:
+          "A CRM is generally the right tool for relationship history — communication, quotes, follow-up, and reactivation — while rental management software typically handles inventory, scheduling, and fulfillment. Many companies use both, sometimes connected to each other.",
+      },
+      {
+        question: "How can customer history help generate more repeat business?",
+        answer:
+          "It lets staff recognize a returning customer immediately, recommend based on what they actually rented before, and follow up at a relevant moment instead of guessing. None of that is possible if the history only exists in one person's memory.",
+      },
+      {
+        question: "How long should a rental company keep customer records?",
+        answer:
+          "Operational retention — how long a company keeps records useful for follow-up and reactivation — is a separate question from legal or accounting retention requirements for formal business records. For the latter, rental companies should follow applicable legal and accounting guidance for their state and business type rather than a general rule of thumb.",
+      },
+      {
+        question: "Can customer history be used for reactivation campaigns?",
+        answer:
+          "Yes, and it's one of the more direct uses for it. Segmenting past customers by time since last rental, category, and customer type makes it possible to send relevant reactivation messages instead of a single generic blast to everyone in the database.",
+      },
+    ],
+  },
 ];
 
 function blockText(block: ContentBlock): string {
