@@ -2650,6 +2650,819 @@ const RESOURCE_INPUTS: ResourceInput[] = [
       },
     ],
   },
+  {
+    slug: "how-to-get-more-google-reviews-for-a-rental-business",
+    title: "How to Get More Google Reviews for a Rental Business: A Practical Review Request System",
+    metaTitle: "How to Get More Google Reviews for a Rental Business",
+    metaDescription:
+      "Learn how rental companies can get more legitimate Google reviews with better timing, simple review requests, automation, reminders, and CRM tracking.",
+    excerpt:
+      "Most rental companies don't have an unwillingness problem — they have a timing and consistency problem. Here's a simple system that fixes both.",
+    category: "Customer Value",
+    publishedDate: "2026-10-24",
+    author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/rental-business-google-reviews.png",
+      alt: "Rental company review request workflow from completed rental to text message, Google review, and customer response",
+      width: 1672,
+      height: 941,
+    },
+    relatedResources: [
+      "how-to-track-customer-history-in-a-rental-business",
+      "how-to-grow-a-rental-business-without-spending-more-on-ads",
+      "what-crm-should-a-rental-company-use",
+    ],
+    intro: [
+      {
+        type: "paragraph",
+        text: "A rental company gets more Google reviews by asking real customers, asking shortly after a successful rental, making the review link easy to use, automating the request where possible, sending one reasonable reminder, responding to what comes in, and never gating or filtering who gets asked.",
+      },
+      {
+        type: "paragraph",
+        text: "None of this is complicated, which is exactly why it's easy to skip. The companies that build it into a normal step of finishing a job end up with a steady flow of reviews. The ones that wait for staff to remember end up with a handful of five-star reviews from 2022 and not much since.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why Google Reviews Matter for Rental Companies",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Reviews give a potential customer a reason to trust a company they've never used before, and they add credibility to a Google Business Profile that influences how it shows up in local search. A rental customer comparing two similar-looking companies in the map pack is making a decision that often comes down to review count and rating.",
+          },
+          {
+            type: "paragraph",
+            text: "Reviews are one part of local SEO, not the only one — a complete Business Profile, service-area content, and consistent business information all matter too. What reviews specifically add is trust: proof that real people had a real, good experience.",
+          },
+        ],
+      },
+      {
+        heading: "When Should a Rental Company Ask for a Review?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Timing matters because the experience is still fresh. Good moments to ask include:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Shortly after pickup or job completion",
+              "After a successful event wraps up",
+              "After a completed delivery or service call",
+              "Right after a customer expresses satisfaction on a call or in person",
+              "After a repeat rental, when the relationship is already established",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Waiting six months to ask for a review is a great way to make the customer wonder who you are. By then, the dumpster is long gone and so is the memory of how smoothly it showed up.",
+          },
+        ],
+      },
+      {
+        heading: "Who Should You Ask for Reviews?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Ask real customers, consistently and neutrally — not a hand-picked subset. That means not only asking customers who say they're happy, not filtering anyone based on an expected rating, and not hiding the review link from a customer who seemed less enthusiastic.",
+          },
+          {
+            type: "paragraph",
+            text: "A consistent ask also produces a more honest, more credible set of reviews over time, which holds up better than a curated one if anyone — a customer or a platform — ever looks closely.",
+          },
+        ],
+      },
+      {
+        heading: "How to Ask for a Google Review",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Keep the message short, say thank you, ask directly, include one direct review link, and stop there. No lengthy explanation of why reviews matter, no guilt trip, no pressure — just a clear, low-effort ask.",
+          },
+          { type: "subheading", text: "Text message example" },
+          {
+            type: "paragraph",
+            text: "\"Thanks for choosing [Company] for your rental! If you have a minute, we'd really appreciate a quick Google review: [link].\"",
+          },
+          { type: "subheading", text: "Email example" },
+          {
+            type: "paragraph",
+            text: "\"Hi [Name], thanks again for renting with [Company]. If everything went well, a quick Google review would mean a lot to our small team: [link]. Thanks for considering it.\"",
+          },
+          { type: "subheading", text: "Post-rental follow-up example" },
+          {
+            type: "paragraph",
+            text: "\"Hope the [dumpster/unit/trailer] worked out well. If you have 30 seconds, we'd appreciate a review here: [link]. Let us know if you need anything else.\"",
+          },
+          {
+            type: "paragraph",
+            text: "These are meant as starting points, not scripts to use word-for-word — the right version sounds like the company sending it, adapted to the rental category and the relationship with that specific customer.",
+          },
+        ],
+      },
+      {
+        heading: "Text vs. Email: Which Works Better for Review Requests?",
+        blocks: [
+          { type: "subheading", text: "Text" },
+          {
+            type: "paragraph",
+            text: "Fast, immediate, and easy to tap straight into the review form — a natural fit right after a job is completed.",
+          },
+          { type: "subheading", text: "Email" },
+          {
+            type: "paragraph",
+            text: "More room to say thank you, easier to attach to an invoice or receipt, and often a better fit for commercial accounts that communicate primarily by email.",
+          },
+          {
+            type: "paragraph",
+            text: "Neither one is categorically better. The more reliable approach is using whichever channel the customer already communicates through — a construction account that only emails isn't going to respond better to a text, and a same-day event customer may never see an email at all.",
+          },
+        ],
+      },
+      {
+        heading: "Use a Direct Google Review Link",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The link in a review request should take the customer as close as possible to the review form itself, not to the general Business Profile where they then have to go hunting for where to leave feedback. Every extra step is a chance for someone with good intentions to get distracted and never finish.",
+          },
+          {
+            type: "paragraph",
+            text: "Most Google Business Profile dashboards provide a direct, shareable review link for exactly this purpose — it's worth finding once and reusing everywhere, rather than sending a different, longer path each time.",
+          },
+        ],
+      },
+      {
+        heading: "Should Review Requests Be Automated?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Yes, when it's done carefully. A few examples of automation that works well:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "A completed rental status automatically triggers a review request",
+              "A completed job in the system fires off an SMS or email",
+              "A repeat customer gets a request appropriate to their history, not a duplicate of the last one",
+              "A reminder goes out automatically after a reasonable delay if no review has landed",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: `Automation works best when it still feels human — a short, specific message beats a long, obviously templated one. This is where ${link("CRM", "/resources/what-crm-should-a-rental-company-use")} and ${link("Digital Infrastructure", "/solutions/digital-infrastructure")} come in: the trigger has to connect to something that actually knows when a job finished.`,
+          },
+        ],
+      },
+      {
+        heading: "How Many Times Should You Ask?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "An initial request, followed by one polite reminder if the customer hasn't responded after a reasonable window, is enough. If there's still no response after that, it's time to stop — not escalate.",
+          },
+          {
+            type: "paragraph",
+            text: "If your review strategy is \"hope they remember,\" that isn't really a strategy. But repeatedly pestering a customer who hasn't responded isn't a strategy either — it's a good way to turn a neutral non-response into an annoyed one.",
+          },
+        ],
+      },
+      {
+        heading: "How to Handle Negative Reviews",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Respond calmly, acknowledge the issue without getting defensive, and avoid turning the reply into a public argument. Take specifics offline when there's a real conversation to have — a phone number or email in the response is usually enough.",
+          },
+          {
+            type: "paragraph",
+            text: "If the review points to a genuine operational problem, fix it. A professional, measured response often matters almost as much to future customers as the review itself — it shows how the company handles things going wrong, not just when they go right.",
+          },
+        ],
+      },
+      {
+        heading: "How to Respond to Positive Reviews",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Thank the customer, personalize the response where there's something specific to reference, and avoid pasting the same canned reply under every review. A brief, specific \"thanks for the kind words about the delivery crew\" reads as genuine in a way a repeated stock sentence doesn't.",
+          },
+          {
+            type: "paragraph",
+            text: "Keep it short, and resist the urge to stuff service keywords into every reply — it reads as unnatural to customers and doesn't need to carry SEO weight on its own.",
+          },
+        ],
+      },
+      {
+        heading: "Avoid Review Gating",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Review gating is routing customers differently based on how happy they seem before they leave a public review — sending happy customers straight to Google while quietly directing anyone else to a private feedback form instead. Most review platforms treat this as a policy violation, and it tends to produce a review profile that doesn't hold up to scrutiny.",
+          },
+          {
+            type: "paragraph",
+            text: "The straightforward version — ask everyone the same way, let the review land wherever it lands — is also simply more honest, and it's the version worth building a system around.",
+          },
+        ],
+      },
+      {
+        heading: "Use Your CRM to Track Review Status",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A handful of fields turn review requests from something a team tries to remember into something the system tracks on its own:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Review requested (yes/no)",
+              "Request date",
+              "Review completed (yes/no)",
+              "Platform",
+              "Reminder sent",
+              "Last review request",
+              "Customer type",
+              "Completed rental date",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: `This is the same idea covered in our guide on ${link("tracking customer history in a rental business", "/resources/how-to-track-customer-history-in-a-rental-business")} — review status is just one more field in that same central record, not a separate system to maintain on its own.`,
+          },
+        ],
+      },
+      {
+        heading: "Build Reviews Into the Customer Lifecycle",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A clean operational flow looks like this: lead, quote, rental, completion, review request, review, referral, repeat business. Each step feeds the next, and a review request that fires automatically at completion is what keeps the chain from depending on someone remembering to do it manually.",
+          },
+          {
+            type: "paragraph",
+            text: `This is the core idea behind ${link("Customer Value Systems", "/solutions/customer-value")} — treating the relationship after the sale as seriously as the lead that started it.`,
+          },
+        ],
+      },
+      {
+        heading: "How Reviews Support Local SEO",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Reviews connect directly to a company's Google Business Profile, add to the trust signals that support local search visibility, and help establish that a business is legitimate and actively serving customers.",
+          },
+          {
+            type: "paragraph",
+            text: `Reviews alone won't rank a company — they work alongside the Business Profile, service-area content, and site structure covered in our guides on ${link("portable toilet SEO", "/resources/seo-for-portable-toilet-rental-companies")} and ${link("dumpster rental SEO", "/resources/seo-for-dumpster-rental-companies")}. A strong review profile attached to a thin or inactive website still won't carry the whole job.`,
+          },
+        ],
+      },
+      {
+        heading: "What Should a Rental Company Do First?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A practical starting checklist:",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Create a direct Google review link",
+              "Decide the right trigger point — pickup, delivery, event completion",
+              "Write one short SMS and one short email request",
+              "Add review status fields to the CRM",
+              "Automate the initial request",
+              "Add one reminder, and only one",
+              "Respond to every legitimate review",
+              "Monitor negative reviews for recurring operational issues",
+              "Keep asking consistently, for every customer",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The Bottom Line",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A strong review system isn't complicated. The goal is to make asking for a review a normal, automatic part of finishing a rental — not something that depends on a busy owner remembering after everything else gets done.",
+          },
+          {
+            type: "paragraph",
+            text: `That's the same thinking behind ${link("Customer Value Systems", "/solutions/customer-value")} more broadly: the relationship doesn't end when the rental does, and ${link("growing without spending more on ads", "/resources/how-to-grow-a-rental-business-without-spending-more-on-ads")} often starts with getting more out of the customers a company already has.`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How do rental companies get more Google reviews?",
+        answer:
+          "By asking real customers consistently, asking shortly after a successful rental, using a direct review link, automating the request where possible, sending one reminder if needed, and responding to reviews that come in. No single tactic replaces a consistent system.",
+      },
+      {
+        question: "When should a rental company ask for a review?",
+        answer:
+          "As close to the completed rental as possible — right after pickup, delivery, or event completion, while the experience is still fresh. Waiting weeks or months significantly reduces the odds a customer follows through.",
+      },
+      {
+        question: "Can rental companies automate Google review requests?",
+        answer:
+          "Yes. A completed rental or job status can trigger an SMS or email request automatically, with an optional reminder after a reasonable delay if no review has been left. Automation works best when the message still feels short and human, not like an obvious template.",
+      },
+      {
+        question: "Should a rental company ask every customer for a review?",
+        answer:
+          "Yes — asking should be consistent and neutral, not limited to customers who seem happiest. Filtering who gets asked based on expected rating is review gating, which most platforms prohibit and which produces a less credible review profile overall.",
+      },
+      {
+        question: "How many times should a business ask a customer for a review?",
+        answer:
+          "An initial request plus one polite reminder is a reasonable standard. Beyond that, repeated outreach tends to annoy customers rather than convert them, and it isn't necessary for a healthy, steady flow of reviews.",
+      },
+      {
+        question: "Do Google reviews help rental companies rank in local search?",
+        answer:
+          "Reviews are one factor that supports local search visibility and trust, particularly in the map pack, but they work alongside a complete Google Business Profile and genuine website content — not as a replacement for either one.",
+      },
+    ],
+  },
+  {
+    slug: "rental-business-tech-stack",
+    title: "The Rental Business Tech Stack: CRM, Automation, AI, Tracking, and Growth Tools",
+    metaTitle: "Rental Business Tech Stack: CRM, Automation, AI & Growth Tools",
+    metaDescription:
+      "Learn what technology a modern rental business needs, including CRM, automation, AI, booking software, lead tracking, reviews, reporting, and customer reactivation.",
+    excerpt:
+      "What a rental company's technology actually needs to do — and why the right stack is the one where the pieces share information, not the one with the most tools.",
+    category: "Digital Infrastructure",
+    publishedDate: "2026-10-24",
+    author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/rental-business-tech-stack.png",
+      alt: "Rental business tech stack connecting lead generation, CRM, automation, AI, booking, tracking, reviews, and customer reactivation",
+      width: 1672,
+      height: 941,
+    },
+    relatedResources: [
+      "what-crm-should-a-rental-company-use",
+      "ai-receptionist-for-rental-companies",
+      "how-to-track-customer-history-in-a-rental-business",
+    ],
+    intro: [
+      {
+        type: "paragraph",
+        text: "A rental company generally needs some combination of a lead-capturing website, phone and SMS, a CRM, automation, rental management or booking software, marketing-source tracking, a review system, customer-reactivation tools, and basic reporting. Not every business needs every piece on day one — the right order depends on where leads are currently getting lost.",
+      },
+      {
+        type: "paragraph",
+        text: "Most tech stacks don't start as a strategy. They accumulate — a booking tool here, a spreadsheet there, a CRM nobody fully adopted — until the real question isn't \"what software do we need\" but \"why do five systems all know a different version of the same customer.\" This guide organizes the pieces around the actual customer and operating journey, not a list of categories to shop for.",
+      },
+    ],
+    sections: [
+      {
+        heading: "What Is a Rental Business Tech Stack?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A tech stack is the collection of software and systems a rental company uses to generate demand, capture leads, communicate, sell, schedule and fulfill rentals, track customers, measure marketing, and create repeat business.",
+          },
+          {
+            type: "paragraph",
+            text: "The number of tools matters less than how well they work together. A business with three connected systems that all point to the same customer record is in better shape than one with eight disconnected tools that each hold a different piece of the picture.",
+          },
+        ],
+      },
+      {
+        heading: "The 8 Core Layers of a Modern Rental Business Tech Stack",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Every rental tech stack, regardless of size, is built from some combination of these layers:",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Website and Lead Capture — gets the business found and turns a visitor into an inquiry",
+              "Phone, SMS, and Communication — handles the calls and texts most rental sales still run through",
+              "CRM and Sales Pipeline — tracks every lead, quote, and customer relationship in one place",
+              "Automation — handles repetitive handoffs so nothing depends on memory",
+              "Rental Management, Booking, and Operations — runs inventory, scheduling, dispatch, and fulfillment",
+              "Marketing Tracking and Attribution — shows which sources actually produce customers",
+              "AI Tools — extends coverage for intake, qualification, and routine responses",
+              "Customer Value Systems — turns a completed rental into a review, a referral, and a repeat booking",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Reporting sits across all of it rather than as its own separate category — it's only useful once the layers below it are actually producing clean data.",
+          },
+        ],
+      },
+      {
+        heading: "1. Website and Lead Capture",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The website's job is to communicate what's offered, explain the service area, establish enough trust to justify a call, and make the next step obvious — a quote form or a phone number, not a maze.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "A quote form that asks for little enough that people actually finish it",
+              "Click-to-call visible on every page, not just a footer",
+              "A mobile-friendly layout, since a large share of rental searches happen on a phone",
+              "Clear service and category pages for what's actually offered",
+              "City and service-area pages for the markets genuinely served",
+              "Forms that are tracked correctly, so every submission lands somewhere and nothing goes to a dead inbox",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: `This is the first piece of ${link("Customer Acquisition", "/solutions/customer-acquisition")}: visibility and trust that actually convert, not just traffic.`,
+          },
+        ],
+      },
+      {
+        heading: "2. Phone, SMS, and Communication",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A large share of rental sales still happens by phone or text, which makes this layer easy to underinvest in simply because it feels familiar rather than technical.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Call tracking tied to lead source, where practical",
+              "A missed-call process, so a call that goes unanswered isn't just gone",
+              "SMS follow-up for quotes and reminders",
+              "Shared visibility into conversations where more than one person handles leads",
+              "Communication tied to the customer record, not stranded in one employee's phone",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "A conversation that lives only in one person's personal phone disappears the moment that person is out on a delivery, on vacation, or simply busy — which is most of the workday for a lot of rental operators.",
+          },
+        ],
+      },
+      {
+        heading: "3. CRM and Sales Pipeline",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A CRM manages the relationship side of the business: new leads, source, pipeline stage, quotes, follow-up, notes, communication history, won and lost opportunities, customer history, review and referral status, and reactivation.",
+          },
+          {
+            type: "paragraph",
+            text: `For more detail on choosing one, see our guide on ${link("what CRM a rental company should use", "/resources/what-crm-should-a-rental-company-use")} and on ${link("tracking customer history", "/resources/how-to-track-customer-history-in-a-rental-business")}. Response time inside this layer matters just as much as having it at all — see our guide on ${link("speed-to-lead", "/resources/rental-company-speed-to-lead")}.`,
+          },
+          {
+            type: "paragraph",
+            text: "A spreadsheet can survive a surprisingly long time as mission-critical infrastructure. It's not that it can't work — it's that it stops working quietly, the moment two people are editing it at once or a tab gets renamed.",
+          },
+        ],
+      },
+      {
+        heading: "4. Automation",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The companies that get the most out of automation use it for repetitive handoffs, not judgment-heavy conversations. Good starting points:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Instant lead acknowledgment",
+              "Missed-call text-back",
+              "Quote follow-up reminders",
+              "Appointment reminders",
+              "Completed-rental review requests",
+              "Reactivation campaigns",
+              "Internal task creation and lead assignment",
+              "Staff notifications",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Adding another software subscription to a broken process mostly gives you a more expensive broken process. Automation speeds up whatever process already exists — it's worth fixing the process first.",
+          },
+        ],
+      },
+      {
+        heading: "5. Rental Management, Booking, and Operations Software",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This is the operational side: inventory, availability, scheduling, dispatch, delivery and pickup, contracts, equipment or unit tracking, recurring service, and operational notes.",
+          },
+          {
+            type: "paragraph",
+            text: "It often overlaps with CRM features but usually solves a different problem — a dumpster company needs to know which bins are out and when they're due back, a portable toilet company needs a route and service schedule, an event rental company needs to know what's reserved for which date, and an equipment company needs to track which unit is where. None of that is a sales-pipeline question.",
+          },
+        ],
+      },
+      {
+        heading: "CRM vs. Rental Management Software: What's the Difference?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "These solve different problems, and the distinction is worth being clear on before shopping for either one.",
+          },
+          { type: "subheading", text: "CRM" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Lead management", "Relationship history", "Communication", "Sales pipeline", "Follow-up", "Marketing", "Reactivation"],
+          },
+          { type: "subheading", text: "Rental management software" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Inventory", "Scheduling", "Dispatch", "Contracts", "Unit or equipment status", "Fulfillment", "Operational workflow"],
+          },
+          {
+            type: "paragraph",
+            text: "Many rental companies eventually need both, sometimes connected to each other so a booking doesn't have to be typed into two places. Smaller operations often get by on one system stretched to cover part of the other job, at least for a while.",
+          },
+        ],
+      },
+      {
+        heading: "6. Marketing Tracking and Attribution",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "What's worth tracking: lead source, campaign, call source, form source, organic versus paid, directory leads, referrals, repeat customers, and the won/lost outcome where it's known.",
+          },
+          {
+            type: "paragraph",
+            text: "The important part isn't a sophisticated attribution model — it's getting source data to actually land in the CRM, consistently, so it's possible to compare sources later. Simple and consistently applied beats detailed and abandoned after three weeks.",
+          },
+        ],
+      },
+      {
+        heading: "7. AI Tools for Rental Companies",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Realistic use cases today include an AI receptionist for missed-call handling and intake, lead qualification, call summaries, chat, draft responses, internal knowledge lookup, reporting summaries, and content support.",
+          },
+          {
+            type: "paragraph",
+            text: `For a closer look at one specific use case, see our guide on ${link("AI receptionists for rental companies", "/resources/ai-receptionist-for-rental-companies")}. Humans should stay involved in complicated pricing, exceptions, upset customers, high-value deals, unusual logistics, and anything that genuinely requires judgment — AI extends coverage, it doesn't replace the team.`,
+          },
+        ],
+      },
+      {
+        heading: "8. Customer Value Systems",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This layer covers what happens after the first rental: review requests, referral requests, reactivation, repeat-rental reminders, seasonal follow-up, segmentation, customer history, and preferred-customer treatment where it makes sense.",
+          },
+          {
+            type: "paragraph",
+            text: `See our guides on ${link("getting more Google reviews", "/resources/how-to-get-more-google-reviews-for-a-rental-business")}, ${link("tracking customer history", "/resources/how-to-track-customer-history-in-a-rental-business")}, and ${link("growing without spending more on ads", "/resources/how-to-grow-a-rental-business-without-spending-more-on-ads")} — this is the operational core of ${link("Customer Value Systems", "/solutions/customer-value")}.`,
+          },
+        ],
+      },
+      {
+        heading: "Reporting and Dashboards: What Should You Actually Watch?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Worth tracking in some form: leads, lead source, response time, contact rate, quotes sent, bookings and wins, lost opportunities, repeat customers, reviews, reactivation activity, and marketing spend against outcomes where that data is available.",
+          },
+          {
+            type: "paragraph",
+            text: "A dashboard should answer operational questions — where are leads coming from, where are they stalling, who hasn't been followed up with — not just look impressive in a meeting nobody else attends.",
+          },
+        ],
+      },
+      {
+        heading: "How the Tools Should Connect",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A clean system flow looks roughly like this: Google, ads, directories, or referrals bring a lead to the website or phone, which feeds the CRM, which triggers automation, which supports the quote or booking, which hands off to rental management for fulfillment, which closes with a completed rental, a review request, an update to customer history, and eventually reactivation or repeat business.",
+          },
+          {
+            type: "paragraph",
+            text: "Data shouldn't need to be manually re-typed into every system along that path if it doesn't have to be. APIs, native integrations, and automation tools can move information between systems automatically — the specifics matter less than the principle: a customer's information should exist in one place that everything else reads from, not five places that occasionally agree.",
+          },
+        ],
+      },
+      {
+        heading: "What Should a Small Rental Company Start With?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A reasonable minimum viable stack:",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "A professional, mobile-friendly website",
+              "A trackable phone number",
+              "A simple CRM",
+              "Lead notifications that actually reach someone",
+              "Basic SMS or email follow-up",
+              "A clear quote and booking process",
+              "A review request system",
+              "Basic source tracking",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "That's enough to build a solid foundation — everything after this point is about adding capacity and precision, not fixing something fundamentally missing.",
+          },
+        ],
+      },
+      {
+        heading: "What Should a Growing Rental Company Add Next?",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Deeper automation across more of the customer journey",
+              "CRM and rental management software integration",
+              "An AI receptionist for missed-call and after-hours coverage",
+              "Better marketing attribution",
+              "Structured reactivation workflows",
+              "More detailed reporting",
+              "Multi-location or multi-territory lead routing",
+              "More advanced customer segmentation",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Signs Your Rental Tech Stack Is Too Complicated",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "The same data gets entered into two or three different systems by hand",
+              "Nobody is quite sure where a given customer's history actually lives",
+              "Duplicate or conflicting automations fire for the same event",
+              "Follow-ups still get missed despite having tools meant to catch them",
+              "Customer records disagree with each other across systems",
+              "Subscriptions are being paid for tools nobody actually opens anymore",
+              "Reporting still requires manually assembling a spreadsheet from scratch",
+              "One employee understands the whole setup and everyone else just works around it",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "If five systems all know a different version of the same customer, that's not really a tech stack. Those are witnesses.",
+          },
+        ],
+      },
+      {
+        heading: "Signs Your Rental Tech Stack Is Too Basic",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Leads live in text message threads, not a system",
+              "There's no way to tell where a lead actually came from",
+              "No shared customer record exists outside of memory",
+              "Missed calls simply disappear",
+              "Quotes go out with no structured follow-up",
+              "There's no review request process",
+              "Past customers are never systematically reactivated",
+              "There's no visibility into which leads were won or lost, or why",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How to Choose Software for a Rental Business",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Before adding anything new, it's worth checking it against a short list of questions:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Does it solve a real workflow problem, or just sound useful?",
+              "Will the team actually use it day to day?",
+              "Does it integrate with what's already in place?",
+              "Can customer data move between systems without manual re-entry?",
+              "Does it fit the actual rental categories and workflow in use?",
+              "Does it improve visibility or genuinely reduce manual work?",
+              "Can it scale as the business grows, or will it need replacing in a year?",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What Rental Business Software Should Integrate With What?",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Website and forms should feed the CRM",
+              "Phone and SMS should feed the CRM",
+              "The CRM should trigger automation",
+              "The CRM and rental management software should sync where practical",
+              "A completed rental should trigger a review request",
+              "Customer history should feed reactivation",
+              "Ad, call, and form tracking should feed reporting",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What Should a Rental Company Work on First?",
+        blocks: [
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Map the current customer journey, start to finish",
+              "Identify exactly where leads get lost or stall",
+              "Pick one central customer record to build around",
+              "Connect phone and forms to that record",
+              "Standardize pipeline stages",
+              "Automate basic follow-up",
+              "Connect operational tools so fulfillment data flows back",
+              "Add review and reactivation workflows",
+              "Improve attribution",
+              "Add AI where it solves a real, specific problem",
+              "Build reporting around the decisions it needs to support",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The Bottom Line",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The goal isn't to build the most advanced tech stack available. It's to build a connected operating system that helps the company get found, respond faster, stay organized, fulfill rentals reliably, measure its marketing, and create more value from every customer it already has.",
+          },
+          {
+            type: "paragraph",
+            text: `That's the same thinking behind how Rental Growth Systems approaches ${link("Customer Acquisition", "/solutions/customer-acquisition")}, ${link("Digital Infrastructure", "/solutions/digital-infrastructure")}, and ${link("Customer Value", "/solutions/customer-value")} as three connected systems rather than three separate problems — across any of the ${link("rental categories", "/industries")} a company serves, the tools matter less than whether they actually work together.`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What software does a rental company need?",
+        answer:
+          "Most growing rental companies need some combination of a lead-capturing website, phone and SMS, a CRM, automation, rental management or booking software, marketing-source tracking, a review system, reactivation tools, and basic reporting. Not every company needs every piece immediately — it depends on where leads are currently getting lost.",
+      },
+      {
+        question: "What is the best tech stack for a rental business?",
+        answer:
+          "The best tech stack isn't the one with the most tools — it's the one where the important tools share information and support a clear operating process from lead to completed rental to repeat business. A smaller, connected stack usually outperforms a larger, disconnected one.",
+      },
+      {
+        question: "Does a rental company need a CRM?",
+        answer:
+          "Most rental companies benefit from one once leads and customers become too numerous to track reliably by memory or spreadsheet. A CRM centralizes lead source, quotes, communication history, and follow-up status so nothing depends on one person remembering it.",
+      },
+      {
+        question: "What is the difference between CRM and rental management software?",
+        answer:
+          "A CRM manages relationships, leads, and sales pipeline. Rental management software manages inventory, scheduling, dispatch, and fulfillment. Many companies eventually use both, sometimes connected, since they solve different parts of the business.",
+      },
+      {
+        question: "What should a rental company automate first?",
+        answer:
+          "Instant lead acknowledgment and missed-call text-back tend to have the most immediate impact, followed by quote follow-up and completed-rental review requests. These are repetitive handoffs, not judgment calls, which makes them good automation candidates.",
+      },
+      {
+        question: "How can AI be used in a rental business?",
+        answer:
+          "Common uses include AI receptionists for missed-call handling and intake, lead qualification, call summaries, draft responses, and reporting summaries. Humans should stay involved for complicated pricing, exceptions, upset customers, and anything requiring real judgment.",
+      },
+      {
+        question: "Do all rental-business tools need to integrate?",
+        answer:
+          "Not perfectly, but customer and lead data should flow between the core systems — website, phone, CRM, and rental management — without being manually re-entered everywhere. Where integration isn't practical, consistency between systems becomes even more important.",
+      },
+    ],
+  },
 ];
 
 function blockText(block: ContentBlock): string {
