@@ -3,6 +3,7 @@ import { BOOKING_URL } from "../lib/links";
 const DEFAULT_HEADLINE = "Build the Systems Behind Your Next Stage of Growth";
 const DEFAULT_COPY =
   "Let's talk about your goals and how Rental Growth Systems can help you get there.";
+const DEFAULT_BUTTON_TEXT = "Book a Quick Fit Call";
 
 // Optional overrides let other pages (e.g. /industries/[slug]) adapt the
 // supporting copy while keeping the same section — the homepage's prop-less
@@ -10,9 +11,11 @@ const DEFAULT_COPY =
 export default function FinalCTA({
   headline = DEFAULT_HEADLINE,
   copy = DEFAULT_COPY,
+  buttonText = DEFAULT_BUTTON_TEXT,
 }: {
   headline?: string;
   copy?: string;
+  buttonText?: string;
 } = {}) {
   return (
     <section className="relative overflow-hidden bg-navy-900 py-20 sm:py-28" id="book-call">
@@ -32,7 +35,7 @@ export default function FinalCTA({
             href={BOOKING_URL}
             className="inline-flex items-center rounded-lg bg-orange-500 px-8 py-3.5 text-base font-semibold text-white shadow-lg transition-all hover:bg-orange-600 hover:shadow-xl active:scale-[0.98]"
           >
-            Book a Quick Fit Call
+            {buttonText}
           </a>
         </div>
       </div>
