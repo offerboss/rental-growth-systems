@@ -3463,6 +3463,879 @@ const RESOURCE_INPUTS: ResourceInput[] = [
       },
     ],
   },
+  {
+    slug: "customer-reactivation-for-rental-companies",
+    title: "Customer Reactivation for Rental Companies: How to Turn Past Customers Into Repeat Revenue",
+    metaTitle: "Customer Reactivation for Rental Companies",
+    metaDescription:
+      "Learn how rental companies can reactivate past customers using customer history, segmentation, SMS, email, automation, and better follow-up to generate repeat business.",
+    excerpt:
+      "Most rental companies already have revenue sitting in their customer database. Here's how to turn past customers into relevant, well-timed repeat opportunities.",
+    category: "Customer Value",
+    publishedDate: "2026-10-31",
+    author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/rental-customer-reactivation.png",
+      alt: "Rental customer reactivation workflow using customer history, segmentation, follow-up, repeat rental, and referral opportunities",
+      width: 1672,
+      height: 941,
+    },
+    relatedResources: [
+      "how-to-track-customer-history-in-a-rental-business",
+      "how-to-grow-a-rental-business-without-spending-more-on-ads",
+      "what-crm-should-a-rental-company-use",
+    ],
+    intro: [
+      {
+        type: "paragraph",
+        text: "A rental company reactivates past customers by keeping accurate customer history, segmenting that list instead of treating it as one group, identifying who's likely to have a repeat need, reaching out at a relevant time through SMS, email, or a call, automating the reminder where it makes sense, and tracking what actually happens afterward.",
+      },
+      {
+        type: "paragraph",
+        text: "That's a different thing than mass marketing to an old customer list. A past customer sitting untouched in a CRM isn't really a reactivation strategy — it's storage. Reactivation is about relevance and timing, not volume.",
+      },
+    ],
+    sections: [
+      {
+        heading: "What Is Customer Reactivation?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Customer reactivation means reconnecting with a past customer who isn't currently renting but may have another relevant need, with the goal of turning that relationship back into a booking.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Active customer — currently renting or mid-relationship",
+              "Repeat customer — has rented more than once, on some pattern",
+              "Inactive customer — hasn't rented in a while but hasn't explicitly left",
+              "Lapsed customer — inactive long enough that the relationship has gone cold",
+              "Reactivation opportunity — an inactive or lapsed customer with a plausible, specific reason to rent again",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Why Reactivation Matters for Rental Companies",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Rental businesses are particularly well suited to this because so many customers have genuinely recurring needs: contractors move between projects, event planners run events on a calendar, venues host multiple events a year, homeowners eventually have another cleanout or remodel, and municipalities and commercial accounts tend to have ongoing requirements.",
+          },
+          {
+            type: "paragraph",
+            text: "A past customer already knows the business — what it offers, how it operates, whether the experience was good. That relationship starts with more context than a brand-new lead, which is the main reason reactivation is worth a deliberate system rather than an occasional afterthought. It's also the reason a reactivation conversation tends to move faster than a cold one: there's no need to re-explain who the company is or what it does.",
+          },
+        ],
+      },
+      {
+        heading: "Which Past Customers Should You Reactivate?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Not every past customer is a good reactivation candidate. A few categories worth building around:",
+          },
+          { type: "subheading", text: "Recent customers" },
+          { type: "paragraph", text: "Completed a rental recently and may have another need soon." },
+          { type: "subheading", text: "Repeat customers who went quiet" },
+          { type: "paragraph", text: "Had a prior recurring pattern that suddenly stopped." },
+          { type: "subheading", text: "Seasonal customers" },
+          { type: "paragraph", text: "Tied to events, construction seasons, or annual projects." },
+          { type: "subheading", text: "Contractors and commercial accounts" },
+          { type: "paragraph", text: "Have recurring jobsite needs on an ongoing basis." },
+          { type: "subheading", text: "Event planners and venues" },
+          { type: "paragraph", text: "Rental needs that repeat predictably throughout the year." },
+          { type: "subheading", text: "One-time customers with predictable future needs" },
+          { type: "paragraph", text: "Homeowners, property managers, and businesses with a plausible next project." },
+        ],
+      },
+      {
+        heading: "Use Customer History to Decide Who to Contact",
+        blocks: [
+          {
+            type: "paragraph",
+            text: `Better ${link("customer history", "/resources/how-to-track-customer-history-in-a-rental-business")} creates better reactivation. Useful data points include:`,
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Last rental date",
+              "Rental category and unit or equipment rented",
+              "Customer type",
+              "Rental frequency",
+              "Service area",
+              "Job or event type",
+              "Original lead source",
+              "Quote history, including won/lost outcomes",
+              "Communication history",
+              "Review status",
+              "Referral history",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Segment Past Customers Before You Contact Them",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A few practical segments: dumpster contractors, homeowners, portable toilet construction customers, portable toilet event customers, restroom trailer event planners, equipment contractors, event rental planners, and repeat commercial accounts.",
+          },
+          {
+            type: "paragraph",
+            text: "Sending the same \"we miss you\" message to a contractor and a one-time homeowner is technically follow-up. It just isn't very thoughtful follow-up — each segment has a different reason to rent again, and the timing and message should reflect that.",
+          },
+        ],
+      },
+      {
+        heading: "When Should a Rental Company Reactivate a Past Customer?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Timing should reflect the customer's likely need cycle, not a fixed calendar date. Reasonable triggers include:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Based on the customer's normal rental frequency",
+              "Ahead of seasonal demand relevant to their category",
+              "Around the anniversary of a past event",
+              "Before construction season ramps up",
+              "After a reasonable period of inactivity for that customer type",
+              "When a related service becomes newly relevant",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What Should a Reactivation Message Say?",
+        blocks: [
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Identify the customer and the context",
+              "Reference the prior relationship when it's appropriate",
+              "Give a relevant, specific reason for reaching out",
+              "Make the next step easy",
+              "Keep it short",
+            ],
+          },
+          { type: "subheading", text: "Contractor example" },
+          { type: "paragraph", text: "\"Hi [Name], wrapping up a project soon? Happy to get a dumpster scheduled whenever you need one.\"" },
+          { type: "subheading", text: "Homeowner example" },
+          { type: "paragraph", text: "\"Hi [Name], it's been a while since your last rental with us. Starting a new project this year? We're happy to help.\"" },
+          { type: "subheading", text: "Event planner example" },
+          { type: "paragraph", text: "\"Hi [Name], event season is coming up. Want to get your restroom trailer dates locked in early this year?\"" },
+          { type: "subheading", text: "Commercial account example" },
+          { type: "paragraph", text: "\"Hi [Name], checking in ahead of your next cycle — let us know if you'd like to set up recurring service again.\"" },
+        ],
+      },
+      {
+        heading: "Should You Use SMS, Email, or Phone?",
+        blocks: [
+          { type: "subheading", text: "SMS" },
+          { type: "paragraph", text: "Simple, fast, and conversational — a good fit when texting was already part of the relationship." },
+          { type: "subheading", text: "Email" },
+          { type: "paragraph", text: "Useful for commercial accounts, gives more room for context, and works well for seasonal reminders." },
+          { type: "subheading", text: "Phone" },
+          { type: "paragraph", text: "Valuable for high-value accounts and recurring contractor relationships, where personal context matters." },
+          {
+            type: "paragraph",
+            text: "The reliable rule is to use whichever channel the customer already communicates through. And regardless of channel, outreach should honor opt-outs and any applicable messaging and marketing requirements — this isn't legal advice, but it's a baseline any reactivation system should build in from the start.",
+          },
+        ],
+      },
+      {
+        heading: "Can Customer Reactivation Be Automated?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Yes, when it's built thoughtfully. Good automation candidates:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Tag a customer after a completed rental",
+              "Store and calculate the last-rental date",
+              "Create a follow-up task automatically",
+              "Enter the customer into the appropriate segment",
+              "Trigger a seasonal reminder",
+              "Send a personalized SMS or email",
+              "Alert a salesperson for high-value accounts",
+              "Stop the workflow the moment a customer books",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: `Automate the reminder and the routing; preserve human judgment where it actually matters. This connects directly to ${link("Digital Infrastructure", "/solutions/digital-infrastructure")} and the ${link("CRM", "/resources/what-crm-should-a-rental-company-use")} that holds the data driving it.`,
+          },
+        ],
+      },
+      {
+        heading: "Examples of Rental Customer Reactivation Campaigns",
+        blocks: [
+          { type: "subheading", text: "Dumpster rental" },
+          { type: "paragraph", text: "Past contractor customers approaching another likely project cycle." },
+          { type: "subheading", text: "Portable toilets" },
+          { type: "paragraph", text: "Construction customers with recurring jobsite needs." },
+          { type: "subheading", text: "Restroom trailers" },
+          { type: "paragraph", text: "Wedding and event planners approaching the next event season." },
+          { type: "subheading", text: "Event rentals" },
+          { type: "paragraph", text: "Planners and venues with events that repeat on a calendar." },
+          { type: "subheading", text: "Equipment rentals" },
+          { type: "paragraph", text: "Contractors with ongoing or upcoming project needs." },
+        ],
+      },
+      {
+        heading: "How Reactivation Differs for Contractors vs. Homeowners",
+        blocks: [
+          { type: "subheading", text: "Contractors" },
+          { type: "paragraph", text: "Recurring needs, project-cycle timing, a more relationship-based dynamic — more frequent contact can genuinely be relevant here." },
+          { type: "subheading", text: "Homeowners" },
+          { type: "paragraph", text: "Less frequent, more event- or project-driven, and better served by more selective, less frequent follow-up." },
+          {
+            type: "paragraph",
+            text: "The same automation shouldn't treat both groups identically — a contractor getting quarterly check-ins makes sense; a homeowner getting the same cadence starts to feel like spam.",
+          },
+        ],
+      },
+      {
+        heading: "How Reactivation Works With Reviews and Referrals",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A reactivation workflow is also a convenient place to catch gaps: customers who never received a review request, happy customers who might refer others, repeat customers who tend to be good referral sources, and customers whose past feedback hints at another opportunity.",
+          },
+          {
+            type: "paragraph",
+            text: `See our guide on ${link("getting more Google reviews", "/resources/how-to-get-more-google-reviews-for-a-rental-business")} for more on asking well — the short version here is the same: ask consistently and honestly, never incentivize a positive review specifically.`,
+          },
+        ],
+      },
+      {
+        heading: "How Reactivation Creates More Customer Value",
+        blocks: [
+          {
+            type: "paragraph",
+            text: `Customer value isn't only about raising prices. It grows through repeat rentals, relevant cross-sells, additional services, referrals, reviews, and longer relationships overall — the operational core of ${link("Customer Value Systems", "/solutions/customer-value")}. A contractor who rents from the same company for three years is worth more than the sum of those individual rentals, simply because the relationship removes friction from every job after the first one.`,
+          },
+        ],
+      },
+      {
+        heading: "Common Customer Reactivation Mistakes",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Blasting every past customer with the same message",
+              "Sending offers that aren't actually relevant to that customer",
+              "Contacting people too frequently",
+              "Ignoring customer history entirely",
+              "Skipping segmentation and treating the list as one group",
+              "Sending messages with no context about the prior relationship",
+              "Forgetting to honor opt-outs",
+              "Letting automation keep running after a customer already responded or booked",
+              "Measuring messages sent instead of bookings and revenue",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Automation without segmentation just gets the irrelevant message out faster.",
+          },
+        ],
+      },
+      {
+        heading: "How to Track Reactivation in Your CRM",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Useful fields and tags:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Last rental date",
+              "Customer segment",
+              "Last reactivation contact",
+              "Next reactivation date",
+              "Reactivation campaign",
+              "Response",
+              "Booked or not booked",
+              "Rental category",
+              "Customer type",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "If your customer database only gets opened when someone needs to find an old phone number, there's probably more revenue hiding in it than you'd think.",
+          },
+        ],
+      },
+      {
+        heading: "What Should a Rental Company Automate First?",
+        blocks: [
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Track completed rentals",
+              "Store the last-rental date",
+              "Segment customers",
+              "Create reactivation eligibility rules",
+              "Start with one customer segment",
+              "Create one SMS or email campaign",
+              "Add salesperson tasks for high-value accounts",
+              "Track replies and bookings",
+              "Improve based on what actually happens",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "A Simple Rental Customer Reactivation Workflow",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Completed rental, customer history updated, customer segmented, reactivation date reached, SMS/email/call sent, customer responds, quote or booking, new rental, review or referral, future reactivation. Each step feeds the next — if one is missing, the chain stalls at that point rather than producing a repeat booking.",
+          },
+        ],
+      },
+      {
+        heading: "How Often Should You Run Reactivation Campaigns?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "There's no single universal schedule that fits every rental company. The right cadence depends on customer type, normal rental frequency, seasonality, category, and the customer's own past behavior — a contractor on a monthly project cycle and a homeowner who rents once every few years need very different timelines, not the same quarterly blast.",
+          },
+        ],
+      },
+      {
+        heading: "How Do You Know If Reactivation Is Working?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Simple operational metrics worth watching: customers contacted, replies, conversations started, quotes sent, bookings, repeat rentals, revenue tied back to reactivated customers, opt-outs, and performance by segment. Tracking by segment specifically tends to be the most useful cut — it's usually how a company discovers that one group responds well and another doesn't, rather than concluding reactivation broadly does or doesn't work.",
+          },
+        ],
+      },
+      {
+        heading: "What Should a Rental Company Work on First?",
+        blocks: [
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Clean the customer database",
+              "Track last rental date",
+              "Identify customer types",
+              "Build simple segments",
+              "Pick one high-potential segment",
+              "Write one relevant message",
+              "Send manually first if needed",
+              "Track responses",
+              "Automate once the process works",
+              "Expand to other segments",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The Bottom Line",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Rental companies don't always need more leads. Sometimes they need to do more with the customers they already earned.",
+          },
+          {
+            type: "paragraph",
+            text: `A good reactivation system uses customer history, segmentation, timing, relevant follow-up, and automation to create more repeat opportunities — without turning the customer database into a spam list. It's the same idea behind ${link("Customer Value", "/solutions/customer-value")} and ${link("Digital Infrastructure", "/solutions/digital-infrastructure")} working together: the ${link("tech stack", "/resources/rental-business-tech-stack")} holds the history, and the system decides what to actually do with it.`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is customer reactivation for a rental company?",
+        answer:
+          "Customer reactivation is the process of reconnecting with a past customer who isn't currently renting but may have another relevant need, with the goal of turning that relationship into another booking rather than letting it sit idle.",
+      },
+      {
+        question: "How do you reactivate past rental customers?",
+        answer:
+          "By keeping accurate customer history, segmenting past customers instead of treating them as one group, identifying who's likely to have a repeat need, reaching out at a relevant time, and tracking what happens afterward so the approach can improve.",
+      },
+      {
+        question: "When should a rental company contact an old customer?",
+        answer:
+          "Timing should match the customer's likely need cycle — based on their normal rental frequency, ahead of seasonal demand, around the anniversary of a past event, or after a reasonable period of inactivity for that customer type. There's no single universal timeframe that fits every business.",
+      },
+      {
+        question: "Can rental customer reactivation be automated?",
+        answer:
+          "Yes. Tagging completed rentals, storing last-rental dates, segmenting customers, and triggering reminders can all be automated. Human judgment should stay involved for high-value accounts and anything that needs real context, and automation should stop once a customer responds or books.",
+      },
+      {
+        question: "What should a rental customer reactivation message say?",
+        answer:
+          "Identify the customer and context, reference the prior relationship when appropriate, give a specific and relevant reason for reaching out, make the next step easy, and keep it short. A generic \"we miss you\" message sent to everyone isn't a reactivation strategy.",
+      },
+      {
+        question: "How often should a rental company contact past customers?",
+        answer:
+          "It depends on customer type, rental frequency, seasonality, and category rather than a fixed universal schedule. A contractor with recurring projects can reasonably hear from a company more often than a homeowner with an occasional one-time need.",
+      },
+      {
+        question: "Which rental customers are the best candidates for reactivation?",
+        answer:
+          "Recent customers who may have another need soon, repeat customers who went quiet, seasonal customers tied to events or project cycles, contractors and commercial accounts with recurring needs, and event planners or venues with predictable future rentals.",
+      },
+    ],
+  },
+  {
+    slug: "how-rental-companies-can-get-found-in-ai-search",
+    title: "How Can a Rental Company Get Found in ChatGPT, Google AI, and Other AI Search Tools?",
+    metaTitle: "How Rental Companies Can Get Found in ChatGPT & AI Search",
+    metaDescription:
+      "Learn how rental companies can improve visibility in ChatGPT, Google AI, and other AI search tools using strong SEO, clear content, reviews, entity signals, and third-party mentions.",
+    excerpt:
+      "AI search isn't a separate discipline from SEO — it's an extension of it. Here's what actually helps a rental company show up in ChatGPT, Google AI, and similar tools.",
+    category: "Customer Acquisition",
+    publishedDate: "2026-10-31",
+    author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/rental-company-ai-search.png",
+      alt: "Rental company AI search visibility workflow connecting website content, local search, reviews, directories, and AI answer engines",
+      width: 1672,
+      height: 941,
+    },
+    relatedResources: [
+      "seo-for-dumpster-rental-companies",
+      "seo-for-portable-toilet-rental-companies",
+      "rental-business-tech-stack",
+    ],
+    intro: [
+      {
+        type: "paragraph",
+        text: "A rental company improves its chances of showing up in ChatGPT, Google AI Overviews, and similar tools the same way it improves traditional search visibility: clear website content, strong local and service pages, direct answers to real customer questions, reviews, consistent business information across the web, relevant external mentions, a crawlable site, and appropriate structured data.",
+      },
+      {
+        type: "paragraph",
+        text: "AI search doesn't replace SEO — it depends on the same underlying fundamentals, plus a few additional habits worth building. No tactic on this page guarantees a citation from any AI tool; this is about improving the odds, not promising a result.",
+      },
+    ],
+    sections: [
+      {
+        heading: "What Is AI Search Optimization for a Rental Company?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A few terms get used interchangeably here, and they overlap more than they differ:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "SEO (search engine optimization) — making a website easier for search engines to find, understand, and rank",
+              "AEO (answer engine optimization) — structuring content so it can be directly extracted as an answer, by a search engine or an AI tool",
+              "GEO (generative engine optimization) — a newer term for optimizing specifically for AI-generated answers and summaries",
+              "AI search — the broad category of tools like ChatGPT, Google AI Overviews, and Perplexity that answer questions directly instead of just listing links",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "In practice, a rental company doesn't need a separate strategy for each term. They all reward roughly the same thing: a clear, trustworthy, well-structured source of information.",
+          },
+        ],
+      },
+      {
+        heading: "Does SEO Still Matter for ChatGPT and AI Search?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Yes. AI engines still need discoverable, understandable, trustworthy information to draw from — they don't conjure answers from nothing. Crawlability, page quality, topical relevance, authority, local relevance, and structured information all still matter.",
+          },
+          {
+            type: "paragraph",
+            text: "SEO alone doesn't guarantee AI visibility, and nothing honestly can. But a site with weak SEO fundamentals is starting from a worse position with AI tools too, not a neutral one.",
+          },
+        ],
+      },
+      {
+        heading: "Start With a Clear Business Entity",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Search engines and AI systems need to understand what a business actually is: its name, services, locations served, category, website, phone number, relevant business relationships, and what makes it distinct from similar companies nearby.",
+          },
+          {
+            type: "paragraph",
+            text: "If your website can't clearly explain what you do, where you do it, and who you serve, an AI system isn't going to have an easier time figuring it out than a human visitor would. A dumpster company whose homepage never mentions dumpster rental, service area, or sizes — because it's all implied by a logo and a stock photo — is a real, common example of this problem.",
+          },
+        ],
+      },
+      {
+        heading: "Make Your Website Easy to Crawl and Understand",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Indexable pages with a clean, logical site structure",
+              "Descriptive URLs rather than unlabeled strings of characters",
+              "Consistent canonical tags so duplicate versions of a page don't compete with each other",
+              "A working XML sitemap and a robots.txt that doesn't accidentally block important crawlers",
+              "Readable HTML content — key information shouldn't be locked entirely behind JavaScript interactions where it can be avoided",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "This is intentionally basic. It's also the step most often skipped, usually because the site technically loads fine for a human sitting in front of it.",
+          },
+        ],
+      },
+      {
+        heading: "Create Strong Service Pages",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Dumpster rental, portable toilet rental, restroom trailer rental, tent rental, equipment rental — each deserves its own page that clearly answers what the service is, who it's for, the service area, common use cases, how to request a quote, and a few relevant FAQs.",
+          },
+          {
+            type: "paragraph",
+            text: "A single vague \"services\" page trying to cover everything tends to serve none of it well.",
+          },
+        ],
+      },
+      {
+        heading: "Create Useful City and Service-Area Pages",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Local pages help both traditional local search and the context an AI system draws on. A useful one includes real service coverage, genuinely local detail, customer use cases, logistics considerations, a few honest FAQs, and links to relevant service pages.",
+          },
+          {
+            type: "paragraph",
+            text: "Creating fifty thin pages by swapping in a new city name and calling it an AI strategy doesn't hold up — for a human reader or a system summarizing the page.",
+          },
+        ],
+      },
+      {
+        heading: "Answer the Questions Customers Actually Ask",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This is one of the most extractable things a rental company's content can do. Real examples: how many dumpsters does a cleanout need, how many portable toilets does an event of a given size need, what size dumpster fits a kitchen remodel, how much notice is required, is a permit needed, what's the difference between a restroom trailer and a standard portable toilet, which equipment fits a specific project.",
+          },
+          {
+            type: "paragraph",
+            text: "A reliable pattern: state the question, give a direct answer immediately, add supporting explanation and context, then a clear next step. Burying the answer under three paragraphs of preamble helps no one, including the reader.",
+          },
+        ],
+      },
+      {
+        heading: "Write Content in Clear, Self-Contained Sections",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Descriptive headings, a direct first sentence, lists, comparisons, plain definitions, and FAQs all help a reader and an answer engine extract the right section without needing the rest of the page for context.",
+          },
+          {
+            type: "paragraph",
+            text: "Bloated intros and vague marketing language do the opposite — they make a section harder to lift out and reuse as a direct answer.",
+          },
+        ],
+      },
+      {
+        heading: "Build Topical Authority Around Rental-Specific Problems",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "One article rarely does the job alone. Topic clusters tend to work better:",
+          },
+          { type: "subheading", text: "Dumpster rental" },
+          { type: "paragraph", text: "Lead generation, SEO, sizing, permits, pricing factors, service-area questions." },
+          { type: "subheading", text: "Portable toilets" },
+          { type: "paragraph", text: "SEO, event planning, construction needs, ADA requirements, hand-wash stations, restroom trailers." },
+          { type: "subheading", text: "Business growth" },
+          { type: "paragraph", text: "CRM, customer history, reviews, reactivation, speed-to-lead, tech stack." },
+          {
+            type: "paragraph",
+            text: `This is the same reasoning behind the broader ${link("Rental Growth Systems resources library", "/resources")}: specific, connected content across a category builds more topical depth than one standalone piece ever could.`,
+          },
+        ],
+      },
+      {
+        heading: "Use Internal Links to Show Relationships Between Topics",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Industry pages should link to relevant service content",
+              "Service content should link to deeper resource articles",
+              "Resource articles should link to related resources and relevant solution pages",
+              "No page should be orphaned — reachable only by typing its exact URL",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Internal links help both human visitors and systems understand how topics on a site relate to each other, which is a meaningful part of establishing topical depth.",
+          },
+        ],
+      },
+      {
+        heading: "Why Reviews Matter for AI and Search Visibility",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Reviews support trust, add local business context, reinforce reputation signals, build customer confidence, and factor into local search relevance. They're part of the broader public information footprint a business has — not a direct lever that causes an AI tool to cite a specific page.",
+          },
+          {
+            type: "paragraph",
+            text: `See our guide on ${link("getting more Google reviews", "/resources/how-to-get-more-google-reviews-for-a-rental-business")} for the practical side of this.`,
+          },
+        ],
+      },
+      {
+        heading: "Why Consistent Business Information Matters",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Business name, phone number, website, service category, location and service area, hours, directory listings, and social or business profiles should all say the same thing everywhere they appear.",
+          },
+          {
+            type: "paragraph",
+            text: "Conflicting information — an old phone number on one directory, a different service area on another — creates ambiguity that makes a business genuinely harder to describe with confidence, for a search engine, an AI system, or a customer.",
+          },
+        ],
+      },
+      {
+        heading: "Do Directories Help Rental Companies Show Up in AI Search?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Relevant, category-specific directories can help create third-party references, category context, service-area context, and additional discovery paths — categories like portable toilet or dumpster rental directories exist specifically to give customers and systems a way to compare providers in one place.",
+          },
+          {
+            type: "paragraph",
+            text: "That's different from guaranteeing an AI citation. A directory listing is one data point among many, not a shortcut past everything else on this page.",
+          },
+        ],
+      },
+      {
+        heading: "Why Third-Party Mentions Matter",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Industry directories, local associations, chambers of commerce, venue or contractor partner pages, sponsorships, local press, and mentions in genuinely useful resource content all add up to the same idea: consistent information appearing across multiple independent sources tends to build more confidence than a business only describing itself.",
+          },
+          {
+            type: "paragraph",
+            text: "This matters at the margins, not as a single decisive factor — it's one more piece of a broader, honest public footprint.",
+          },
+        ],
+      },
+      {
+        heading: "What Role Does Structured Data Play?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Organization, WebSite, LocalBusiness where it's genuinely valid, Article, FAQ, and Breadcrumb schema all help clarify meaning and relationships in ways that are easier for machines to parse than plain prose alone.",
+          },
+          {
+            type: "paragraph",
+            text: "Schema is helpful. It is not fairy dust — it helps a system interpret content that's already clear and useful; it doesn't manufacture authority or quality that isn't there in the first place.",
+          },
+        ],
+      },
+      {
+        heading: "Should a Rental Company Optimize for ChatGPT Specifically?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "No — not as a standalone strategy. Adding \"AI optimized\" to a page title is not, unfortunately, a strategy, and content built narrowly for one platform tends to age poorly as these tools keep changing.",
+          },
+          {
+            type: "paragraph",
+            text: "A stronger approach optimizes for clarity, authority, usefulness, entity consistency, crawlability, and real customer questions — a foundation that holds up across ChatGPT, Google AI, Perplexity, and whatever comes next, rather than chasing one platform's current behavior.",
+          },
+        ],
+      },
+      {
+        heading: "How Can a Rental Company Improve Its Chances of Being Cited by AI?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A few things genuinely improve the odds, without guaranteeing anything:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Give direct answers to real questions, not vague overviews",
+              "Publish original, genuinely useful content rather than reworded competitor copy",
+              "Explain concepts clearly, with specific rental examples",
+              "Keep facts current — outdated pricing or service details undermine trust",
+              "Link related content so context is easy to follow",
+              "Strengthen overall site authority over time",
+              "Earn relevant third-party mentions where they make sense",
+              "Keep business information consistent everywhere it appears",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What Should a Rental Company Avoid?",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Keyword stuffing",
+              "Thin, obviously AI-generated pages with no real substance",
+              "Mass-produced location pages that only swap a city name",
+              "Copied or lightly reworded competitor content",
+              "Fake reviews",
+              "Fake citations or fabricated sources",
+              "Fake author credentials",
+              "Exaggerated claims about results or guarantees",
+              "Stuffing the brand name into content that doesn't need it",
+              "Creating content written only for bots, with no real reader in mind",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How Local SEO and AI Search Work Together",
+        blocks: [
+          { type: "subheading", text: "Local search" },
+          { type: "paragraph", text: "Google Business Profile, city and service pages, reviews, citations, and site authority." },
+          { type: "subheading", text: "AI search" },
+          { type: "paragraph", text: "Entity clarity, useful direct answers, topical depth, third-party context, and content that's easy to retrieve in clean passages." },
+          {
+            type: "paragraph",
+            text: "The overlap is substantial — the same foundation of clear, accurate, well-structured information tends to support both at once, rather than requiring two separate efforts.",
+          },
+        ],
+      },
+      {
+        heading: "A Practical AI Visibility Checklist for Rental Companies",
+        blocks: [
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Make sure the site is crawlable",
+              "Clarify company, services, and locations served",
+              "Strengthen core service pages",
+              "Build genuinely useful city pages",
+              "Answer customer questions directly",
+              "Publish rental-specific content",
+              "Improve internal linking",
+              "Keep business information consistent everywhere",
+              "Build legitimate reviews",
+              "Earn relevant external mentions",
+              "Use structured data appropriately",
+              "Keep content current",
+              "Track what search and AI tools are actually surfacing",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How Do You Know If AI Search Visibility Is Improving?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "There's no perfectly clean way to attribute a specific AI citation back to a specific tactic. Useful signals to watch instead: branded query growth, Search Console query trends, referral traffic where it's visible, customers mentioning they found the business through an AI tool, growing impressions on informational queries, and a widening set of topics the business shows up for.",
+          },
+        ],
+      },
+      {
+        heading: "What Should a Rental Company Work on First?",
+        blocks: [
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Fix crawlability and technical basics",
+              "Clarify entity and business information",
+              "Strengthen core service pages",
+              "Improve local pages",
+              "Publish direct-answer resource content",
+              "Strengthen reviews",
+              "Build relevant external mentions",
+              "Improve internal linking",
+              "Add appropriate structured data",
+              "Monitor and update over time",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The Bottom Line",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Rental companies don't need a separate \"AI website.\" They need a clear, authoritative, useful digital presence that search engines and AI systems can understand just as well as a human customer can.",
+          },
+          {
+            type: "paragraph",
+            text: `That's the same foundation behind ${link("Customer Acquisition", "/solutions/customer-acquisition")}, ${link("Digital Infrastructure", "/solutions/digital-infrastructure")}, and ${link("Customer Value", "/solutions/customer-value")} working together — visibility, systems, and relationships reinforcing each other rather than solving three unrelated problems.`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How can a rental company get found in ChatGPT?",
+        answer:
+          "By building the same fundamentals that support traditional SEO: a crawlable website, clear service and location pages, direct answers to real customer questions, consistent business information, reviews, and relevant third-party mentions. No tactic guarantees a specific citation.",
+      },
+      {
+        question: "Does SEO help a rental company appear in AI search?",
+        answer:
+          "Yes. AI search tools still rely on discoverable, understandable, trustworthy information, which is what SEO fundamentals are built to produce. SEO doesn't guarantee AI visibility, but weak SEO makes AI visibility harder too.",
+      },
+      {
+        question: "What is AEO for a rental company?",
+        answer:
+          "AEO, or answer engine optimization, means structuring content so it can be directly extracted as a clear answer — a direct response to a specific question, followed by supporting context, rather than information buried in a long, unstructured page.",
+      },
+      {
+        question: "Can Google reviews help with AI search visibility?",
+        answer:
+          "Reviews support trust, local relevance, and the broader public information footprint of a business, which can indirectly support AI visibility. Reviews don't directly cause an AI tool to cite a specific page.",
+      },
+      {
+        question: "Do business directories help rental companies appear in AI search?",
+        answer:
+          "Relevant, category-specific directories can add third-party context and discovery paths, which is useful. They don't guarantee an AI citation on their own — they're one data point among several.",
+      },
+      {
+        question: "Does schema markup help with ChatGPT or Google AI?",
+        answer:
+          "Structured data like Organization, LocalBusiness, Article, and FAQ schema helps clarify meaning and relationships for machines. It supports content that's already clear and useful — it doesn't replace good content or substitute for authority.",
+      },
+      {
+        question: "Can a rental company guarantee being cited by an AI tool?",
+        answer:
+          "No. No company can guarantee a citation or recommendation from ChatGPT, Google AI, Perplexity, or any other AI tool. The realistic goal is improving the odds through clear, authoritative, well-structured content — not guaranteeing a specific outcome.",
+      },
+      {
+        question: "What should a rental company optimize first for AI search?",
+        answer:
+          "Start with crawlability and basic technical health, then clarify business and entity information, strengthen core service and local pages, and publish content that answers real customer questions directly. Reviews, third-party mentions, and structured data build on that foundation.",
+      },
+    ],
+  },
 ];
 
 function blockText(block: ContentBlock): string {
