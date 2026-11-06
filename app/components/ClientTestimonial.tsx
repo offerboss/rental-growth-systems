@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import YouTubeEmbed from "./system/YouTubeEmbed";
 
 export default function ClientTestimonial() {
@@ -31,12 +29,12 @@ export default function ClientTestimonial() {
         </div>
 
         <div className="mt-4">
-          <Link
-            href="/system/part-1"
+          <a
+            href="https://grow.rentalgrowthsystems.com/"
             className="text-sm font-semibold text-gray-500 underline underline-offset-4 transition-colors hover:text-orange-600"
           >
-            See How Our Rental Growth Systems Work
-          </Link>
+            See How We Can Grow Your Rental Business →
+          </a>
         </div>
       </div>
     </section>
