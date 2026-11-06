@@ -4,7 +4,7 @@ import { PILLARS } from "./pillars";
 
 export default function ThreeSystems() {
   return (
-    <section className="bg-gray-50 py-20 sm:py-28" id="what-we-build">
+    <section className="bg-gray-50 pt-12 pb-20 sm:pt-16 sm:pb-28" id="what-we-build">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <div className="mx-auto max-w-2xl text-center">
