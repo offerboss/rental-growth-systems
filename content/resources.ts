@@ -25,7 +25,8 @@ export const RESOURCE_CATEGORIES: ResourceCategory[] = [
 export type ContentBlock =
   | { type: "paragraph"; text: string }
   | { type: "subheading"; text: string }
-  | { type: "list"; style: "unordered" | "ordered"; items: string[] };
+  | { type: "list"; style: "unordered" | "ordered"; items: string[] }
+  | { type: "video"; videoId: string; title: string };
 
 export type ResourceSection = {
   heading: string;
@@ -161,6 +162,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
         ],
       },
       {
+        heading: "See How Directory Visibility Works in Practice",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how Rental Growth Systems features a real dumpster rental company across regional directory pages, city pages, and relevant resource content — creating more opportunities for customers to find and contact the business.",
+          },
+          {
+            type: "video",
+            videoId: "WomapWGyDpw",
+            title: "Rental Growth Systems directory showcase walkthrough",
+          },
+        ],
+      },
+      {
         heading: "Make It Easy to Request a Quote",
         blocks: [
           {
@@ -276,6 +291,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
           {
             type: "paragraph",
             text: `Directory listings are one piece of a broader ${link("customer acquisition system", "/solutions/customer-acquisition")} — showing up in local search, capturing the lead, and following up quickly all work together.`,
+          },
+        ],
+      },
+      {
+        heading: "See How Directory Visibility Works in Practice",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how Rental Growth Systems features a real portable toilet rental company across regional directory pages, city pages, and relevant resource content — creating more opportunities for customers to find and contact the business.",
+          },
+          {
+            type: "video",
+            videoId: "WomapWGyDpw",
+            title: "Rental Growth Systems directory showcase walkthrough",
           },
         ],
       },
@@ -1339,6 +1368,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
         ],
       },
       {
+        heading: "See How Directory Visibility Works in Practice",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how Rental Growth Systems features a real dumpster rental company across regional directory pages, city pages, and relevant resource content to create more visibility where customers are already searching.",
+          },
+          {
+            type: "video",
+            videoId: "WomapWGyDpw",
+            title: "Rental Growth Systems directory showcase walkthrough",
+          },
+        ],
+      },
+      {
         heading: "Make the Website Easy to Convert From",
         blocks: [
           {
@@ -2141,6 +2184,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
           {
             type: "paragraph",
             text: `Rental Growth Systems operates ${link("Portable Toilet Finder", PLATFORM_URLS.portableToiletFinder)}, a directory built specifically for this category — listings there put a company in front of customers actively comparing options, and directories like it can support discovery and referral visibility. They're one piece of a broader link picture, not a replacement for the rest of it, and no single listing guarantees a ranking change on its own.`,
+          },
+        ],
+      },
+      {
+        heading: "See How Directory Visibility Works in Practice",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how Rental Growth Systems features a real portable toilet rental company across regional directory pages, city pages, and relevant resource content to create more visibility where customers are already searching.",
+          },
+          {
+            type: "video",
+            videoId: "WomapWGyDpw",
+            title: "Rental Growth Systems directory showcase walkthrough",
           },
         ],
       },
@@ -4143,6 +4200,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
         ],
       },
       {
+        heading: "See How Directory Visibility Works in Practice",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how Rental Growth Systems features a real rental company across regional directory pages, city pages, and relevant resource content — the same kind of independent, third-party presence that search engines and AI tools draw context from.",
+          },
+          {
+            type: "video",
+            videoId: "WomapWGyDpw",
+            title: "Rental Growth Systems directory showcase walkthrough",
+          },
+        ],
+      },
+      {
         heading: "What Role Does Structured Data Play?",
         blocks: [
           {
@@ -4336,10 +4407,1142 @@ const RESOURCE_INPUTS: ResourceInput[] = [
       },
     ],
   },
+  {
+    slug: "seo-for-event-rental-companies",
+    title: "SEO for Event Rental Companies: How to Rank in Google Maps and Local Search",
+    metaTitle: "SEO for Event Rental Companies",
+    metaDescription:
+      "Learn how event rental companies can improve Google Maps and local search visibility using better service pages, city pages, reviews, content, directories, and conversion systems.",
+    excerpt:
+      "What actually helps an event rental company show up in Google Maps and local search — tents, tables, staging, and everything in between.",
+    category: "Customer Acquisition",
+    publishedDate: "2026-11-07",
+    author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/event-rental-seo.png",
+      alt: "Event rental local SEO workflow from Google search and Maps to event rental website and quote request",
+      width: 1672,
+      height: 941,
+    },
+    relatedResources: [
+      "how-to-get-more-google-reviews-for-a-rental-business",
+      "how-rental-companies-can-get-found-in-ai-search",
+      "rental-company-speed-to-lead",
+    ],
+    relatedIndustry: "event-rental",
+    intro: [
+      {
+        type: "paragraph",
+        text: "An event rental company improves its Google Maps and local search visibility by strengthening a handful of things at once: an accurate Google Business Profile, clear service pages for what's actually rented, genuinely useful city pages, event-planning content, reviews, internal links, third-party mentions, and a website that makes it easy to request a quote.",
+      },
+      {
+        type: "paragraph",
+        text: `None of these work especially well alone. A beautifully photographed site with a thin Google Business Profile won't show up in the map pack. A complete profile attached to one generic "Event Rentals" page won't hold up in organic search either. Companies that rank consistently for searches like "tent rental near me" or "party rentals [city]" usually have most of these pieces working together.`,
+      },
+    ],
+    sections: [
+      {
+        heading: "How Local Search Works for Event Rental Companies",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Event rental customers find companies through three overlapping surfaces that reward roughly the same signals.",
+          },
+          { type: "subheading", text: "Google Maps and the Local Pack" },
+          {
+            type: "paragraph",
+            text: "The map pack — local listings shown above organic results for a \"near me\" or city-plus-service search — is usually the first thing a customer sees, driven by profile completeness, relevance, proximity, and reviews.",
+          },
+          { type: "subheading", text: "Organic search results" },
+          {
+            type: "paragraph",
+            text: "Below the map pack, a website competes on content, structure, and authority for searches like comparing tent sizes or figuring out how many tables a 100-guest wedding needs.",
+          },
+          { type: "subheading", text: "AI-generated and conversational recommendations" },
+          {
+            type: "paragraph",
+            text: "AI-generated summaries and conversational tools pull from the same underlying information — business details, reviews, and published content — to answer a question directly.",
+          },
+          {
+            type: "paragraph",
+            text: "The goal isn't \"ranking\" in the abstract — it's showing up for specific, high-intent searches: tent rental near me, party rentals [city], wedding rentals [city], table and chair rental [city], event rental company [city], stage rental [city], event equipment rental near me.",
+          },
+        ],
+      },
+      {
+        heading: "Optimize Your Google Business Profile",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Choose the primary category that actually matches the business — an event or party rental category — and add secondary categories only where genuinely accurate, like tent rental or wedding services. The description should plainly describe what's offered and where, not every event type the business wants to rank for, and stuffing keywords into the business name tends to backfire.",
+          },
+          {
+            type: "paragraph",
+            text: "Service areas should reflect where the company actually delivers, hours should be current, and the phone number should be the one that's actually answered. Real photos of tents, table setups, and completed events outperform stock imagery, and a profile that collects reviews steadily reads as active — one filled out once and never touched again reads as exactly that.",
+          },
+        ],
+      },
+      {
+        heading: "Build Strong Core Service Pages",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "One generic \"Event Rentals\" page trying to cover tents, tables, staging, linens, lighting, and restroom trailers rarely serves any of them well. Separate pages where relevant for tent rentals, tables and chairs, wedding rentals, staging, dance floors, linens, lighting, event furniture, and restroom trailers if offered each let a customer land on exactly what they're looking for.",
+          },
+          {
+            type: "paragraph",
+            text: "Each page should clearly cover what's offered, who it's for, common use cases, service area, setup and delivery expectations, a few honest FAQs, and a quote CTA — not a thin paragraph repeated with a different product name swapped in.",
+          },
+        ],
+      },
+      {
+        heading: "Create Useful City and Service-Area Pages",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A good city page covers actual service coverage, local event types, venue and logistics considerations, the services available there, delivery and setup details, a few relevant FAQs, internal links, and a quote CTA.",
+          },
+          {
+            type: "paragraph",
+            text: "Changing the city name twenty times does not magically turn one page into twenty useful local pages. A handful of genuinely detailed pages for the markets that matter outperforms a long list that only differs by one word.",
+          },
+        ],
+      },
+      {
+        heading: "Create Content Around Real Event Planning Questions",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Content built around what customers are actually trying to figure out gives them a real answer and gives a site more to genuinely be found for:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "What size tent do I need?",
+              "How many tables and chairs do I need?",
+              "Tent size by guest count",
+              "A wedding rental checklist",
+              "How far in advance should I book event rentals?",
+              "What happens if it rains?",
+              "Outdoor event setup considerations",
+              "Dance floor sizing",
+              "Staging needs",
+              "Power and lighting considerations",
+              "Restroom planning for outdoor events",
+              "Venue restrictions to check before booking",
+              "Delivery and setup timelines",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "This kind of content supports topical authority and gives search engines — and AI tools summarizing a category — real context that the business knows what it's talking about.",
+          },
+        ],
+      },
+      {
+        heading: "Build Content Around Event Types",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Weddings, corporate events, festivals, graduations, fundraisers, backyard parties, municipal events, and school events all come with genuinely different needs — a wedding's rental list looks nothing like a corporate product launch's.",
+          },
+          {
+            type: "paragraph",
+            text: "The goal isn't dozens of thin pages for every imaginable event type. It's content for the event categories that genuinely represent different customer needs and search intent.",
+          },
+        ],
+      },
+      {
+        heading: "Use Internal Links to Build Topic Clusters",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Service pages should link to relevant city pages",
+              "City pages should link back to the service pages they cover",
+              `Resource articles — like this one — should link to the industry and solution pages they're relevant to, the same way this guide links to our ${link("event rental industry page", "/industries/event-rental")}`,
+              "Related articles should link to each other where genuinely useful",
+              "No page should be orphaned — reachable only by typing the exact URL",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Reviews Help With Trust and Local Visibility",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Ask real customers consistently, right after a successful event — not just the ones who seem happiest. Requesting reviews across the full customer mix (planners, venues, couples, corporate clients) produces a more credible, representative profile than only chasing reviews from one segment.",
+          },
+          {
+            type: "paragraph",
+            text: `Replying to reviews signals an active business, and fake reviews or review gating tend to produce a profile that doesn't hold up to scrutiny. See our guide on ${link("getting more Google reviews", "/resources/how-to-get-more-google-reviews-for-a-rental-business")} for the practical side of this.`,
+          },
+        ],
+      },
+      {
+        heading: "Keep Business Information Consistent",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Business name, phone, website, service area, category, service descriptions, directory listings, and venue or partner listings should all say the same thing everywhere they appear. Conflicting information creates ambiguity that makes a business harder to describe with confidence.",
+          },
+          {
+            type: "paragraph",
+            text: "The practical version of this isn't submitting to hundreds of directories — it's making sure the handful that actually matter stay accurate and consistent.",
+          },
+        ],
+      },
+      {
+        heading: "Earn Relevant Backlinks and Third-Party Mentions",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Event venues, planners, caterers, wedding vendors, chambers of commerce, tourism organizations, local event guides, municipalities, sponsorships, and industry associations all add up to a more credible public footprint than a large number of unrelated links.",
+          },
+          {
+            type: "paragraph",
+            text: "A handful of genuinely relevant local and industry mentions tends to matter more than chasing volume.",
+          },
+        ],
+      },
+      {
+        heading: "Use Category-Specific Rental Directories",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Relevant directories can create additional discovery paths, category context, service-area context, third-party mentions, and referral traffic — categories like event rental directories exist specifically to help customers compare providers in one place.",
+          },
+          {
+            type: "paragraph",
+            text: `Rental Growth Systems operates ${link("Event Rental Finder", PLATFORM_URLS.eventRentalFinder)}, a directory built specifically for this category. Like any directory, a listing there is one piece of a broader visibility picture — it doesn't guarantee a ranking change on its own.`,
+          },
+        ],
+      },
+      {
+        heading: "See How Directory Visibility Works in Practice",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how Rental Growth Systems features a real rental company across regional directory pages, city pages, and relevant resource content to create more visibility where customers are already searching.",
+          },
+          {
+            type: "video",
+            videoId: "WomapWGyDpw",
+            title: "Rental Growth Systems directory showcase walkthrough",
+          },
+        ],
+      },
+      {
+        heading: "Make the Website Easy to Convert From",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A beautiful tent photo gallery is helpful. Making customers hunt for a quote button is less helpful.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Click-to-call visible on every page",
+              "A quote form with an event date field, location, guest count, and category selection",
+              "Clear delivery area information",
+              "A mobile-friendly layout",
+              "Trust signals — reviews, real event photos, a real phone number",
+              "A clear sense of response time to expect",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Traffic that doesn't convert is a wasted opportunity, not a wasted ranking — the ranking did its job.",
+          },
+        ],
+      },
+      {
+        heading: "Use Photos Without Letting the Site Become a Photo Gallery Only",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Event rental is a visual business, and real event setups and product photos matter — with descriptive alt text and captions where useful. But search engines and AI systems still need real written context to understand what's being shown.",
+          },
+          {
+            type: "paragraph",
+            text: "If Google has to guess whether a company rents tents, chairs, or just really enjoys posting event photos, the site could probably be clearer.",
+          },
+        ],
+      },
+      {
+        heading: "How AI Search Changes Event Rental SEO",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "AI-driven search tends to draw on the same signals covered throughout this guide: clear entity information, useful direct answers, strong service and topic coverage, consistent business facts, reviews, third-party mentions, and well-structured content.",
+          },
+          {
+            type: "paragraph",
+            text: `None of this guarantees a specific AI recommendation or citation — no guide can honestly promise that. See our broader guide on ${link("how rental companies can get found in AI search", "/resources/how-rental-companies-can-get-found-in-ai-search")} for more on this.`,
+          },
+        ],
+      },
+      {
+        heading: "What Should an Event Rental Company Work on First?",
+        blocks: [
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Fix the Google Business Profile",
+              "Strengthen core service pages",
+              "Build important city and service-area pages",
+              "Publish useful event-planning content",
+              "Improve reviews",
+              "Improve internal linking",
+              "Build relevant third-party mentions",
+              "Improve directory visibility",
+              "Improve conversion",
+              "Expand content over time",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "A Simple Event Rental SEO System",
+        blocks: [
+          {
+            type: "paragraph",
+            text: `Google Business Profile, service pages, city pages, helpful content, reviews, directories and third-party mentions, local search visibility, website, quote request, fast follow-up. Each step feeds the next — pull one out and the rest has to work harder to compensate. The last step matters more than it sounds like it should; see our guide on ${link("rental company speed-to-lead", "/resources/rental-company-speed-to-lead")} for more on why.`,
+          },
+        ],
+      },
+      {
+        heading: "Common Event Rental SEO Mistakes",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "One generic service page trying to cover everything",
+              "Thin city pages that only swap the city name",
+              "A Google Business Profile that hasn't been touched since setup",
+              "A beautiful site with weak written context",
+              "Weak internal linking between related pages",
+              "Ignoring reviews",
+              "Inconsistent business information across the web",
+              "No clear path to request a quote",
+              "Slow follow-up on inquiries",
+              "Buying irrelevant backlinks instead of earning relevant ones",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How Long Does Event Rental SEO Take?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "There's no universal timeline. Results depend on competition, market, existing site quality and authority, reviews, content, technical health, and how consistently the work actually happens — a brand-new site in a competitive metro area moves differently than an established business adding its first few city pages.",
+          },
+        ],
+      },
+      {
+        heading: "The Bottom Line",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Event rental SEO works best as a connected system: local visibility, strong service pages, useful planning content, reviews, third-party mentions, conversion, and follow-up all reinforcing each other rather than working in isolation.",
+          },
+          {
+            type: "paragraph",
+            text: `This is the same idea behind Rental Growth Systems' ${link("Customer Acquisition Systems", "/solutions/customer-acquisition")} — visibility and conversion working together, not treated as separate problems.`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How can an event rental company rank higher in Google Maps?",
+        answer:
+          "By keeping the Google Business Profile accurate and complete, collecting reviews consistently, keeping business information consistent across the web, and having a website with real, relevant content for the services and areas served. Proximity to the searcher also plays a role and isn't something a business can control directly.",
+      },
+      {
+        question: "Should event rental companies create a page for every city they serve?",
+        answer:
+          "Only if there's something genuinely useful and specific to say about that city — service coverage, local event types, logistics, relevant FAQs. A thin page with just the city name swapped in usually does more harm than good.",
+      },
+      {
+        question: "Do Google reviews help event rental SEO?",
+        answer:
+          "Yes, reviews are one factor that influences local search visibility, particularly in the map pack, and they directly affect whether a customer comparing companies chooses to call — valuable for conversion as well as rankings.",
+      },
+      {
+        question: "What content should an event rental company publish for SEO?",
+        answer:
+          "Content that answers real event-planning questions — tent sizing, guest-count guidance, booking timelines, weather contingencies, setup logistics — along with clear service pages and city pages. This builds topical depth that both customers and search engines respond to.",
+      },
+      {
+        question: "Do rental directories help event rental companies with SEO?",
+        answer:
+          "Relevant, category-specific directories can add discovery paths and third-party context, which is useful. They're one piece of a broader visibility picture and don't guarantee a ranking change on their own.",
+      },
+      {
+        question: "How long does SEO take for an event rental company?",
+        answer:
+          "It varies based on competition, market, existing site authority, reviews, and content, so there's no universal timeline. Most companies work on several of these areas at once rather than waiting on one to finish before starting another.",
+      },
+      {
+        question: "Can SEO help an event rental company get more leads without paid ads?",
+        answer:
+          "It can reduce reliance on paid ads over time, since organic and map-pack visibility don't carry a cost per click once established. It typically takes longer to build than a paid campaign, which is why many companies run both together.",
+      },
+    ],
+  },
+  {
+    slug: "best-marketing-channels-for-rental-companies",
+    title:
+      "What Marketing Channels Work Best for Rental Companies? SEO, Google Ads, Directories, Referrals, and Repeat Business",
+    metaTitle: "Best Marketing Channels for Rental Companies",
+    metaDescription:
+      "Compare SEO, Google Ads, directories, reviews, referrals, outbound, and repeat business to learn which marketing channels work best for rental companies.",
+    excerpt:
+      "SEO, Google Ads, directories, reviews, referrals, outbound, and repeat business all solve different problems — here's how to decide where a rental company's budget and attention should go.",
+    category: "Customer Acquisition",
+    publishedDate: "2026-11-07",
+    author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/rental-company-marketing-channels.png",
+      alt: "Rental company marketing channels comparing SEO, Google Ads, directories, reviews, referrals, and repeat business",
+      width: 1672,
+      height: 941,
+    },
+    relatedResources: [
+      "rental-business-tech-stack",
+      "how-to-grow-a-rental-business-without-spending-more-on-ads",
+      "customer-reactivation-for-rental-companies",
+    ],
+    intro: [
+      {
+        type: "paragraph",
+        text: "The rental companies that market themselves well rarely rely on one channel. The strongest mix usually combines a fast channel that captures demand right now (Google Ads, Google Business Profile), a channel that compounds over time (SEO, directories, content), trust signals that help convert that demand (reviews, third-party mentions), and a way to get more value out of customers who already rented (reactivation, referrals, repeat business).",
+      },
+      {
+        type: "paragraph",
+        text: "Which of these matter most, and in what order, depends on the business's stage, budget, market, and how fast it can respond to a new lead. A brand-new dumpster rental company and a ten-year-old portable toilet company with three trucks are not making the same decision.",
+      },
+    ],
+    sections: [
+      {
+        heading: "There Is No Single Best Marketing Channel",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Two companies offering nearly the same service in neighboring markets can end up with completely different ideal channel mixes, because the variables that matter most aren't really about the service — they're about the business running it.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Budget — determines whether paid channels or slower organic channels make more sense right now",
+              "Market and competition — a saturated metro area behaves differently than a market with two competitors",
+              "Service area — a tight local radius favors Google Business Profile and local search over broad paid campaigns",
+              "Average ticket — a $3,000 event rental and a $350 dumpster drop justify different acquisition costs",
+              "Repeat frequency — businesses with regular repeat customers get more value from reactivation than one-off rentals do",
+              "Sales capacity — a channel that generates more leads than the team can call back isn't actually helping",
+              "Speed-to-lead — fast channels like Google Ads only pay off if someone answers quickly",
+              "Operational capacity — a channel is only as good as the crew's ability to deliver on what it promises",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "A company that's tried five channels for two weeks each hasn't really tested five channels.",
+          },
+        ],
+      },
+      {
+        heading: "How to Evaluate a Rental Marketing Channel",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Instead of asking which channel is \"best,\" it's more useful to evaluate each one against the same set of criteria.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Speed — how quickly it can produce a lead",
+              "Cost — what it costs to run, in spend or time",
+              "Intent — how close the lead is to actually wanting to rent",
+              "Control — how much the business can adjust or improve it",
+              "Compounding value — whether it keeps paying off without repeated spend",
+              "Repeatability — whether it works consistently or only occasionally",
+              "Tracking — how easily results can be measured and attributed to it",
+              "Fit — whether it suits a small operation or needs scale to work well",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "No channel scores well on all eight. That's the point — they're meant to be combined, not ranked.",
+          },
+        ],
+      },
+      {
+        heading: "SEO for Rental Companies",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "SEO is the practice of improving a website and Google Business Profile so a company shows up in organic search results and the map pack for the services it offers in the areas it serves, without paying per click.",
+          },
+          { type: "subheading", text: "Strengths" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Keeps working without ongoing ad spend once visibility is established",
+              "Captures high-intent searches like \"dumpster rental near me\"",
+              "Supports local and service-area pages that also help with Maps visibility",
+              "Feeds the same content AI search tools pull from when answering rental questions",
+              "Reduces dependence on paid traffic over time",
+            ],
+          },
+          { type: "subheading", text: "Weaknesses" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Slower to show results than paid channels",
+              "Competitive in crowded metro markets",
+              "Requires ongoing content and technical quality, not a one-time project",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: `SEO tends to work best for companies planning to be around for years, not weeks. See our category-specific guides on ${link("dumpster rental SEO", "/resources/seo-for-dumpster-rental-companies")}, ${link("portable toilet rental SEO", "/resources/seo-for-portable-toilet-rental-companies")}, and ${link("event rental SEO", "/resources/seo-for-event-rental-companies")} for more detail.`,
+          },
+        ],
+      },
+      {
+        heading: "Google Business Profile and Local Search",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A Google Business Profile is the free listing that shows a company's name, reviews, hours, and location in Google Maps and the local map pack above organic results.",
+          },
+          { type: "subheading", text: "Strengths" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Captures nearby, ready-to-call searchers",
+              "Drives phone calls and direction requests directly",
+              "Rewards accurate categories, reviews, and photos",
+              "Strong fit for companies serving a defined local area",
+            ],
+          },
+          { type: "subheading", text: "Weaknesses" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Limited control over the ranking factors themselves",
+              "Harder to stand out in dense, competitive markets",
+              "Performance depends on profile accuracy and review volume, which require upkeep",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "This is foundational, not optional. A company skipping its Google Business Profile to focus on other channels is skipping the listing most local customers see first.",
+          },
+        ],
+      },
+      {
+        heading: "Google Ads",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Google Ads lets a rental company pay to appear at the top of search results for specific keywords — the fastest way to turn on demand on command.",
+          },
+          { type: "subheading", text: "Strengths" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Produces leads quickly, often within days of launch",
+              "Measurable, assuming conversions are tracked correctly",
+              "Captures existing high-intent search demand",
+              "Useful for testing a new service area or offer before committing long-term",
+            ],
+          },
+          { type: "subheading", text: "Weaknesses" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Costs money for every click, good or bad",
+              "Broad-match keywords can burn budget on irrelevant searches",
+              "Weak landing pages and quote forms waste the traffic a campaign generates",
+              "Gets expensive fast without disciplined tracking feeding it",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Google Ads can create leads quickly. It can also create invoices quickly. It works best when a company can respond to a new lead fast and can see, lead by lead, which ones actually turned into a booked rental.",
+          },
+        ],
+      },
+      {
+        heading: "Rental Directories",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Rental directories are third-party sites that list rental companies by category and service area, giving customers another place to find and compare options beyond a single company's own website.",
+          },
+          { type: "subheading", text: "Strengths" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Adds discovery surface area beyond a company's own site",
+              "Provides category-specific context that search engines and AI tools can reference",
+              "Can produce direct referral leads from the directory itself",
+              "Reinforces local and service-area relevance across the broader web",
+            ],
+          },
+          { type: "subheading", text: "Weaknesses" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Not all directories carry the same weight — quality and relevance matter more than quantity",
+              "A listing alone doesn't guarantee leads",
+              "Best treated as one input in a broader visibility strategy, not a replacement for one",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Rental Growth Systems operates a small network of category-specific directories built on the same idea: a listing is one piece of visibility, not the whole plan.",
+          },
+          {
+            type: "paragraph",
+            text: "Here's what that looks like in practice — a real rental company featured across directory pages, city pages, and resource content to create more visibility where customers are already searching.",
+          },
+          {
+            type: "video",
+            videoId: "WomapWGyDpw",
+            title: "Rental Growth Systems directory showcase walkthrough",
+          },
+        ],
+      },
+      {
+        heading: "Reviews",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Reviews aren't a channel that generates traffic on their own — they're what makes every other channel work better.",
+          },
+          { type: "subheading", text: "Strengths" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Builds trust with a customer comparing several companies",
+              "Improves conversion from phone calls and quote requests",
+              "Supports local search credibility and map-pack visibility",
+              "Reinforces confidence for a customer who found the company through ads, SEO, or a directory",
+            ],
+          },
+          { type: "subheading", text: "Weakness" },
+          {
+            type: "paragraph",
+            text: "Reviews don't generate demand by themselves — a company with great reviews and no other acquisition channel still isn't visible to anyone searching.",
+          },
+          {
+            type: "paragraph",
+            text: `See our guide on ${link("how to get more Google reviews", "/resources/how-to-get-more-google-reviews-for-a-rental-business")} for a practical review-request system.`,
+          },
+        ],
+      },
+      {
+        heading: "Referrals and Partnerships",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Referral relationships with contractors, venues, planners, builders, property managers, municipalities, and complementary vendors can produce some of the highest-intent leads a rental company gets — the referring party has already vouched for the business.",
+          },
+          { type: "subheading", text: "Strengths" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Warm intent — the lead arrives with built-in trust",
+              "Relationship leverage that compounds over years, not campaigns",
+              "Often converts at a higher rate than cold channels",
+            ],
+          },
+          { type: "subheading", text: "Weaknesses" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Slower to build than a paid or organic channel",
+              "Less predictable volume month to month",
+              "Requires ongoing relationship maintenance, not just an initial ask",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Customer Reactivation and Repeat Business",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Reactivation means going back into a company's own customer history and reaching out to past renters who haven't booked again — often the most underused channel a rental company has.",
+          },
+          { type: "subheading", text: "Strengths" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "The relationship and trust already exist",
+              "Lower friction than earning a brand-new customer",
+              "Meaningfully increases what each customer is worth over time",
+            ],
+          },
+          { type: "subheading", text: "Weaknesses" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Requires clean, accessible customer history to work from",
+              "Segmentation and timing matter — a dumpster customer from six months ago and a wedding customer from last October need different timing",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: `See our guides on ${link("customer reactivation for rental companies", "/resources/customer-reactivation-for-rental-companies")} and ${link("tracking customer history", "/resources/how-to-track-customer-history-in-a-rental-business")} for how to build this properly.`,
+          },
+        ],
+      },
+      {
+        heading: "Outbound and Local Business Development",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Outbound covers calls, email, direct mail, networking, and direct local partnerships — the parts of marketing that involve a person reaching out rather than waiting for demand to arrive.",
+          },
+          { type: "subheading", text: "Strengths" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Targeted at specific accounts worth pursuing",
+              "Useful for B2B relationships like builders or property managers",
+              "Fully controllable — no algorithm or bidding involved",
+            ],
+          },
+          { type: "subheading", text: "Weaknesses" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Labor-intensive relative to the leads it produces",
+              "Requires real targeting to avoid wasting time",
+              "Can feel spammy when done without specificity or relevance",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "SEO vs Google Ads for Rental Companies",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Neither is categorically better — they solve different problems on different timelines.",
+          },
+          { type: "subheading", text: "SEO" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Slower to build",
+              "Compounds without an ongoing per-click cost",
+              "Less direct control over exact placement",
+              "Becomes a long-term asset",
+            ],
+          },
+          { type: "subheading", text: "Google Ads" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Faster to produce leads",
+              "Costs continue as long as spend continues",
+              "More control over exact placement and targeting",
+              "Stops producing leads the moment spend stops",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Many rental companies run both at once — Google Ads for immediate demand while SEO builds toward needing less of it over time.",
+          },
+        ],
+      },
+      {
+        heading: "Are Rental Directories Worth It?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "It depends on the directory, not on directories as a category.",
+          },
+          {
+            type: "paragraph",
+            text: "Worth considering when a directory offers:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "A category genuinely relevant to the services offered",
+              "Real local or service-area visibility, not just a generic national listing",
+              "Traffic that's actually qualified for rental services",
+              "Enough context and content around the listing to support search and AI visibility",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Not every directory clears that bar, and a listing on even a strong directory isn't a guarantee of leads — it's additional surface area, evaluated the same way as any other channel.",
+          },
+        ],
+      },
+      {
+        heading: "What Marketing Channels Work Best for a New Rental Company?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A brand-new rental company doesn't need every channel on day one. A practical starting mix:",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Google Business Profile, filled out completely and accurately",
+              "A basic website with clear service pages",
+              "Google Ads or another controlled, trackable lead source",
+              "A simple review-request system",
+              "A basic CRM or follow-up process, even a simple one",
+              "One or two directories relevant to the category",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "This combination covers local visibility, a fast and trackable lead source, trust, and basic follow-up — most of what a new company needs before adding anything else.",
+          },
+        ],
+      },
+      {
+        heading: "What Marketing Channels Work Best for a Growing Rental Company?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Once the basics are working and tracked, a growing company typically adds:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "SEO and content",
+              "Paid search running alongside it, not instead of it",
+              "Additional, more targeted directories",
+              "An active reactivation process",
+              "Referral and partnership relationships",
+              "Better attribution, so each channel's actual contribution is visible",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What Marketing Channels Work Best for a Mature Rental Company?",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Diversification, so no single channel is a point of failure",
+              "An SEO and content moat that's hard for competitors to replicate quickly",
+              "Direct brand search demand",
+              "A mature repeat-business and reactivation program",
+              "Deeper, longer-running partnership relationships",
+              "Multi-channel reporting and attribution",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Which Channels Compound Over Time?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Some channels get more valuable the longer a company invests in them, without needing proportionally more spend.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "SEO and content",
+              "Backlinks and third-party mentions",
+              "Directory presence built up over time",
+              "A growing base of reviews",
+              "Partnership relationships",
+              "The customer database itself",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "These are worth protecting even when they're not the fastest-moving line in a report.",
+          },
+        ],
+      },
+      {
+        heading: "Which Channels Produce the Fastest Results?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "When a company needs demand quickly, a few channels respond fastest:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Google Ads",
+              "Outbound to warm or targeted contacts",
+              "Referrals from existing relationships",
+              "Reactivating the existing customer database",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Fast isn't the same as cheap or scalable — these channels tend to need the most ongoing attention to keep producing.",
+          },
+        ],
+      },
+      {
+        heading: "Which Channels Are Best for High-Intent Leads?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "High-intent leads are people actively looking to rent, not just browsing.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Google Search and Google Ads",
+              "Google Business Profile and the map pack",
+              "Relevant rental directories",
+              "Referrals from a trusted source",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Which Channels Are Best for Customer Value?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Customer value channels don't bring in new customers — they increase what existing ones are worth.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Reactivation campaigns",
+              "Structured repeat-business outreach",
+              "Reviews that build trust for the next rental",
+              "Referrals generated by past customers",
+              "Cross-selling related services to an existing customer base",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How Should a Rental Company Split Its Attention?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Rather than fixed percentages, it's more useful to think in three roles:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "One short-term channel generating demand right now",
+              "One compounding channel building visibility for later",
+              "One customer-value channel increasing what existing customers are worth",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "A common version: Google Ads for short-term demand, SEO as the compounding channel, and reactivation or referrals for customer value. The specific channels can change — the three roles shouldn't disappear.",
+          },
+        ],
+      },
+      {
+        heading: "A Simple Rental Marketing System",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "All of this works best as one connected system rather than separate initiatives:",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Google, Ads, directories, and referrals create demand",
+              "The website and phone capture the lead",
+              "A CRM keeps track of it",
+              `Fast follow-up keeps it from going cold — see our guide on ${link("rental company speed-to-lead", "/resources/rental-company-speed-to-lead")}`,
+              "A quote gets sent",
+              "The rental happens",
+              "A review gets requested",
+              "The customer gets reactivated later",
+              "That turns into a repeat rental or a referral",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Common Rental Marketing Mistakes",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Relying on a single channel and treating it as the whole strategy",
+              "Chasing more traffic without tracking where leads actually come from",
+              "Sending paid or organic traffic to weak, generic landing pages",
+              "No fast follow-up on new leads",
+              "No CRM or structured way to track a lead through to a booked rental",
+              "No consistent review-request process",
+              "Ignoring past customers entirely after the first rental",
+              "Buying low-quality or unqualified leads to hit a volume target",
+              "Judging SEO as a failure after a few weeks",
+              "Building a marketing plan out of whatever software got bought, rather than what the business actually needs",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "A marketing plan made of seven unrelated tactics is still seven unrelated tactics.",
+          },
+        ],
+      },
+      {
+        heading: "How to Measure Which Channels Are Actually Working",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Clicks and impressions aren't the goal — booked rentals are. More traffic doesn't help much if every lead still disappears into voicemail.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Lead volume by source",
+              "How many of those leads are actually qualified",
+              "How many turn into booked rentals",
+              "Revenue by lead source over time",
+              "Repeat business attributable to reactivation or past customers",
+              "Cost, where a channel has a direct cost attached",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: `None of this is possible without tracking lead source consistently, which is usually a CRM problem before it's a marketing problem. See our guide on ${link("the rental business tech stack", "/resources/rental-business-tech-stack")} and ${link("Digital Infrastructure Systems", "/solutions/digital-infrastructure")}.`,
+          },
+        ],
+      },
+      {
+        heading: "What Should a Rental Company Work on First?",
+        blocks: [
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Fix lead capture so no inquiry gets missed",
+              "Fix response time so leads get a fast follow-up",
+              "Track where every lead actually comes from",
+              "Set up and complete the Google Business Profile",
+              "Test one fast, controllable channel like Google Ads",
+              "Build one compounding channel, usually SEO",
+              "Add a consistent review-request process",
+              "Add relevant directories and partnership relationships",
+              "Add a reactivation process for past customers",
+              "Expand into new channels only once tracking is reliable enough to measure them",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The Bottom Line",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Rental companies don't need every marketing channel running at once. They need a small group of complementary channels that capture demand now, build visibility over time, create trust, and generate value from customers who already rented.",
+          },
+          {
+            type: "paragraph",
+            text: `That's the same thinking behind Rental Growth Systems' ${link("Customer Acquisition Systems", "/solutions/customer-acquisition")} and ${link("Customer Value Systems", "/solutions/customer-value")} — demand and customer value working as one system rather than two separate budgets.`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What marketing channels work best for rental companies?",
+        answer:
+          "Most rental companies do best with a combination: a fast channel for immediate demand (like Google Ads or Google Business Profile), a compounding channel for long-term visibility (like SEO), reviews and third-party mentions for trust, and reactivation or referrals to get more value from past customers. The right mix depends on budget, market, and business stage.",
+      },
+      {
+        question: "Is SEO or Google Ads better for a rental company?",
+        answer:
+          "Neither is universally better. Google Ads produces leads faster but stops the moment spend stops; SEO takes longer to build but keeps working without an ongoing cost per click. Many rental companies run both at the same time, using each for what it's good at.",
+      },
+      {
+        question: "Are rental directories worth it?",
+        answer:
+          "It depends on the specific directory. A relevant, category-specific directory with real local visibility can add discovery and context; a generic or low-quality one adds little. A listing on any directory is one input in a broader strategy, not a guarantee of leads.",
+      },
+      {
+        question: "What is the fastest way to generate rental leads?",
+        answer:
+          "Google Ads, targeted outbound, referrals from existing relationships, and reactivating the company's own customer database tend to produce results fastest. None of them work well without fast follow-up once the lead actually arrives.",
+      },
+      {
+        question: "What marketing channel has the best long-term value?",
+        answer:
+          "SEO is usually the strongest long-term asset because visibility compounds without an ongoing per-click cost. Reviews, directory presence, partnerships, and the customer database itself also build value over time rather than resetting with each new budget cycle.",
+      },
+      {
+        question: "How should a small rental company market itself?",
+        answer:
+          "Start with the basics: a complete Google Business Profile, clear service pages, one controllable lead source like Google Ads, a simple review-request process, and basic follow-up tracking. That covers local visibility, trust, and a trackable way to generate and respond to leads before adding more channels.",
+      },
+      {
+        question: "Should rental companies focus on new leads or repeat customers?",
+        answer:
+          "Both, but repeat customers and reactivation are often underused. New-lead channels get most of the attention, while most rental companies have a customer history sitting mostly untouched. Reactivation campaigns typically cost less and convert faster than acquiring an unfamiliar customer.",
+      },
+      {
+        question: "How do rental companies know which marketing channels are working?",
+        answer:
+          "By tracking lead source through to booked rentals and revenue, not just clicks or form submissions. That requires recording where every lead came from and following it through the pipeline — usually a CRM and process question before it's a marketing question.",
+      },
+    ],
+  },
 ];
 
 function blockText(block: ContentBlock): string {
   if (block.type === "list") return block.items.join(" ");
+  if (block.type === "video") return "";
   return block.text;
 }
 

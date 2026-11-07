@@ -8,6 +8,7 @@
 import type { ReactNode } from "react";
 
 import { EXTERNAL_LINK_PROPS } from "../../lib/links";
+import YouTubeEmbed from "../system/YouTubeEmbed";
 import type { ContentBlock } from "../../../content/resources";
 
 const INLINE_LINK = /\[([^\]]+)\]\(([^)]+)\)/g;
@@ -50,6 +51,14 @@ function BlockNode({ block }: { block: ContentBlock }) {
   if (block.type === "subheading") {
     return (
       <h3 className="mt-2 text-xl font-bold text-navy-900">{renderInlineText(block.text)}</h3>
+    );
+  }
+
+  if (block.type === "video") {
+    return (
+      <div className="mt-2">
+        <YouTubeEmbed videoId={block.videoId} title={block.title} />
+      </div>
     );
   }
 
