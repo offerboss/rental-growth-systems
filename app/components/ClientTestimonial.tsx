@@ -2,7 +2,7 @@ import YouTubeEmbed from "./system/YouTubeEmbed";
 
 export default function ClientTestimonial() {
   return (
-    <section className="bg-white py-12 sm:py-16">
+    <section className="bg-white py-12 sm:py-16" id="testimonial">
       <div className="mx-auto max-w-5xl px-4 text-center sm:px-6 lg:px-8">
         <p className="text-sm font-semibold uppercase tracking-wider text-orange-500">
           Real Client. Real Results.
