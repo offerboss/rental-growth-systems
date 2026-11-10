@@ -28,13 +28,14 @@ export default function ClientTestimonial() {
           <p className="text-base text-gray-500">Tucson, Arizona</p>
         </div>
 
-        <div className="mt-4">
+        <div className="mt-6">
           <a
             href="https://grow.rentalgrowthsystems.com/"
-            className="text-sm font-semibold text-gray-500 underline underline-offset-4 transition-colors hover:text-orange-600"
+            className="inline-flex items-center justify-center rounded-lg bg-orange-500 px-8 py-3.5 text-base font-semibold text-white shadow-sm transition-all hover:bg-orange-600 hover:shadow-md active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
           >
-            See How We Can Grow Your Rental Business →
+            See How We Can Grow Your Rental Business
           </a>
+          <p className="mt-3 text-sm text-gray-400">Watch Our 5-Minute System Overview</p>
         </div>
       </div>
     </section>
