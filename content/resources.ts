@@ -6624,6 +6624,1125 @@ const RESOURCE_INPUTS: ResourceInput[] = [
       },
     ],
   },
+  {
+    slug: "how-to-get-more-customers-for-a-rental-business",
+    title: "How to Get More Customers for a Rental Business: 10 Growth Channels That Actually Matter",
+    metaTitle: "How to Get More Customers for a Rental Business",
+    metaDescription:
+      "Learn how rental companies can get more customers using Google, paid ads, directories, reviews, referrals, follow-up, reactivation, and repeat business.",
+    excerpt:
+      "Getting more rental customers isn't about finding one magic channel — it's combining a few that capture demand, build trust, and convert what's already coming in.",
+    category: "Customer Acquisition",
+    publishedDate: "2026-11-20",
+    author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/rental-business-customer-growth.png",
+      alt: "Rental business customer growth system using Google, ads, directories, reviews, referrals, follow-up, and repeat business",
+      width: 1672,
+      height: 941,
+    },
+    relatedResources: [
+      "best-marketing-channels-for-rental-companies",
+      "how-to-grow-a-rental-business-without-spending-more-on-ads",
+      "what-should-a-rental-company-automate-first",
+    ],
+    intro: [
+      {
+        type: "paragraph",
+        text: "A rental business gets more customers by combining a small number of complementary channels rather than chasing one magic source: high-intent local search, paid demand capture, third-party visibility, trust signals, partnerships, past-customer follow-up, and fast lead conversion. More traffic alone isn't the goal — more booked rentals is, and that depends just as much on what happens after someone finds the company as on how they found it.",
+      },
+      {
+        type: "paragraph",
+        text: "A dumpster rental company with a packed Google Business Profile and no one answering the phone isn't short on visibility — it's short on follow-through. A portable toilet company that gets most of its work from two contractors isn't short on quality — it's short on channels. The fix usually isn't \"more marketing.\" It's the right few pieces working together.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Where Do Rental Customers Actually Come From?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Most rental customers arrive through one of four buckets, and a healthy customer-acquisition mix usually has something in each one.",
+          },
+          { type: "subheading", text: "Search demand" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Google Maps and the local map pack", "Organic Google search results", "Google Ads"],
+          },
+          { type: "subheading", text: "Third-party discovery" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Category-specific rental directories", "Referral partners", "Other third-party mentions"],
+          },
+          { type: "subheading", text: "Existing relationships" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Past customers", "Repeat customers", "Word-of-mouth referrals"],
+          },
+          { type: "subheading", text: "Conversion" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Fast response to new inquiries", "Consistent quote follow-up"],
+          },
+          {
+            type: "paragraph",
+            text: "The first three buckets bring people in. The fourth decides how many of them actually become customers. A company can be strong in search demand and still underperform if conversion is weak — which is why follow-up gets its own place in the list below instead of being treated as an afterthought.",
+          },
+        ],
+      },
+      {
+        heading: "1. Get Found in Google Maps",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Searches like \"dumpster rental near me,\" \"portable toilet rental near me,\" \"equipment rental near me,\" and \"event rentals near me\" show the map pack before organic results — usually the first thing a nearby customer sees.",
+          },
+          {
+            type: "paragraph",
+            text: "A strong Google Business Profile has accurate categories, a real service area, a phone number that's actually answered, current hours, a working website link, real photos, a clear list of services, and a steady flow of reviews. It also needs regular upkeep — a profile set up once and never touched again tends to look exactly like what it is.",
+          },
+          {
+            type: "paragraph",
+            text: "A restroom trailer company that only shows up for its home city, when it actually delivers across a five-county area, is leaving visibility on the table in every other city it serves. Fixing the service area alone is often a bigger lever than anything else on this list.",
+          },
+        ],
+      },
+      {
+        heading: "2. Use Google Ads to Capture Existing Demand",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Google Search Ads put a company in front of people actively searching to rent something right now — immediate visibility, high-intent searches, control over geography, and a measurable lead source.",
+          },
+          {
+            type: "paragraph",
+            text: "The weaknesses are just as real: ongoing cost, budget wasted on weak targeting, a weak landing page undercutting otherwise good traffic, and bad tracking creating false confidence about what's actually working.",
+          },
+          {
+            type: "paragraph",
+            text: "Paid traffic works best when lead handling is already reasonably strong — buying more leads while existing ones go unanswered is an expensive way to find out the problem was never lead volume.",
+          },
+        ],
+      },
+      {
+        heading: "3. Build Organic Google Visibility",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This isn't a technical SEO exercise — it's making sure the website actually answers what a customer wants to know: what do you rent, where do you rent it, who is it for, what problem does it solve, and how do they request a quote.",
+          },
+          {
+            type: "paragraph",
+            text: "Useful page types include category and service pages, individual equipment or product pages, city and service-area pages, project or use-case pages, and genuinely helpful resource content — whether that's a dumpster size guide, a portable toilet event-planning checklist, a restroom trailer walkthrough, an event rental planning guide, or a skid steer sizing comparison.",
+          },
+          {
+            type: "paragraph",
+            text: `This content also feeds AI-driven search and conversational tools, which pull from the same clear, specific information — see our guide on ${link("how rental companies can get found in AI search", "/resources/how-rental-companies-can-get-found-in-ai-search")} for more on that overlap.`,
+          },
+          {
+            type: "paragraph",
+            text: "None of this requires a content team or a long-term agency contract to start. A handful of genuinely useful pages — written for the customer deciding whether to call, not for a search engine — tends to outperform a much larger site built mostly to look impressive.",
+          },
+        ],
+      },
+      {
+        heading: "4. Get Listed Where Rental Customers Already Look",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Category-specific rental directories can add visibility, category context, local exposure, occasional referral traffic, and third-party credibility beyond a company's own website.",
+          },
+          {
+            type: "paragraph",
+            text: `Rental Growth Systems operates a small network of these directories, including ${link("Portable Toilet Finder", PLATFORM_URLS.portableToiletFinder)}, ${link("Rolloff Dumpster Finder", PLATFORM_URLS.rolloffDumpsterFinder)}, ${link("Event Rental Finder", PLATFORM_URLS.eventRentalFinder)}, and ${link("Construction Rental Finder", PLATFORM_URLS.constructionRentalFinder)}. Like any directory, a listing is one piece of a visibility strategy — it doesn't guarantee a ranking change or a flood of leads on its own.`,
+          },
+          {
+            type: "paragraph",
+            text: "Here's what that looks like in practice — a real rental company featured across directory pages, city pages, and resource content to create more visibility where customers are already searching.",
+          },
+          {
+            type: "video",
+            videoId: "WomapWGyDpw",
+            title: "Rental Growth Systems directory showcase walkthrough",
+          },
+        ],
+      },
+      {
+        heading: "5. Build a Review System",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Reviews support trust, conversion, local credibility, and customer confidence — especially for a customer comparing a handful of companies before picking one. A simple system: completed rental, review request, an appropriate reminder, and human follow-up if something went wrong.",
+          },
+          {
+            type: "paragraph",
+            text: `Never use fake reviews or gate requests to filter out unhappy customers — both tend to backfire when noticed. See our guide on ${link("how to get more Google reviews", "/resources/how-to-get-more-google-reviews-for-a-rental-business")} for the full system.`,
+          },
+        ],
+      },
+      {
+        heading: "6. Build Referral Partnerships",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Complementary businesses already talk to the same customers a rental company wants:",
+          },
+          { type: "subheading", text: "Dumpster companies" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Roofers", "General contractors", "Remodelers", "Property managers"],
+          },
+          { type: "subheading", text: "Portable sanitation" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Contractors", "Municipalities", "Event planners", "Venues"],
+          },
+          { type: "subheading", text: "Event rental" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Planners", "Venues", "Caterers", "Photographers"],
+          },
+          { type: "subheading", text: "Equipment rental" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Builders", "Landscapers", "Concrete contractors", "Excavation contractors"],
+          },
+          {
+            type: "paragraph",
+            text: "These relationships can be genuinely valuable, but they're built over time through actual reliability, not a one-time introduction email.",
+          },
+        ],
+      },
+      {
+        heading: "7. Use Direct Outreach for the Right Customers",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Outbound — phone, email, local networking, targeted direct mail, jobsite or business prospecting, account-based outreach — is a practical growth channel, especially for B2B rental companies with a defined list of ideal accounts.",
+          },
+          {
+            type: "paragraph",
+            text: "There's a real difference between targeted business development aimed at builders, contractors, venues, property managers, municipalities, event planners, and commercial accounts, versus spraying the same generic message at anyone with a phone number.",
+          },
+          {
+            type: "paragraph",
+            text: "A short, specific list of twenty accounts that actually rent what the business offers, followed up on consistently, tends to outperform a mass email blast to a thousand contacts who were never a fit in the first place.",
+          },
+        ],
+      },
+      {
+        heading: "8. Reactivate Past Customers",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Some of the easiest revenue sitting around is already in the customer database: a contractor who rented a dumpster six months ago, a builder with a recurring portable sanitation need, an event planner who rents seasonally, a contractor who previously rented a skid steer, or a customer whose project cycle suggests another job is likely coming up.",
+          },
+          {
+            type: "paragraph",
+            text: `This works best segmented by timing and category, not blasted indiscriminately at the whole list — see our guide on ${link("customer reactivation for rental companies", "/resources/customer-reactivation-for-rental-companies")} for how to structure it.`,
+          },
+          {
+            type: "paragraph",
+            text: "A single, well-timed message to a past customer whose project cycle suggests they're due for another rental usually gets a better response than a generic \"we miss you\" blast sent to everyone who's ever rented, regardless of how long ago or what they actually needed.",
+          },
+        ],
+      },
+      {
+        heading: "9. Create More Repeat Business",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Reactivation reaches out to a customer who's gone quiet. Repeat business is about making the next rental an easy, obvious choice before they've had a reason to look elsewhere — through a good customer experience, remembering their rental history, an easy reorder process, timely reminders, real account relationships for recurring commercial customers, and simply staying visible after the job is done.",
+          },
+          {
+            type: "paragraph",
+            text: `See our guides on ${link("tracking customer history", "/resources/how-to-track-customer-history-in-a-rental-business")} and Rental Growth Systems' ${link("Customer Value Systems", "/solutions/customer-value")} for how this fits into a broader system.`,
+          },
+          {
+            type: "paragraph",
+            text: "A commercial account that rents the same equipment every quarter shouldn't have to re-explain its needs from scratch each time — remembering that history is often the simplest way to make repeat business feel effortless instead of optional.",
+          },
+        ],
+      },
+      {
+        heading: "10. Convert More of the Leads You Already Have",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Getting more customers isn't only about generating more leads. Common leakage looks like: unanswered calls, slow form response, no text follow-up, quotes sent with no follow-up after, no clear lead owner, leads forgotten in a shared inbox, and no real pipeline to track any of it.",
+          },
+          {
+            type: "paragraph",
+            text: "More traffic cannot fix a conversion problem. More leads are useful. More leads sitting unanswered in a CRM are mostly just a more organized problem.",
+          },
+          {
+            type: "paragraph",
+            text: "A company spending more on ads every quarter while its close rate quietly declines isn't facing a demand problem — it's paying to generate leads that the rest of the process isn't set up to catch.",
+          },
+          {
+            type: "paragraph",
+            text: `This is where ${link("speed-to-lead", "/resources/rental-company-speed-to-lead")}, a real ${link("CRM", "/resources/what-crm-should-a-rental-company-use")}, clear ownership, and pipeline visibility matter as much as any acquisition channel — see our guide on ${link("what a rental company should automate first", "/resources/what-should-a-rental-company-automate-first")} for where to start.`,
+          },
+        ],
+      },
+      {
+        heading: "Which Marketing Channels Get Rental Customers the Fastest?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Generally, Google Ads, direct outbound, referrals, and reactivating past customers tend to produce results fastest, since each one reaches someone already primed to respond.",
+          },
+          {
+            type: "paragraph",
+            text: "Fastest doesn't automatically mean best — these channels often need the most ongoing attention and don't build much value that compounds on their own. A company that only ever runs the fast channels is working hard for the same results every month, with nothing accumulating in the background.",
+          },
+        ],
+      },
+      {
+        heading: "Which Customer Acquisition Channels Compound Over Time?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Compounding means a channel gets more valuable the longer a company invests in it, without a proportional increase in spend. For rental companies, that's usually organic search, useful website content, Google reviews, directory presence, referral relationships, and the customer database itself.",
+          },
+          {
+            type: "paragraph",
+            text: "These channels tend to be the quietest ones in a monthly report and the most valuable ones over a few years — worth protecting even when a faster channel is getting more attention in the moment.",
+          },
+        ],
+      },
+      {
+        heading: "What Should a New Rental Company Focus On First?",
+        blocks: [
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Google Business Profile",
+              "A simple, credible website",
+              "Clear service and category pages",
+              "Reliable phone and form lead capture",
+              "One controlled lead source",
+              "A review process",
+              "Basic CRM and follow-up",
+              "A few relevant directory or partner relationships",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "A brand-new rental company doesn't need all ten channels running at once — this short list covers most of the immediate opportunity.",
+          },
+        ],
+      },
+      {
+        heading: "What Should a Growing Rental Company Focus On?",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Organic visibility",
+              "Paid search",
+              "Directory footprint",
+              "Review volume",
+              "Partnerships",
+              "Follow-up systems",
+              "Reactivation",
+              "Attribution — knowing which channel actually produced each customer",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What Should an Established Rental Company Focus On?",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Diversifying customer acquisition so no single channel is a point of failure",
+              "Reducing dependence on referrals or any one source",
+              "Stronger repeat business",
+              "Customer segmentation",
+              "Multi-market visibility",
+              "Clearer attribution",
+              "Lifecycle marketing",
+              "A more structured referral system",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How Much Should a Rental Company Spend on Marketing?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "There's no universal percentage that fits every rental company. Budget should come from the business's own economics: average rental value, gross margin, repeat potential, current capacity, market competition, close rate, lead quality, and actual growth goals.",
+          },
+          {
+            type: "paragraph",
+            text: "Working backward from those numbers gives a far more useful budget than copying a generic industry percentage that assumes none of them.",
+          },
+          {
+            type: "paragraph",
+            text: "A company with high repeat frequency and strong margins per rental can often justify spending more to acquire a new customer than a company with a one-time, low-margin service — because the economics behind each new customer are genuinely different, not because one business is more serious about marketing than the other.",
+          },
+        ],
+      },
+      {
+        heading: "How Do You Know Which Marketing Channel Is Working?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Measure outcomes, not vanity metrics. Worth tracking: lead source, qualified leads, quote requests, calls, booked rentals, revenue by source, cost per qualified opportunity where that applies, repeat business, and referral source.",
+          },
+          {
+            type: "paragraph",
+            text: "Clicks and impressions alone don't say whether a channel is actually producing customers — only what happens after the click does.",
+          },
+          {
+            type: "paragraph",
+            text: "A directory listing that sends ten visitors a month but produces two booked rentals is doing more real work than a channel that sends a thousand visitors and produces none — a distinction that's invisible if the only thing being tracked is traffic.",
+          },
+        ],
+      },
+      {
+        heading: "Common Rental Business Marketing Mistakes",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Word of mouth is great until you need next Tuesday to be busier.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Relying entirely on referrals",
+              "Trying every channel at once",
+              "No lead tracking",
+              "A website that's hard to request a quote from",
+              "Slow response to new leads",
+              "No quote follow-up",
+              "Buying low-quality leads to hit a volume target",
+              "Ignoring existing customers after the first rental",
+              "No review process",
+              "Abandoning SEO after a few weeks",
+              "Increasing ad spend before fixing conversion",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "A Simple Customer Growth System for Rental Companies",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Put together, this is one connected path rather than ten separate initiatives:",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Google, Ads, directories, referrals, and outreach create demand",
+              "Website or phone capture the lead",
+              "CRM keeps track of it",
+              "Fast response keeps it from going cold",
+              "A quote gets sent",
+              "Follow-up happens",
+              "The rental happens",
+              "A review gets requested",
+              "The customer gets reactivated later",
+              "That turns into repeat business or a referral",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What Should a Rental Company Work on First to Get More Customers?",
+        blocks: [
+          { type: "subheading", text: "First" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Make it easy to find the company",
+              "Make it easy to contact the company",
+              "Respond quickly",
+              "Follow up consistently",
+            ],
+          },
+          { type: "subheading", text: "Then" },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Expand Google visibility",
+              "Test paid demand",
+              "Add directories",
+              "Build reviews",
+              "Develop partnerships",
+            ],
+          },
+          { type: "subheading", text: "Then" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Reactivate past customers", "Improve repeat business", "Diversify acquisition"],
+          },
+        ],
+      },
+      {
+        heading: "The Bottom Line",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A rental company gets more customers by combining demand capture, local visibility, trust, third-party discovery, strong lead conversion, and repeat business — not by finding one channel that does all of it alone. A marketing plan made entirely of \"we should probably post more on Facebook\" is not much of a plan; a connected system of a few deliberate channels is.",
+          },
+          {
+            type: "paragraph",
+            text: `This is the same thinking behind Rental Growth Systems' ${link("Customer Acquisition Systems", "/solutions/customer-acquisition")}, ${link("Digital Infrastructure Systems", "/solutions/digital-infrastructure")}, and ${link("Customer Value Systems", "/solutions/customer-value")} — visibility, operations, and customer value working together instead of as three separate problems. See our guide on ${link("the best marketing channels for rental companies", "/resources/best-marketing-channels-for-rental-companies")} for how to prioritize across all of it.`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How can a rental business get more customers?",
+        answer:
+          "By combining a few complementary channels — a strong Google Business Profile, organic search visibility, paid search where it makes sense, relevant directories, reviews, referral partnerships, and reactivating past customers — and by making sure leads that already come in get a fast, consistent response. More traffic alone doesn't fix a weak follow-up process.",
+      },
+      {
+        question: "What is the best way to generate leads for a rental company?",
+        answer:
+          "There isn't one single best way for every company. Google Business Profile and organic search tend to produce the most consistent long-term lead flow, while Google Ads, outbound, referrals, and reactivating past customers tend to produce results fastest. Most rental companies benefit from running more than one at a time.",
+      },
+      {
+        question: "How should a small rental company market itself?",
+        answer:
+          "Start with the basics: a complete Google Business Profile, a simple credible website with clear service pages, one controlled lead source, a review process, and basic CRM or follow-up tracking. That covers visibility, trust, and a trackable way to generate and respond to leads before adding more channels.",
+      },
+      {
+        question: "Are Google Ads worth it for rental companies?",
+        answer:
+          "They can be, especially for capturing existing high-intent demand and testing a new service area or offer. They work best when lead handling is already solid — a good landing page, fast follow-up, and accurate tracking — since paid traffic sent to a weak process just gets expensive quickly.",
+      },
+      {
+        question: "Do rental directories help rental companies get customers?",
+        answer:
+          "Relevant, category-specific directories can add visibility, local exposure, and third-party credibility. They're one piece of a broader strategy and don't guarantee leads or a ranking change on their own — the directory and the company's own site tend to work better together than either does alone.",
+      },
+      {
+        question: "How can a rental company get more repeat business?",
+        answer:
+          "By making the next rental an easy, obvious choice: a good customer experience, remembering the customer's rental history, an easy reorder process, timely reminders, and staying visible after the job is done. This is distinct from reactivation, which targets customers who've already gone quiet.",
+      },
+      {
+        question: "How important is follow-up for rental leads?",
+        answer:
+          "Very. A lead that doesn't get a fast, consistent response is close to the same as no lead at all. Many rental companies lose more potential business to slow or missing follow-up than to a lack of leads in the first place — which is why conversion deserves as much attention as finding new customers.",
+      },
+      {
+        question: "How do rental companies know which marketing channels are working?",
+        answer:
+          "By tracking lead source through to booked rentals and revenue, not just clicks or form submissions. That means recording where every lead came from and following it through the pipeline — a CRM and process question as much as a marketing one.",
+      },
+    ],
+  },
+  {
+    slug: "how-should-a-rental-company-follow-up-with-leads",
+    title: "How Should a Rental Company Follow Up With Leads? A Practical Follow-Up System",
+    metaTitle: "How Should a Rental Company Follow Up With Leads?",
+    metaDescription:
+      "Learn how rental companies should follow up with leads, missed calls, quotes, future opportunities, and unresponsive prospects using a practical follow-up system.",
+    excerpt:
+      "Good follow-up isn't about bothering people more. It's making sure a good opportunity doesn't disappear because nobody knew what to do next.",
+    category: "Digital Infrastructure",
+    publishedDate: "2026-11-20",
+    author: "Rental Growth Systems Team",
+    heroImage: {
+      src: "/images/rental-lead-follow-up-system.png",
+      alt: "Rental lead follow-up system from new inquiry through call, text, quote, follow-up, booking, and long-term nurture",
+      width: 1672,
+      height: 941,
+    },
+    relatedResources: [
+      "rental-company-speed-to-lead",
+      "what-should-a-rental-company-automate-first",
+      "what-crm-should-a-rental-company-use",
+    ],
+    intro: [
+      {
+        type: "paragraph",
+        text: "A rental company should respond quickly, make a real human contact attempt, use text or email as support rather than a replacement, follow up consistently after a quote goes out, and move prospects who aren't ready yet into a separate nurture process instead of leaving them in the active pipeline forever.",
+      },
+      {
+        type: "paragraph",
+        text: "The right cadence isn't one fixed sequence for every company. It depends on urgency, the rental category, project timing, how the customer has responded so far, where the lead came from, and whether a quote has already been sent. What stays constant is the underlying structure: someone owns the lead, every quote has a next step, and every reply changes what happens next.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why Rental Lead Follow-Up Matters",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Most lost rental opportunities aren't lost to competitors — they're lost to leakage inside the company's own process:",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Missed calls that never get a callback",
+              "Slow response to a new form or web lead",
+              "Form leads that sit untouched in an inbox",
+              "A quote sent with no follow-up after",
+              "No clear owner for a given lead",
+              "No next task, so nothing happens automatically",
+              "\"Not ready yet\" leads that get forgotten entirely",
+              "A rep assuming silence means the customer isn't interested",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "More leads don't fix any of this. A quote sent without a follow-up plan is mostly just an attachment with good intentions.",
+          },
+          {
+            type: "paragraph",
+            text: "Every one of these leakage points shows up the same way on paper — a customer who inquired and never became a rental — but they're fixed by different things. Slow response is a speed problem. A forgotten quote is a process problem. A lead with no owner is an ownership problem. Lumping all of it together as \"we need more leads\" usually means fixing none of it.",
+          },
+        ],
+      },
+      {
+        heading: "How Fast Should a Rental Company Follow Up With a New Lead?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "As fast as a real human can respond, with an immediate automated acknowledgment in the meantime so the customer knows the inquiry was received.",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "New inquiry comes in",
+              "CRM record created",
+              "Acknowledgment sent",
+              "Rep notified",
+              "Human call attempted",
+              "Text sent if the call isn't answered",
+              "Next follow-up task scheduled",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: `See our guide on ${link("rental company speed-to-lead", "/resources/rental-company-speed-to-lead")} for why the actual human connection matters more than the acknowledgment alone.`,
+          },
+        ],
+      },
+      {
+        heading: "Should a Rental Company Call or Text First?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Usually call first when the inquiry is high-intent and immediate, then use text to support or recover the conversation if the call goes unanswered.",
+          },
+          {
+            type: "paragraph",
+            text: "Text can make sense as the first move for after-hours inquiries, when an incoming call was missed, when a customer has clearly indicated they prefer texting, or for a quick confirmation message. The right channel depends on context and the customer's own preference, not a fixed rule.",
+          },
+        ],
+      },
+      {
+        heading: "What Should Happen After a Missed Call?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A missed call shouldn't just sit there. A practical workflow:",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Incoming call is missed",
+              "Automatic acknowledgment text goes out",
+              "Rep is notified",
+              "Rep returns the call",
+              "Rental need is captured",
+              "Next action is set",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: `A text might say something like, "Sorry we missed your call — what are you looking to rent, and where do you need it?" That's one example of the idea, not a script to copy word for word. The automation here supports the return call; it doesn't replace it.`,
+          },
+          {
+            type: "paragraph",
+            text: "This matters especially for mobile operators — someone driving, loading equipment, on a job site, or mid-delivery when the phone rings. The text buys time and captures the basics so the callback isn't starting from zero, but it's still a callback that needs to happen.",
+          },
+        ],
+      },
+      {
+        heading: "How Many Times Should a Rental Company Follow Up With a Lead?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "There's no universal magic number. Follow-up should continue while the opportunity is still relevant, the timing is still plausible, the customer hasn't opted out, and there's a reasonable next step — and it should get less aggressive over time rather than staying constant.",
+          },
+          {
+            type: "paragraph",
+            text: "Follow-up should stop when the customer books, clearly declines, opts out, the timing has passed, the lead turns out to be invalid, or staff reasonably determine the opportunity is no longer viable.",
+          },
+        ],
+      },
+      {
+        heading: "What Should a New Lead Follow-Up Sequence Look Like?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "One example framework, not a universal rule every company needs to copy exactly:",
+          },
+          { type: "subheading", text: "Immediately" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Acknowledgment", "Rep notification", "First call attempt"],
+          },
+          { type: "subheading", text: "If unanswered" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Short text"],
+          },
+          { type: "subheading", text: "Later" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Another human attempt", "Task or reminder created"],
+          },
+          { type: "subheading", text: "Next business day" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Check-in"],
+          },
+          { type: "subheading", text: "If still no response" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["One or more lighter follow-ups"],
+          },
+          { type: "subheading", text: "Then" },
+          {
+            type: "list",
+            style: "unordered",
+            items: ["Move the lead to nurture, or close it out appropriately"],
+          },
+        ],
+      },
+      {
+        heading: "What Should Happen After You Send a Quote?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A quote should never be the last action. The CRM shouldn't just mark \"Quote Sent\" and wait indefinitely for the customer to come back on their own.",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "Quote sent",
+              "Confirmation that it was received",
+              "Next follow-up date scheduled",
+              "Human check-in",
+              "Questions answered",
+              "Timing addressed",
+              "Status updated",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Worth asking directly: Did you receive the quote? Is the timing still the same? Do you have any questions? Has the project changed? Is there anything standing in the way of a decision?",
+          },
+          {
+            type: "paragraph",
+            text: "Silence doesn't always mean no. Sometimes it means the customer got busy, found another tab, or forgot which company they even contacted. A check-in treats that possibility as at least as likely as a quiet rejection, because it usually is.",
+          },
+        ],
+      },
+      {
+        heading: "How Often Should You Follow Up After Sending a Quote?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Faster for urgent rentals, slower for future-dated projects, adjusted based on how engaged the customer has been, and stopped once a real decision is made.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "A dumpster needed tomorrow calls for urgent, same-day follow-up",
+              "A wedding restroom trailer booked six months out can wait longer between check-ins",
+              "Construction equipment needed next week is time-sensitive and deserves quicker follow-up",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "When Should a Rental Company Stop Following Up?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Stop active sales follow-up when the customer says no, books elsewhere, opts out, the project is canceled, the timing has passed, the lead isn't qualified, or repeated attempts produce no engagement at all.",
+          },
+          {
+            type: "paragraph",
+            text: "At that point, the opportunity should move from active follow-up into long-term nurture rather than simply disappearing — those are two different things, and treating every unresponsive lead as dead loses opportunities that just weren't ready yet.",
+          },
+          {
+            type: "paragraph",
+            text: "Deciding to stop doesn't require a dramatic conversation. It's usually a quiet status change in the CRM, not a final message telling the customer the company is giving up on them.",
+          },
+        ],
+      },
+      {
+        heading: "What Should You Do With \"Not Ready Yet\" Leads?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "These shouldn't sit in the same active pipeline as a lead ready to book this week — a project starting in three months, an event next season, a customer waiting on permits, a contractor waiting on a job award, or someone who simply needs the equipment later are all real opportunities, just not urgent ones.",
+          },
+          {
+            type: "paragraph",
+            text: "A future follow-up date, a clear nurture status, a reminder, and a relevant automated check-in where appropriate keep these from being forgotten without treating them like an active lead that needs daily attention.",
+          },
+          {
+            type: "paragraph",
+            text: "This is often where the most quietly lost revenue in a rental business actually sits — not in leads that said no, but in leads that said \"not yet\" and were never followed up with again once the urgency of that first conversation faded.",
+          },
+        ],
+      },
+      {
+        heading: "How Should Rental Companies Follow Up With Leads From Different Sources?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Not every lead arrived with the same intent, so not every lead deserves the same opening move.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Google Ads lead — high intent, fast follow-up",
+              "Organic search lead — high intent, fast follow-up",
+              "Directory lead — high intent, worth quickly verifying need and service area",
+              "Referral — a warmer lead that benefits from more personal outreach",
+              "Outbound lead — a different cadence; it shouldn't be treated like an inbound inquiry",
+              "Past customer — relationship and rental history matter to the context",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How Should Follow-Up Differ by Rental Category?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "The underlying system stays the same across categories — what changes is the urgency and the questions worth asking along the way.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Dumpster rental — often urgent; job timing drives the pace",
+              "Portable toilets — construction and event timing can look very different from each other",
+              "Restroom trailers — event planning windows tend to run longer",
+              "Event rentals — date, venue, availability, and package details all matter to the conversation",
+              "Construction equipment — machine availability, delivery, and project timing shape the urgency",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Should Rental Lead Follow-Up Be Automated?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Parts of it should be. Good automation candidates: acknowledgment, rep alerts, missed-call text, task creation, quote reminders, nurture reminders, and stage-based notifications.",
+          },
+          {
+            type: "paragraph",
+            text: `Human involvement should stay in place for pricing questions, negotiation, availability uncertainty, custom requirements, complex logistics, upset customers, and large commercial opportunities. See our guide on ${link("what a rental company should automate first", "/resources/what-should-a-rental-company-automate-first")} for where that line typically falls.`,
+          },
+          {
+            type: "paragraph",
+            text: "Software does exactly what it's told, even when the underlying workflow is bad — automating a broken follow-up process just produces a broken process that runs faster and on its own.",
+          },
+        ],
+      },
+      {
+        heading: "What Should Happen When a Customer Replies?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Automation should stop or adapt, notify the owner or rep, update the lead's status, and prevent a duplicate robotic follow-up from going out anyway.",
+          },
+          {
+            type: "paragraph",
+            text: `Nothing makes an automation feel automated faster than receiving "Just checking in!" five minutes after the customer already replied.`,
+          },
+        ],
+      },
+      {
+        heading: "How Should Rental Companies Use a CRM for Follow-Up?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A CRM built for follow-up makes the lead owner, source, contact history, quote status, next task, last contact, next contact, pipeline stage, notes, and outcome all visible at a glance — not scattered across texts, memory, and a notebook.",
+          },
+          {
+            type: "paragraph",
+            text: "That visibility matters as much for a two-person operation as a twenty-person one. A solo owner-operator still benefits from a system that remembers what a spreadsheet full of other responsibilities tends to lose track of.",
+          },
+          {
+            type: "paragraph",
+            text: `See our guides on ${link("what CRM a rental company should use", "/resources/what-crm-should-a-rental-company-use")} and ${link("tracking customer history", "/resources/how-to-track-customer-history-in-a-rental-business")} for what that actually needs to include, and our ${link("rental business tech stack", "/resources/rental-business-tech-stack")} guide for where it fits alongside everything else.`,
+          },
+        ],
+      },
+      {
+        heading: "What Pipeline Stages Help With Lead Follow-Up?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A simple example pipeline, not a mandatory naming convention:",
+          },
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "New Lead",
+              "Contact Attempted",
+              "Contacted",
+              "Quote Needed",
+              "Quote Sent",
+              "Follow-Up",
+              "Booked",
+              "Lost",
+              "Nurture",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Too many stages tends to create friction rather than clarity — if updating the pipeline becomes its own chore, people stop doing it.",
+          },
+        ],
+      },
+      {
+        heading: "What Should a Rental Company Track?",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Leads received",
+              "Source",
+              "Response status",
+              "Conversations",
+              "Quotes sent",
+              "Bookings",
+              "Lost reasons",
+              "Follow-up status",
+              "Lead age",
+              "Booked revenue, where available",
+              "Nurture opportunities",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Vanity metrics like total messages sent don't say much on their own — what matters is what happened to the lead afterward.",
+          },
+          {
+            type: "paragraph",
+            text: "Lead age in particular is worth watching closely. A lead that's been sitting in \"Quote Sent\" for three weeks with no activity isn't a quiet success story — it's either overdue for a check-in or overdue for an honest decision about whether it's still active.",
+          },
+        ],
+      },
+      {
+        heading: "Common Rental Lead Follow-Up Mistakes",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "If the system is \"I'll remember to call them tomorrow,\" the system is probably the problem.",
+          },
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Waiting too long to make first contact",
+              "Relying on memory instead of a pipeline",
+              "Only calling once and moving on",
+              "Sending a quote and disappearing",
+              "No missed-call system",
+              "No clear lead owner",
+              "Too many automated messages",
+              "Automation continuing to run after the customer replies",
+              "Keeping dead leads open forever instead of resolving them",
+              "Treating every lead source the same way",
+              "Never following up on future-dated leads once they're logged",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "A Practical Rental Lead Follow-Up System",
+        blocks: [
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "New inquiry",
+              "Immediate acknowledgment",
+              "Rep notification",
+              "Human call",
+              "Text if missed",
+              "Conversation",
+              "Quote",
+              "Quote follow-up",
+              "Booked, lost, or nurture",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "From booked, the path continues: rental, review, reactivation, and repeat business — follow-up isn't a separate department from the rest of the customer relationship, it's the front end of it.",
+          },
+        ],
+      },
+      {
+        heading: "What Should a Small Rental Company Implement First?",
+        blocks: [
+          {
+            type: "list",
+            style: "ordered",
+            items: [
+              "A CRM or reliable lead pipeline",
+              "New lead acknowledgment",
+              "Rep notification",
+              "Missed-call text-back",
+              "A quote follow-up task",
+              "A simple nurture status",
+              "A clear lead owner",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "A simple system that actually gets used beats a complicated one nobody follows.",
+          },
+        ],
+      },
+      {
+        heading: "What Should a Growing Rental Company Add Next?",
+        blocks: [
+          {
+            type: "list",
+            style: "unordered",
+            items: [
+              "Automated task creation",
+              "Source-based routing",
+              "Rep assignment logic",
+              "Stage-based reminders",
+              "A longer-term nurture process",
+              "Reporting on follow-up outcomes",
+              "A handoff into customer reactivation",
+            ],
+          },
+          {
+            type: "paragraph",
+            text: "Each of these assumes the basic sequence from the previous stage is already working reliably. Adding source-based routing on top of inconsistent first-contact follow-up just means two things are now running inconsistently instead of one.",
+          },
+        ],
+      },
+      {
+        heading: "How Does Follow-Up Connect to Repeat Business?",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Lead follow-up leads to a booked rental, which becomes customer history, which supports a review request, which feeds future reactivation, which produces a repeat rental or a referral.",
+          },
+          {
+            type: "paragraph",
+            text: `See our guides on ${link("customer reactivation for rental companies", "/resources/customer-reactivation-for-rental-companies")} and ${link("how to get more Google reviews", "/resources/how-to-get-more-google-reviews-for-a-rental-business")} for the steps that follow once the rental is done — this is where ${link("Customer Acquisition", "/solutions/customer-acquisition")} and ${link("Customer Value", "/solutions/customer-value")} stop being separate conversations.`,
+          },
+        ],
+      },
+      {
+        heading: "The Bottom Line",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "A rental company should follow up quickly, consistently, and contextually — not harder, just more deliberately. The system should make sure every lead has an owner, every quote has a next step, every missed call gets addressed, every reply changes the workflow, and every future opportunity has a future follow-up date.",
+          },
+          {
+            type: "paragraph",
+            text: `This is the same thinking behind Rental Growth Systems' ${link("Digital Infrastructure Systems", "/solutions/digital-infrastructure")} — and it only matters once there's demand to follow up with in the first place; see our guide on ${link("how to get more customers for a rental business", "/resources/how-to-get-more-customers-for-a-rental-business")} and ${link("the best marketing channels for rental companies", "/resources/best-marketing-channels-for-rental-companies")} for that side of the system.`,
+          },
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How fast should a rental company follow up with a lead?",
+        answer:
+          "As fast as a real person can respond, with an immediate automated acknowledgment in the meantime so the customer knows the inquiry was received. Speed matters because rental customers are often comparing a few companies at once, and the first one to actually connect tends to have an advantage.",
+      },
+      {
+        question: "Should a rental company call or text first?",
+        answer:
+          "Usually call first for high-intent, immediate inquiries, then follow up with a text if the call isn't answered. Text can lead for after-hours inquiries, missed calls, or customers who've indicated they prefer texting — context and customer preference should drive the choice, not a fixed rule.",
+      },
+      {
+        question: "How many times should a rental company follow up?",
+        answer:
+          "There's no universal number. Follow-up should continue while the opportunity is still relevant and timing is still plausible, becoming less frequent over time, and should stop when the customer books, declines, opts out, or stops responding entirely after reasonable attempts.",
+      },
+      {
+        question: "How often should you follow up after sending a rental quote?",
+        answer:
+          "Faster for urgent rentals, slower for future-dated projects, and adjusted based on how engaged the customer has been. A dumpster needed tomorrow needs quicker follow-up than a wedding restroom trailer booked six months in advance.",
+      },
+      {
+        question: "When should a rental company stop following up?",
+        answer:
+          "When the customer says no, books elsewhere, opts out, cancels the project, the timing has passed, or the lead isn't qualified. At that point the opportunity should move to long-term nurture rather than active follow-up, not simply get abandoned.",
+      },
+      {
+        question: "What should happen to leads that are not ready yet?",
+        answer:
+          "They should move into a separate nurture status with a future follow-up date rather than staying in the same active pipeline as leads ready to book now. A project three months out or an event next season is still a real opportunity — just not an urgent one.",
+      },
+      {
+        question: "Should rental lead follow-up be automated?",
+        answer:
+          "Parts of it should — acknowledgment, rep alerts, missed-call texts, task creation, and reminders are all good automation candidates. Pricing questions, negotiation, availability uncertainty, and upset customers should stay with a person.",
+      },
+      {
+        question: "How should rental companies handle missed calls?",
+        answer:
+          "With an automatic acknowledgment text, a notification to the rep, and a prompt return call that captures the rental need and sets the next action. The automation should support the callback, not replace it.",
+      },
+      {
+        question: "What is the best CRM pipeline for rental lead follow-up?",
+        answer:
+          "A simple one: New Lead, Contact Attempted, Contacted, Quote Needed, Quote Sent, Follow-Up, Booked, Lost, and Nurture. The exact stage names aren't what matters — having a clear next step and owner at every stage is.",
+      },
+    ],
+  },
 ];
 
 function blockText(block: ContentBlock): string {
