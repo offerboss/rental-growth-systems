@@ -501,6 +501,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
         ],
       },
       {
+        heading: "See What Happens After Speed-to-Lead",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "Fast response is only the first step. This walkthrough shows how a new lead can move from initial contact into quoting, agreements, scheduling, and follow-up.",
+          },
+          {
+            type: "video",
+            videoId: "dbcTf_aAbPI",
+            title: "Automate Your Rental Business: Quotes, Agreements, Invoices & Follow-Ups",
+          },
+        ],
+      },
+      {
         heading: "Measuring and Improving Your Response Time",
         blocks: [
           {
@@ -712,6 +726,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
           {
             type: "paragraph",
             text: "For a dumpster rental company, that might mean a weekend inquiry gets an automatic text confirmation Saturday morning, a callback Monday with pricing, and a reminder Wednesday if the customer hasn't responded. For an event rental company, it might mean a quote for a wedding gets a confirmation call, a follow-up two weeks later if the date hasn't been booked, and a review request the Monday after the event. The channel and timing change; the structure doesn't.",
+          },
+        ],
+      },
+      {
+        heading: "See How a Rental CRM Fits Into the Bigger System",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how CRM stages, quotes, agreements, payments, scheduling, and follow-up can work together instead of living in separate disconnected processes.",
+          },
+          {
+            type: "video",
+            videoId: "dbcTf_aAbPI",
+            title: "Automate Your Rental Business: Quotes, Agreements, Invoices & Follow-Ups",
           },
         ],
       },
@@ -1029,6 +1057,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
           {
             type: "paragraph",
             text: "A referral system doesn't need to be complicated: a consistent ask, at a consistent point in the relationship, with a simple way to track which relationships are actually producing new business. It won't guarantee a specific volume of referrals, but it will produce more than leaving it unasked.",
+          },
+        ],
+      },
+      {
+        heading: "See How Existing Customers Can Drive More Growth",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how review requests, repeat rentals, reactivation, and referrals can create more value from customers you have already worked to acquire.",
+          },
+          {
+            type: "video",
+            videoId: "YWfzhzmB_qc",
+            title: "How to Get More Repeat Rentals, Referrals & Reviews | Rental Growth Systems",
           },
         ],
       },
@@ -2602,6 +2644,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
         ],
       },
       {
+        heading: "See How Customer History Creates More Value",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how completed rentals, reviews, reactivation, repeat rentals, and referrals can become part of one customer lifecycle instead of isolated follow-up tasks.",
+          },
+          {
+            type: "video",
+            videoId: "YWfzhzmB_qc",
+            title: "How to Get More Repeat Rentals, Referrals & Reviews | Rental Growth Systems",
+          },
+        ],
+      },
+      {
         heading: "How Customer History Improves Lead Source Decisions",
         blocks: [
           {
@@ -2966,6 +3022,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
         ],
       },
       {
+        heading: "See How Reviews Connect to Repeat Business",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how a review request can become part of a larger customer-value system that also supports reactivation, repeat rentals, and referrals.",
+          },
+          {
+            type: "video",
+            videoId: "YWfzhzmB_qc",
+            title: "How to Get More Repeat Rentals, Referrals & Reviews | Rental Growth Systems",
+          },
+        ],
+      },
+      {
         heading: "How Reviews Support Local SEO",
         blocks: [
           {
@@ -3212,6 +3282,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
           {
             type: "paragraph",
             text: "Adding another software subscription to a broken process mostly gives you a more expensive broken process. Automation speeds up whatever process already exists — it's worth fixing the process first.",
+          },
+        ],
+      },
+      {
+        heading: "See How the Rental Tech Stack Works Together",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how CRM, quoting, agreements, payments, scheduling, and follow-up can connect into one operating system for a rental company.",
+          },
+          {
+            type: "video",
+            videoId: "dbcTf_aAbPI",
+            title: "Automate Your Rental Business: Quotes, Agreements, Invoices & Follow-Ups",
           },
         ],
       },
@@ -3861,6 +3945,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
           {
             type: "paragraph",
             text: "Completed rental, customer history updated, customer segmented, reactivation date reached, SMS/email/call sent, customer responds, quote or booking, new rental, review or referral, future reactivation. Each step feeds the next — if one is missing, the chain stalls at that point rather than producing a repeat booking.",
+          },
+        ],
+      },
+      {
+        heading: "See How Reactivation Fits Into a Repeat-Revenue System",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how review requests, customer follow-up, reactivation, repeat rentals, and referrals can work together after the original rental is complete.",
+          },
+          {
+            type: "video",
+            videoId: "YWfzhzmB_qc",
+            title: "How to Get More Repeat Rentals, Referrals & Reviews | Rental Growth Systems",
           },
         ],
       },
@@ -6528,6 +6626,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
         ],
       },
       {
+        heading: "See What Rental Business Automation Looks Like in Practice",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how a rental company can connect lead response, quoting, agreements, payments, scheduling, and follow-up into a more repeatable operating system.",
+          },
+          {
+            type: "video",
+            videoId: "dbcTf_aAbPI",
+            title: "Automate Your Rental Business: Quotes, Agreements, Invoices & Follow-Ups",
+          },
+        ],
+      },
+      {
         heading: "Where Should Automation Live?",
         blocks: [
           {
@@ -6869,6 +6981,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
           {
             type: "paragraph",
             text: "A commercial account that rents the same equipment every quarter shouldn't have to re-explain its needs from scratch each time — remembering that history is often the simplest way to make repeat business feel effortless instead of optional.",
+          },
+        ],
+      },
+      {
+        heading: "See How One Customer Can Create More Future Revenue",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how reviews, reactivation, repeat rentals, and referrals can turn a completed rental into the beginning of a longer customer relationship.",
+          },
+          {
+            type: "video",
+            videoId: "YWfzhzmB_qc",
+            title: "How to Get More Repeat Rentals, Referrals & Reviews | Rental Growth Systems",
           },
         ],
       },
@@ -7621,6 +7747,20 @@ const RESOURCE_INPUTS: ResourceInput[] = [
           {
             type: "paragraph",
             text: "From booked, the path continues: rental, review, reactivation, and repeat business — follow-up isn't a separate department from the rest of the customer relationship, it's the front end of it.",
+          },
+        ],
+      },
+      {
+        heading: "See How Follow-Up Fits Into the Full Rental Workflow",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "This walkthrough shows how lead response, quoting, pipeline stages, agreements, and follow-up can connect so opportunities are less likely to fall through the cracks.",
+          },
+          {
+            type: "video",
+            videoId: "dbcTf_aAbPI",
+            title: "Automate Your Rental Business: Quotes, Agreements, Invoices & Follow-Ups",
           },
         ],
       },
